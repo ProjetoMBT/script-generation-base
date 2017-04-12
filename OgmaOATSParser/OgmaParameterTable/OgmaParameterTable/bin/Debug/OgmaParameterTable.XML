@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OgmaParameterTable</name>
+    </assembly>
+    <members>
+        <member name="T:OgmaParameterTable.ScriptValuePair">
+            <summary>
+            Represents an Object-Action pair, as identified within a script.
+            </summary>
+        </member>
+        <member name="T:OgmaParameterTable.KeywordAction">
+            <summary>
+            Represents the Action field of an Object-Action pair, as presented in the OATS Framework.
+            </summary>
+        </member>
+        <member name="T:OgmaParameterTable.OgmaParameterTable">
+            <summary>
+            Stores information on all known relationships between OATS scripts and the OATS Framework.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.#ctor">
+            <summary>
+            Default constructor. Sets initial variables.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.#ctor(System.Collections.Generic.Dictionary{System.Tuple{System.String,System.String},System.String})">
+            <summary>
+            Extended constructor. Sets initial variables and loads the Keyword Values.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.LoadKeywordValues(System.Collections.Generic.Dictionary{System.Tuple{System.String,System.String},System.String})">
+            <summary>
+            Loads the Keyword Values to their initial state based on a dictionary containing the information from the Excel table.
+            
+            WARNING: This method DOES NOT reset the Keywords table. If you mean to reset it, use OverwriteKeywordValues instead.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.OverwriteKeywordValues(System.Collections.Generic.Dictionary{System.Tuple{System.String,System.String},System.String})">
+            <summary>
+            Overwrites the Keyword Values, removing all present values and filling them in with a new list of values.
+            
+            WARNING: This method is probably useless and likely to destroy everything. User discretion is advised.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.CompleteKeywordValues(System.Collections.Generic.Dictionary{System.Tuple{System.String,System.String},System.String})">
+            <summary>
+            Completes an existing Keyword Values table by adding all pairs from the new list that were not already present.
+            
+            WARNING: This method DOES NOT update pairs that were already present. For that purpose, use UpdateKeywordValues.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.UpdateKeywordValues(System.Collections.Generic.Dictionary{System.Tuple{System.String,System.String},System.String})">
+            <summary>
+            Updates the existing Keyword values table, adding all pairs not present and modifying those present.
+            
+            WARNING: This method DOES NOT discriminate, and is very likely to break things if used lightly.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.AddKeywordValuePair(System.String,System.String)">
+            <summary>
+            Adds a new Object-Action value pair to the Keywords table. Returns false if the pair already exists.
+            </summary>
+            <param name="kObject">sdf</param>
+            <param name="kAction">sdf</param>
+            <returns>sdf</returns>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.RemoveKeywordValuePair(System.String,System.String)">
+            <summary>
+            Removes an Object-Action value pair from the Keywords table. Returns false if the pair is not found.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.RemoveKeywordObject(System.String)">
+            <summary>
+            Removes all Object-Action value pairs related to the given Object value from the Keywords table. Returns false if none are found.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.AddKeyword(System.String)">
+            <summary>
+            Adds a Keyword value to the available Keywords list. Returns false if the keyword already exists.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.RemoveKeyword(System.String)">
+            <summary>
+            Removes a Keyword value from the available Keywords list. Returns false if the keyword is not found.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.AddStepRunMode(System.String)">
+            <summary>
+            Adds a new StepRunMode value to the available list. Returns false if the value already exists.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.RemoveStepRunMode(System.String)">
+            <summary>
+            Removes a StepRunMode value from the available list. Returns false if the value is not found.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.AddScriptObject(System.String)">
+            <summary>
+            Adds a Script Object to the list of available Script Objects. Does not set a relationship with a Keyword Object. Returns false if the Script Object already exists.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.AddScriptObject(System.String,System.String)">
+            <summary>
+            Adds a Script Object to the list of available Script Objects and sets its related Keyword Object. Returns -1 if the Keyword Object does not exist, 0 if the Script Object already exists, 1 if added successfully.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.RemoveScriptObject(System.String)">
+            <summary>
+            Removes a Script Object from the list of available Script Objects. Returns false if the Script Object is not found.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.AddScriptValuePair(System.String,System.String)">
+            <summary>
+            Adds a new Object-Action value pair to the Script table. Returns false if the pair already exists. If the Script Object assigned does not currently exist, it will be added automatically.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.RemoveScriptValuePair(System.String,System.String)">
+            <summary>
+            Removes an Object-Action value pair from the Script table. Returns false if the pair is not found.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.SetKeywordToValuePair(OgmaParameterTable.Keyword,OgmaParameterTable.KeywordValuePair)">
+            <summary>
+            Sets a Keyword value to a KeywordValuePair. Returns false if the KeywordValuePair already has a Keyword value. To overwrite, use OverwriteKeywordToValuePair.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.OverwriteKeywordToValuePair(OgmaParameterTable.Keyword,OgmaParameterTable.KeywordValuePair)">
+            <summary>
+            Overwrites the Keyword value of a KeywordValuePair. Returns false if the KeywordValuePair did not have a previous Keyword value.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.SetStepRunModeToValuePair(OgmaParameterTable.StepRunMode,OgmaParameterTable.KeywordValuePair)">
+            <summary>
+            Sets a StepRunMode value to a KeywordValuePair. Returns false if the KeywordValuePair already has a StepRunMode value. To overwrite, use OverwriteStepRunModeToValuePair.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.OverwriteStepRunModeToValuePair(OgmaParameterTable.StepRunMode,OgmaParameterTable.KeywordValuePair)">
+            <summary>
+            Overwrites the StepRunMode value of a KeywordValuePair. Returns false if the KeywordValuePair did not have a previous StepRunMode value.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.SetStepRunModeToKeyword(OgmaParameterTable.StepRunMode,OgmaParameterTable.Keyword)">
+            <summary>
+            Sets a StepRunMode value to a Keyword. Returns false if the Keyword already has a StepRunMode value. To overwrite, use OverwriteStepRunModeToKeyword.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.OverwriteStepRunModeToKeyword(OgmaParameterTable.StepRunMode,OgmaParameterTable.Keyword)">
+            <summary>
+            Overwrites the StepRunMode value of a KeywordValuePair. Returns false if the KeywordValuePair did not have a previous StepRunMode value.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.SetKeywordToValuePair(System.String,System.String,System.String)">
+            <summary>
+            Sets a Keyword value to a KeywordValuePair. Returns false if the KeywordValuePair already has a Keyword value. To overwrite, use OverwriteKeywordToValuePair.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.OverwriteKeywordToValuePair(System.String,System.String,System.String)">
+            <summary>
+            Overwrites the Keyword value of a KeywordValuePair. Returns false if the KeywordValuePair did not have a previous Keyword value.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.SetStepRunModeToValuePair(System.String,System.String,System.String)">
+            <summary>
+            Sets a StepRunMode value to a KeywordValuePair. Returns false if the KeywordValuePair already has a StepRunMode value. To overwrite, use OverwriteStepRunModeToValuePair.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.OverwriteStepRunModeToValuePair(System.String,System.String,System.String)">
+            <summary>
+            Overwrites the StepRunMode value of a KeywordValuePair. Returns false if the KeywordValuePair did not have a previous StepRunMode value.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.SetStepRunModeToKeyword(System.String,System.String)">
+            <summary>
+            Sets a StepRunMode value to a Keyword. Returns false if the Keyword already has a StepRunMode value. To overwrite, use OverwriteStepRunModeToKeyword.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.OverwriteStepRunModeToKeyword(System.String,System.String)">
+            <summary>
+            Overwrites the StepRunMode value of a KeywordValuePair. Returns false if the KeywordValuePair did not have a previous StepRunMode value.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.UpdateScriptObject(System.String,System.String)">
+            <summary>
+            Overwrites the Keyword Object related to the given Script Object. Returns -1 if Script Object is not found, 0 if no Keyword Object was previously related, 1 if the operation concludes normally.
+            </summary>
+        </member>
+        <member name="M:OgmaParameterTable.OgmaParameterTable.OverwriteScriptObject(System.String,System.String)">
+            <summary>
+            Overwrites the Keyword Object related to the given Script Object. Returns -1 if Script Object is not found, 0 if no Keyword Object was previously related, 1 if the operation concludes normally.
+            </summary>
+        </member>
+        <member name="T:OgmaParameterTable.ScriptObject">
+            <summary>
+            Represents an Object value identified within a script.
+            </summary>
+        </member>
+        <member name="T:OgmaParameterTable.KeywordsTable">
+            <summary>
+            Represents all the Object-Action pairs available to the OATS Framework.
+            </summary>
+        </member>
+        <member name="T:OgmaParameterTable.ScriptValuesTable">
+            <summary>
+            Represents all the Object-Action pairs as identified within a script.
+            </summary>
+        </member>
+        <member name="T:OgmaParameterTable.Keyword">
+            <summary>
+            Represents a Keyword, as presented in the OATS Framework.
+            </summary>
+        </member>
+        <member name="T:OgmaParameterTable.KeywordObject">
+            <summary>
+            Represents the Object field of an Object-Action pair, as presented in the OATS Framework.
+            </summary>
+        </member>
+        <member name="T:OgmaParameterTable.StepRunMode">
+            <summary>
+            Represents the StepRunMode field of the OATS Framework.
+            </summary>
+        </member>
+        <member name="T:OgmaParameterTable.ScriptAction">
+            <summary>
+            Represents an Action value identified within a script.
+            </summary>
+        </member>
+        <member name="T:OgmaParameterTable.KeywordValuePair">
+            <summary>
+            Represents an Object-Action pair, as presented in the OATS Framework.
+            </summary>
+        </member>
+        <member name="T:OgmaParameterTable.NamespaceDoc">
+            <summary>
+            Contains classes to represent data related to the Object-Action tags of the OATS Framework.
+            </summary>
+        </member>
+    </members>
+</doc>

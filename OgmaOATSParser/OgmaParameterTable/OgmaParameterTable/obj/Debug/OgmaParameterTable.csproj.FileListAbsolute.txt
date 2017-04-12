@@ -1,0 +1,6 @@
+C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\OgmaParameterTable\bin\Debug\OgmaParameterTable.dll
+C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\OgmaParameterTable\bin\Debug\OgmaParameterTable.pdb
+C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\OgmaParameterTable\obj\Debug\OgmaParameterTable.dll
+C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\OgmaParameterTable\obj\Debug\OgmaParameterTable.pdb
+C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\OgmaParameterTable\bin\Debug\OgmaParameterTable.XML
+C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\OgmaParameterTable\obj\Debug\OgmaParameterTable.csprojResolveAssemblyReference.cache

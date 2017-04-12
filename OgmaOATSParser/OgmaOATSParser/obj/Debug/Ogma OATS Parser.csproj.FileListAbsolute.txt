@@ -1,0 +1,9 @@
+C:\Users\Marcelo\Dropbox\CePES\Ogma OATS Parser\Ogma OATS Parser\bin\Debug\OATS Parser.dll
+C:\Users\Marcelo\Dropbox\CePES\Ogma OATS Parser\Ogma OATS Parser\bin\Debug\OATS Parser.pdb
+C:\Users\Marcelo\Dropbox\CePES\Ogma OATS Parser\Ogma OATS Parser\bin\Debug\Coc.Data.ControlStructure.dll
+C:\Users\Marcelo\Dropbox\CePES\Ogma OATS Parser\Ogma OATS Parser\bin\Debug\Coc.Data.ConversionUnit.dll
+C:\Users\Marcelo\Dropbox\CePES\Ogma OATS Parser\Ogma OATS Parser\bin\Debug\Coc.Data.Interfaces.dll
+C:\Users\Marcelo\Dropbox\CePES\Ogma OATS Parser\Ogma OATS Parser\bin\Debug\Coc.Modeling.Uml.dll
+C:\Users\Marcelo\Dropbox\CePES\Ogma OATS Parser\Ogma OATS Parser\obj\Debug\Ogma OATS Parser.csprojResolveAssemblyReference.cache
+C:\Users\Marcelo\Dropbox\CePES\Ogma OATS Parser\Ogma OATS Parser\obj\Debug\OATS Parser.dll
+C:\Users\Marcelo\Dropbox\CePES\Ogma OATS Parser\Ogma OATS Parser\obj\Debug\OATS Parser.pdb

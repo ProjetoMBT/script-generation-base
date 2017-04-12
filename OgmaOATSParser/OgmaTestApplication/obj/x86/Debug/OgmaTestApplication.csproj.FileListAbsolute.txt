@@ -1,0 +1,13 @@
+C:\Users\Marcelo\Dropbox\CePES\Ogma OATS Parser\OgmaTestApplication\obj\x86\Debug\OgmaTestApplication.csprojResolveAssemblyReference.cache
+C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaTestApplication\obj\x86\Debug\OgmaTestApplication.csprojResolveAssemblyReference.cache
+C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaTestApplication\bin\Debug\OgmaTestApplication.exe.config
+C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaTestApplication\bin\Debug\OgmaTestApplication.exe
+C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaTestApplication\bin\Debug\OgmaTestApplication.pdb
+C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaTestApplication\bin\Debug\Coc.Data.ControlStructure.dll
+C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaTestApplication\bin\Debug\Coc.Data.ConversionUnit.dll
+C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaTestApplication\bin\Debug\Coc.Data.Interfaces.dll
+C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaTestApplication\bin\Debug\Coc.Modeling.Uml.dll
+C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaTestApplication\bin\Debug\OgmaOATSParser.dll
+C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaTestApplication\bin\Debug\OgmaOATSParser.pdb
+C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaTestApplication\obj\x86\Debug\OgmaTestApplication.exe
+C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaTestApplication\obj\x86\Debug\OgmaTestApplication.pdb

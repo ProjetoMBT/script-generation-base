@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+    xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Reserved Word Catch</Title>
+			<Author>Marcelo Schmitt Laser</Author>
+			<Description>If-else block for catching reserved words.</Description>
+			<Shortcut>resword</Shortcut>
+        </Header>
+        <Snippet>
+			<Declarations>
+				<Literal>
+					<ID>RES_WORD</ID>
+					<ToolTip>String value of the reserved word to look for.</ToolTip>
+					<Default>RES_WORD</Default>
+				</Literal>
+				<Literal>
+					<ID>INPUT</ID>
+					<ToolTip>Input to be used</ToolTip>
+					<Default>input</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="CSharp">
+                <![CDATA[if ($INPUT$.Equals($RES_WORD$))
+            toReturn.Derivations.Add(new ClassNode(Classes.Reserved_Word));
+        else
+            throw new FormatException();]]>
+            </Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder" version="2015.1.12.0" projectFile="C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\OPT.shfbproj" started="07/05/2015 15:29:42">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+Locating components in the following folder(s):
+   C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2015.1.12.0
+Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+</buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\OgmaParameterTable\bin\Debug\OgmaParameterTable.dll
+    Found assembly &#39;C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\OgmaParameterTable\bin\Debug\OgmaParameterTable.dll&#39;
+Source: C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\OgmaParameterTable\bin\Debug\OgmaParameterTable.XML
+
+References to include (excluding framework assemblies):
+    OgmaParameterTable
+
+Copying XML comments files
+    C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\OgmaParameterTable\bin\Debug\OgmaParameterTable.XML -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\OgmaParameterTable.XML
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00.1411
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0240
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Build started 07/05/2015 15:29:45.
+Project &quot;C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  MRefBuilder (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Loaded 1 assemblies for reflection and 2 dependency assemblies.
+  Wrote information on 1 namespaces, 11 types, and 65 members
+  Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
+  XslTransform (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Done Building Project &quot;C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\GenerateRefInfo.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.40
+    Last step completed in 00:00:03.2223
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Build started 07/05/2015 15:29:48.
+Project &quot;C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
+TransformManifest:
+  XslTransform (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
+  XslTransform (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Done Building Project &quot;C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\TransformManifest.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.84
+    Last step completed in 00:00:02.4357
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0751
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0390
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0160
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Build started 07/05/2015 15:29:50.
+Project &quot;C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+GenerateIntermediateTOC:
+  XslTransform (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\CreateVSToc.xsl&#39;.
+Done Building Project &quot;C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.15
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:01.8133
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00.2982
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\sandcastle.config
+    Last step completed in 00:00:00.0711
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Build started 07/05/2015 15:29:53.
+Project &quot;C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj&quot; on node 1 (default targets).
+BuildReferenceTopics:
+  BuildAssembler (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+BuildAssembler : warning : ShowMissingComponent: [P:OgmaParameterTable.Keyword.Name] Missing &lt;summary&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OgmaParameterTable.Keyword.StepRunMode] Missing &lt;summary&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OgmaParameterTable.KeywordAction.Name] Missing &lt;summary&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OgmaParameterTable.KeywordObject.Name] Missing &lt;summary&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OgmaParameterTable.KeywordsTable.Table] Missing &lt;summary&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OgmaParameterTable.KeywordValuePair.KAction] Missing &lt;summary&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OgmaParameterTable.KeywordValuePair.Keyword] Missing &lt;summary&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OgmaParameterTable.KeywordValuePair.KObject] Missing &lt;summary&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OgmaParameterTable.KeywordValuePair.StepRunMode] Missing &lt;summary&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.#ctor(System.Collections.Generic.Dictionary{System.Tuple{System.String,System.String},System.String})] Missing &lt;param name=&quot;values&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.AddKeyword(System.String)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.AddKeyword(System.String)] Missing &lt;param name=&quot;keyword&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.AddScriptObject(System.String)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.AddScriptObject(System.String)] Missing &lt;param name=&quot;sObject&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.AddScriptObject(System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.AddScriptObject(System.String,System.String)] Missing &lt;param name=&quot;sObject&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.AddScriptObject(System.String,System.String)] Missing &lt;param name=&quot;kObject&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.AddScriptValuePair(System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.AddScriptValuePair(System.String,System.String)] Missing &lt;param name=&quot;sObject&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.AddScriptValuePair(System.String,System.String)] Missing &lt;param name=&quot;sAction&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.AddStepRunMode(System.String)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.AddStepRunMode(System.String)] Missing &lt;param name=&quot;srm&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.CompleteKeywordValues(System.Collections.Generic.Dictionary{System.Tuple{System.String,System.String},System.String})] Missing &lt;param name=&quot;values&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OgmaParameterTable.OgmaParameterTable.Keywords] Missing &lt;summary&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OgmaParameterTable.OgmaParameterTable.KeywordValues] Missing &lt;summary&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.LoadKeywordValues(System.Collections.Generic.Dictionary{System.Tuple{System.String,System.String},System.String})] Missing &lt;param name=&quot;values&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteKeywordToValuePair(OgmaParameterTable.Keyword,OgmaParameterTable.KeywordValuePair)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteKeywordToValuePair(OgmaParameterTable.Keyword,OgmaParameterTable.KeywordValuePair)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteKeywordToValuePair(OgmaParameterTable.Keyword,OgmaParameterTable.KeywordValuePair)] Missing &lt;param name=&quot;kvp&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteKeywordToValuePair(System.String,System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteKeywordToValuePair(System.String,System.String,System.String)] Missing &lt;param name=&quot;keyword&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteKeywordToValuePair(System.String,System.String,System.String)] Missing &lt;param name=&quot;kObject&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteKeywordToValuePair(System.String,System.String,System.String)] Missing &lt;param name=&quot;kAction&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteKeywordValues(System.Collections.Generic.Dictionary{System.Tuple{System.String,System.String},System.String})] Missing &lt;param name=&quot;values&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteScriptObject(System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteScriptObject(System.String,System.String)] Missing &lt;param name=&quot;sObject&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteScriptObject(System.String,System.String)] Missing &lt;param name=&quot;kObject&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteStepRunModeToKeyword(OgmaParameterTable.StepRunMode,OgmaParameterTable.Keyword)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteStepRunModeToKeyword(OgmaParameterTable.StepRunMode,OgmaParameterTable.Keyword)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteStepRunModeToKeyword(OgmaParameterTable.StepRunMode,OgmaParameterTable.Keyword)] Missing &lt;param name=&quot;key&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteStepRunModeToKeyword(System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteStepRunModeToKeyword(System.String,System.String)] Missing &lt;param name=&quot;srm&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteStepRunModeToKeyword(System.String,System.String)] Missing &lt;param name=&quot;keyword&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteStepRunModeToValuePair(OgmaParameterTable.StepRunMode,OgmaParameterTable.KeywordValuePair)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteStepRunModeToValuePair(OgmaParameterTable.StepRunMode,OgmaParameterTable.KeywordValuePair)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteStepRunModeToValuePair(OgmaParameterTable.StepRunMode,OgmaParameterTable.KeywordValuePair)] Missing &lt;param name=&quot;kvp&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteStepRunModeToValuePair(System.String,System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteStepRunModeToValuePair(System.String,System.String,System.String)] Missing &lt;param name=&quot;srm&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteStepRunModeToValuePair(System.String,System.String,System.String)] Missing &lt;param name=&quot;kObject&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.OverwriteStepRunModeToValuePair(System.String,System.String,System.String)] Missing &lt;param name=&quot;kAction&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.RemoveKeyword(System.String)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.RemoveKeyword(System.String)] Missing &lt;param name=&quot;keyword&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.RemoveKeywordObject(System.String)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.RemoveKeywordObject(System.String)] Missing &lt;param name=&quot;kObject&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.RemoveKeywordValuePair(System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.RemoveKeywordValuePair(System.String,System.String)] Missing &lt;param name=&quot;kObject&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.RemoveKeywordValuePair(System.String,System.String)] Missing &lt;param name=&quot;kAction&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.RemoveScriptObject(System.String)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.RemoveScriptObject(System.String)] Missing &lt;param name=&quot;sObject&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.RemoveScriptValuePair(System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.RemoveScriptValuePair(System.String,System.String)] Missing &lt;param name=&quot;sObject&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.RemoveScriptValuePair(System.String,System.String)] Missing &lt;param name=&quot;sAction&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.RemoveStepRunMode(System.String)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.RemoveStepRunMode(System.String)] Missing &lt;param name=&quot;srm&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OgmaParameterTable.OgmaParameterTable.ScriptObjects] Missing &lt;summary&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OgmaParameterTable.OgmaParameterTable.ScriptValues] Missing &lt;summary&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.SetKeywordToValuePair(OgmaParameterTable.Keyword,OgmaParameterTable.KeywordValuePair)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.SetKeywordToValuePair(OgmaParameterTable.Keyword,OgmaParameterTable.KeywordValuePair)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.SetKeywordToValuePair(OgmaParameterTable.Keyword,OgmaParameterTable.KeywordValuePair)] Missing &lt;param name=&quot;kvp&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.SetKeywordToValuePair(System.String,System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.SetKeywordToValuePair(System.String,System.String,System.String)] Missing &lt;param name=&quot;keyword&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.SetKeywordToValuePair(System.String,System.String,System.String)] Missing &lt;param name=&quot;kObject&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.SetKeywordToValuePair(System.String,System.String,System.String)] Missing &lt;param name=&quot;kAction&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.SetStepRunModeToKeyword(OgmaParameterTable.StepRunMode,OgmaParameterTable.Keyword)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.SetStepRunModeToKeyword(OgmaParameterTable.StepRunMode,OgmaParameterTable.Keyword)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.SetStepRunModeToKeyword(OgmaParameterTable.StepRunMode,OgmaParameterTable.Keyword)] Missing &lt;param name=&quot;key&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.SetStepRunModeToKeyword(System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.SetStepRunModeToKeyword(System.String,System.String)] Missing &lt;param name=&quot;srm&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.SetStepRunModeToKeyword(System.String,System.String)] Missing &lt;param name=&quot;keyword&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.SetStepRunModeToValuePair(OgmaParameterTable.StepRunMode,OgmaParameterTable.KeywordValuePair)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.SetStepRunModeToValuePair(OgmaParameterTable.StepRunMode,OgmaParameterTable.KeywordValuePair)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.SetStepRunModeToValuePair(OgmaParameterTable.StepRunMode,OgmaParameterTable.KeywordValuePair)] Missing &lt;param name=&quot;kvp&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.SetStepRunModeToValuePair(System.String,System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.SetStepRunModeToValuePair(System.String,System.String,System.String)] Missing &lt;param name=&quot;srm&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.SetStepRunModeToValuePair(System.String,System.String,System.String)] Missing &lt;param name=&quot;kObject&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.SetStepRunModeToValuePair(System.String,System.String,System.String)] Missing &lt;param name=&quot;kAction&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OgmaParameterTable.OgmaParameterTable.StepRunModes] Missing &lt;summary&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.UpdateKeywordValues(System.Collections.Generic.Dictionary{System.Tuple{System.String,System.String},System.String})] Missing &lt;param name=&quot;values&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.UpdateScriptObject(System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.UpdateScriptObject(System.String,System.String)] Missing &lt;param name=&quot;sObject&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OgmaParameterTable.OgmaParameterTable.UpdateScriptObject(System.String,System.String)] Missing &lt;param name=&quot;kObject&quot;/&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OgmaParameterTable.ScriptAction.Name] Missing &lt;summary&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OgmaParameterTable.ScriptAction.RelatedObject] Missing &lt;summary&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OgmaParameterTable.ScriptObject.Name] Missing &lt;summary&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OgmaParameterTable.ScriptObject.RelatedObject] Missing &lt;summary&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OgmaParameterTable.ScriptValuePair.RKeywordPair] Missing &lt;summary&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OgmaParameterTable.ScriptValuePair.SAction] Missing &lt;summary&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OgmaParameterTable.ScriptValuePair.SObject] Missing &lt;summary&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OgmaParameterTable.ScriptValuesTable.Table] Missing &lt;summary&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OgmaParameterTable.StepRunMode.Name] Missing &lt;summary&gt; documentation [C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj]
+  Processed 107 topic(s)
+  100 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 3 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 3 of 30.
+Done Building Project &quot;C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\BuildReferenceTopics.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.49
+    Last step completed in 00:00:14.2262
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0200
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Sandcastle Help File Builder, version 2015.1.12.0
+Copyright c 2006-2015, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing Help 1 files in C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1
+Processed 107 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Documentation.hhk
+Saving HTML Help 1 table of contents to C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Documentation.hhc
+    Last step completed in 00:00:01.9824
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help2.css -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\styles\branding-Help2.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\styles\branding.css
+    Last step completed in 00:00:01.4841
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00.0160
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00.0150
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00.0240
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling c:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\Documentation.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 5 seconds
+  
+  109	Topics
+  
+  1,053	Local links
+  
+  462	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created c:\Users\Marcelo\Dropbox\CePES\OgmaOATSParser\OgmaParameterTable\Help\Working\Output\HtmlHelp1\Documentation.chm, 160,889 bytes
+  
+  Compression decreased file by 781,644 bytes.
+  
+    Last step completed in 00:00:08.7993
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.7515
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 07/05/2015 15:30:20.  Total time: 00:00:37.7889
+
+</buildStep>
+</shfbBuild>

@@ -1,0 +1,19 @@
+<CodeSnippets
+    xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Epsilon Treatment</Title>
+			<Author>Marcelo Schmitt Laser</Author>
+			<Description>Code for treatment of Epsilon cases.</Description>
+			<Shortcut>epsilon</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[inputQueue = backupInput;
+                toReturn.Derivations = new List<ClassNode>();
+                toReturn.Derivations.Add(new ClassNode(Classes.Epsilon));
+                inputQueue.DecrementPointer();]]>
+            </Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

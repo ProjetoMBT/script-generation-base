@@ -1,0 +1,1334 @@
+Oats
+	List_Import
+		Import
+			Reserved_Word: import
+			Identifier
+				Reserved_Word: oracle
+			Identifier2
+				Reserved_Word: .
+				Identifier
+					Reserved_Word: oats
+				Identifier3
+					Identifier2
+						Reserved_Word: .
+						Identifier
+							Reserved_Word: scripting
+						Identifier3
+							Identifier2
+								Reserved_Word: .
+								Identifier
+									Reserved_Word: modules
+								Identifier3
+									Identifier2
+										Reserved_Word: .
+										Identifier
+											Reserved_Word: basic
+										Identifier3
+											Identifier2
+												Reserved_Word: .
+												Identifier
+													Reserved_Word: api
+												Identifier3
+													Reserved_Word: .
+													Reserved_Word: *
+			Reserved_Word: ;
+		List_Import
+			Import
+				Reserved_Word: import
+				Identifier
+					Reserved_Word: oracle
+				Identifier2
+					Reserved_Word: .
+					Identifier
+						Reserved_Word: oats
+					Identifier3
+						Identifier2
+							Reserved_Word: .
+							Identifier
+								Reserved_Word: scripting
+							Identifier3
+								Identifier2
+									Reserved_Word: .
+									Identifier
+										Reserved_Word: modules
+									Identifier3
+										Identifier2
+											Reserved_Word: .
+											Identifier
+												Reserved_Word: browser
+											Identifier3
+												Identifier2
+													Reserved_Word: .
+													Identifier
+														Reserved_Word: api
+													Identifier3
+														Reserved_Word: .
+														Reserved_Word: *
+				Reserved_Word: ;
+			List_Import
+				Import
+					Reserved_Word: import
+					Identifier
+						Reserved_Word: oracle
+					Identifier2
+						Reserved_Word: .
+						Identifier
+							Reserved_Word: oats
+						Identifier3
+							Identifier2
+								Reserved_Word: .
+								Identifier
+									Reserved_Word: scripting
+								Identifier3
+									Identifier2
+										Reserved_Word: .
+										Identifier
+											Reserved_Word: modules
+										Identifier3
+											Identifier2
+												Reserved_Word: .
+												Identifier
+													Reserved_Word: functionalTest
+												Identifier3
+													Identifier2
+														Reserved_Word: .
+														Identifier
+															Reserved_Word: api
+														Identifier3
+															Reserved_Word: .
+															Reserved_Word: *
+					Reserved_Word: ;
+				List_Import
+					Import
+						Reserved_Word: import
+						Identifier
+							Reserved_Word: oracle
+						Identifier2
+							Reserved_Word: .
+							Identifier
+								Reserved_Word: oats
+							Identifier3
+								Identifier2
+									Reserved_Word: .
+									Identifier
+										Reserved_Word: scripting
+									Identifier3
+										Identifier2
+											Reserved_Word: .
+											Identifier
+												Reserved_Word: modules
+											Identifier3
+												Identifier2
+													Reserved_Word: .
+													Identifier
+														Reserved_Word: utilities
+													Identifier3
+														Identifier2
+															Reserved_Word: .
+															Identifier
+																Reserved_Word: api
+															Identifier3
+																Reserved_Word: .
+																Reserved_Word: *
+						Reserved_Word: ;
+					List_Import
+						Import
+							Reserved_Word: import
+							Identifier
+								Reserved_Word: oracle
+							Identifier2
+								Reserved_Word: .
+								Identifier
+									Reserved_Word: oats
+								Identifier3
+									Identifier2
+										Reserved_Word: .
+										Identifier
+											Reserved_Word: scripting
+										Identifier3
+											Identifier2
+												Reserved_Word: .
+												Identifier
+													Reserved_Word: modules
+												Identifier3
+													Identifier2
+														Reserved_Word: .
+														Identifier
+															Reserved_Word: utilities
+														Identifier3
+															Identifier2
+																Reserved_Word: .
+																Identifier
+																	Reserved_Word: api
+																Identifier3
+																	Identifier2
+																		Reserved_Word: .
+																		Identifier
+																			Reserved_Word: sql
+																		Identifier3
+																			Reserved_Word: .
+																			Reserved_Word: *
+							Reserved_Word: ;
+						List_Import
+							Import
+								Reserved_Word: import
+								Identifier
+									Reserved_Word: oracle
+								Identifier2
+									Reserved_Word: .
+									Identifier
+										Reserved_Word: oats
+									Identifier3
+										Identifier2
+											Reserved_Word: .
+											Identifier
+												Reserved_Word: scripting
+											Identifier3
+												Identifier2
+													Reserved_Word: .
+													Identifier
+														Reserved_Word: modules
+													Identifier3
+														Identifier2
+															Reserved_Word: .
+															Identifier
+																Reserved_Word: utilities
+															Identifier3
+																Identifier2
+																	Reserved_Word: .
+																	Identifier
+																		Reserved_Word: api
+																	Identifier3
+																		Identifier2
+																			Reserved_Word: .
+																			Identifier
+																				Reserved_Word: xml
+																			Identifier3
+																				Reserved_Word: .
+																				Reserved_Word: *
+								Reserved_Word: ;
+							List_Import
+								Import
+									Reserved_Word: import
+									Identifier
+										Reserved_Word: oracle
+									Identifier2
+										Reserved_Word: .
+										Identifier
+											Reserved_Word: oats
+										Identifier3
+											Identifier2
+												Reserved_Word: .
+												Identifier
+													Reserved_Word: scripting
+												Identifier3
+													Identifier2
+														Reserved_Word: .
+														Identifier
+															Reserved_Word: modules
+														Identifier3
+															Identifier2
+																Reserved_Word: .
+																Identifier
+																	Reserved_Word: utilities
+																Identifier3
+																	Identifier2
+																		Reserved_Word: .
+																		Identifier
+																			Reserved_Word: api
+																		Identifier3
+																			Identifier2
+																				Reserved_Word: .
+																				Identifier
+																					Reserved_Word: file
+																				Identifier3
+																					Reserved_Word: .
+																					Reserved_Word: *
+									Reserved_Word: ;
+								List_Import
+									Import
+										Reserved_Word: import
+										Identifier
+											Reserved_Word: oracle
+										Identifier2
+											Reserved_Word: .
+											Identifier
+												Reserved_Word: oats
+											Identifier3
+												Identifier2
+													Reserved_Word: .
+													Identifier
+														Reserved_Word: scripting
+													Identifier3
+														Identifier2
+															Reserved_Word: .
+															Identifier
+																Reserved_Word: modules
+															Identifier3
+																Identifier2
+																	Reserved_Word: .
+																	Identifier
+																		Reserved_Word: webdom
+																	Identifier3
+																		Identifier2
+																			Reserved_Word: .
+																			Identifier
+																				Reserved_Word: api
+																			Identifier3
+																				Reserved_Word: .
+																				Reserved_Word: *
+										Reserved_Word: ;
+									List_Import
+										Epsilon
+	Class
+		Class_Declaration
+			Reserved_Word: public
+			Reserved_Word: class
+			Reserved_Word: script
+			Reserved_Word: extends
+			Reserved_Word: IteratingVUserScript
+		Reserved_Word: {
+		Body
+			Script_Service
+				Reserved_Word: @ScriptService
+				Identifier
+					Reserved_Word: oracle
+				Identifier2
+					Reserved_Word: .
+					Identifier
+						Reserved_Word: oats
+					Identifier3
+						Identifier2
+							Reserved_Word: .
+							Identifier
+								Reserved_Word: scripting
+							Identifier3
+								Identifier2
+									Reserved_Word: .
+									Identifier
+										Reserved_Word: modules
+									Identifier3
+										Identifier2
+											Reserved_Word: .
+											Identifier
+												Reserved_Word: utilities
+											Identifier3
+												Identifier2
+													Reserved_Word: .
+													Identifier
+														Reserved_Word: api
+													Identifier3
+														Identifier2
+															Reserved_Word: .
+															Identifier
+																Reserved_Word: UtilitiesService
+															Identifier3
+																Identifier2
+																	Epsilon
+				Identifier
+					Reserved_Word: utilities
+				Reserved_Word: ;
+				Script_Service
+					Reserved_Word: @ScriptService
+					Identifier
+						Reserved_Word: oracle
+					Identifier2
+						Reserved_Word: .
+						Identifier
+							Reserved_Word: oats
+						Identifier3
+							Identifier2
+								Reserved_Word: .
+								Identifier
+									Reserved_Word: scripting
+								Identifier3
+									Identifier2
+										Reserved_Word: .
+										Identifier
+											Reserved_Word: modules
+										Identifier3
+											Identifier2
+												Reserved_Word: .
+												Identifier
+													Reserved_Word: browser
+												Identifier3
+													Identifier2
+														Reserved_Word: .
+														Identifier
+															Reserved_Word: api
+														Identifier3
+															Identifier2
+																Reserved_Word: .
+																Identifier
+																	Reserved_Word: BrowserService
+																Identifier3
+																	Identifier2
+																		Epsilon
+					Identifier
+						Reserved_Word: browser
+					Reserved_Word: ;
+					Script_Service
+						Reserved_Word: @ScriptService
+						Identifier
+							Reserved_Word: oracle
+						Identifier2
+							Reserved_Word: .
+							Identifier
+								Reserved_Word: oats
+							Identifier3
+								Identifier2
+									Reserved_Word: .
+									Identifier
+										Reserved_Word: scripting
+									Identifier3
+										Identifier2
+											Reserved_Word: .
+											Identifier
+												Reserved_Word: modules
+											Identifier3
+												Identifier2
+													Reserved_Word: .
+													Identifier
+														Reserved_Word: functionalTest
+													Identifier3
+														Identifier2
+															Reserved_Word: .
+															Identifier
+																Reserved_Word: api
+															Identifier3
+																Identifier2
+																	Reserved_Word: .
+																	Identifier
+																		Reserved_Word: FunctionalTestService
+																	Identifier3
+																		Identifier2
+																			Epsilon
+						Identifier
+							Reserved_Word: ft
+						Reserved_Word: ;
+						Script_Service
+							Reserved_Word: @ScriptService
+							Identifier
+								Reserved_Word: oracle
+							Identifier2
+								Reserved_Word: .
+								Identifier
+									Reserved_Word: oats
+								Identifier3
+									Identifier2
+										Reserved_Word: .
+										Identifier
+											Reserved_Word: scripting
+										Identifier3
+											Identifier2
+												Reserved_Word: .
+												Identifier
+													Reserved_Word: modules
+												Identifier3
+													Identifier2
+														Reserved_Word: .
+														Identifier
+															Reserved_Word: webdom
+														Identifier3
+															Identifier2
+																Reserved_Word: .
+																Identifier
+																	Reserved_Word: api
+																Identifier3
+																	Identifier2
+																		Reserved_Word: .
+																		Identifier
+																			Reserved_Word: WebDomService
+																		Identifier3
+																			Identifier2
+																				Epsilon
+							Identifier
+								Reserved_Word: web
+							Reserved_Word: ;
+							Script_Service
+								Epsilon
+			Methods
+				Javadoc
+					Epsilon
+				Methods2
+					Method
+						Method_Declaration
+							Reserved_Word: public
+							Reserved_Word: void
+							Reserved_Word: initialize()
+							Method_Declaration2
+								Reserved_Word: throws
+								Reserved_Word: Exception
+						Reserved_Word: {
+						Block
+							Script_Element
+								Browser_Launch
+									Reserved_Word: browser.launch
+									Reserved_Word: (
+									Reserved_Word: )
+									Reserved_Word: ;
+							Think
+								Epsilon
+							Block
+								Epsilon
+						Reserved_Word: }
+					Methods
+						Javadoc
+							Reserved_Word: /**
+							Any2
+								Any_Javadoc: *
+								Any2
+									Any_Javadoc: Add
+									Any2
+										Any_Javadoc: code
+										Any2
+											Any_Javadoc: to
+											Any2
+												Any_Javadoc: be
+												Any2
+													Any_Javadoc: executed
+													Any2
+														Any_Javadoc: each
+														Any2
+															Any_Javadoc: iteration
+															Any2
+																Any_Javadoc: for
+																Any2
+																	Any_Javadoc: this
+																	Any2
+																		Any_Javadoc: virtual
+																		Any2
+																			Any_Javadoc: user.
+																			Any2
+																				Epsilon
+							Reserved_Word: */
+						Methods2
+							Method
+								Method_Declaration
+									Reserved_Word: public
+									Reserved_Word: void
+									Reserved_Word: run()
+									Method_Declaration2
+										Reserved_Word: throws
+										Reserved_Word: Exception
+								Reserved_Word: {
+								Block
+									Step
+										Begin_Step
+											Reserved_Word: beginStep
+											Reserved_Word: (
+											Step_Name
+												Reserved_Word: "
+												Any3
+													Any_Javadoc: [1]
+													Any3
+														Any_Javadoc: Moodle
+														Any3
+															Any_Javadoc: (/moodle/)
+															Any3
+																Epsilon
+												Reserved_Word: "
+											Reserved_Word: ,
+											Number
+												Reserved_Word: 0
+												Number2
+													Epsilon
+											Reserved_Word: )
+											Reserved_Word: ;
+										Reserved_Word: {
+										Element_Sequence
+											Script_Element
+												Web_Window
+													Reserved_Word: web.window
+													Element_Details
+														Reserved_Word: (
+														Number
+															Reserved_Word: 2
+															Number2
+																Epsilon
+														Reserved_Word: ,
+														Element_Name
+															Reserved_Word: "
+															Reserved_Word: {
+															Reserved_Word: {
+															Any: obj
+															Reserved_Word: .
+															Any: moodleL
+															Reserved_Word: .
+															Any: web_window_0
+															Reserved_Word: }
+															Reserved_Word: }
+															Reserved_Word: "
+														Reserved_Word: )
+														Reserved_Word: .
+														Action
+															Any: waitForPage
+															Reserved_Word: (
+															Action2
+																Any: null
+															Reserved_Word: )
+													Reserved_Word: ;
+											Think
+												Reserved_Word: {
+												Reserved_Word: think
+												Reserved_Word: (
+												Number
+													Reserved_Word: 3
+													Number2
+														Reserved_Word: .
+														Reserved_Word: 473
+												Reserved_Word: )
+												Reserved_Word: ;
+												Reserved_Word: }
+											Element_Sequence
+												Script_Element
+													Web_Link
+														Reserved_Word: web.link
+														Element_Details
+															Reserved_Word: (
+															Number
+																Reserved_Word: 4
+																Number2
+																	Epsilon
+															Reserved_Word: ,
+															Element_Name
+																Reserved_Word: "
+																Reserved_Word: {
+																Reserved_Word: {
+																Any: obj
+																Reserved_Word: .
+																Any: moodleL
+																Reserved_Word: .
+																Any: web_a_Login_here_
+																Reserved_Word: }
+																Reserved_Word: }
+																Reserved_Word: "
+															Reserved_Word: )
+															Reserved_Word: .
+															Action
+																Any: click
+																Reserved_Word: (
+																Action2
+																	Epsilon
+																Reserved_Word: )
+														Reserved_Word: ;
+												Think
+													Epsilon
+												Element_Sequence
+													Epsilon
+										Reserved_Word: }
+										Close_Step
+											Reserved_Word: endStep();
+									Block
+										Step
+											Begin_Step
+												Reserved_Word: beginStep
+												Reserved_Word: (
+												Step_Name
+													Reserved_Word: "
+													Any3
+														Any_Javadoc: [2]
+														Any3
+															Any_Javadoc: Moodle:
+															Any3
+																Any_Javadoc: Login
+																Any3
+																	Any_Javadoc: to
+																	Any3
+																		Any_Javadoc: the
+																		Any3
+																			Any_Javadoc: site
+																			Any3
+																				Any_Javadoc: (/login/)
+																				Any3
+																					Epsilon
+													Reserved_Word: "
+												Reserved_Word: ,
+												Number
+													Reserved_Word: 0
+													Number2
+														Epsilon
+												Reserved_Word: )
+												Reserved_Word: ;
+											Reserved_Word: {
+											Element_Sequence
+												Script_Element
+													Web_Window
+														Reserved_Word: web.window
+														Element_Details
+															Reserved_Word: (
+															Number
+																Reserved_Word: 5
+																Number2
+																	Epsilon
+															Reserved_Word: ,
+															Element_Name
+																Reserved_Word: "
+																Reserved_Word: {
+																Reserved_Word: {
+																Any: obj
+																Reserved_Word: .
+																Any: moodleL
+																Reserved_Word: .
+																Any: web_window_0_1
+																Reserved_Word: }
+																Reserved_Word: }
+																Reserved_Word: "
+															Reserved_Word: )
+															Reserved_Word: .
+															Action
+																Any: waitForPage
+																Reserved_Word: (
+																Action2
+																	Any: null
+																Reserved_Word: )
+														Reserved_Word: ;
+												Think
+													Reserved_Word: {
+													Reserved_Word: think
+													Reserved_Word: (
+													Number
+														Reserved_Word: 1
+														Number2
+															Reserved_Word: .
+															Reserved_Word: 291
+													Reserved_Word: )
+													Reserved_Word: ;
+													Reserved_Word: }
+												Element_Sequence
+													Script_Element
+														Web_Textbox
+															Reserved_Word: web.textBox
+															Element_Details
+																Reserved_Word: (
+																Number
+																	Reserved_Word: 6
+																	Number2
+																		Epsilon
+																Reserved_Word: ,
+																Element_Name
+																	Reserved_Word: "
+																	Reserved_Word: {
+																	Reserved_Word: {
+																	Any: obj
+																	Reserved_Word: .
+																	Any: moodleL
+																	Reserved_Word: .
+																	Any: web_input_text_username
+																	Reserved_Word: }
+																	Reserved_Word: }
+																	Reserved_Word: "
+																Reserved_Word: )
+																Reserved_Word: .
+																Action
+																	Any: click
+																	Reserved_Word: (
+																	Action2
+																		Epsilon
+																	Reserved_Word: )
+															Reserved_Word: ;
+													Think
+														Reserved_Word: {
+														Reserved_Word: think
+														Reserved_Word: (
+														Number
+															Reserved_Word: 1
+															Number2
+																Reserved_Word: .
+																Reserved_Word: 614
+														Reserved_Word: )
+														Reserved_Word: ;
+														Reserved_Word: }
+													Element_Sequence
+														Script_Element
+															Web_Textbox
+																Reserved_Word: web.textBox
+																Element_Details
+																	Reserved_Word: (
+																	Number
+																		Reserved_Word: 7
+																		Number2
+																			Epsilon
+																	Reserved_Word: ,
+																	Element_Name
+																		Reserved_Word: "
+																		Reserved_Word: {
+																		Reserved_Word: {
+																		Any: obj
+																		Reserved_Word: .
+																		Any: moodleL
+																		Reserved_Word: .
+																		Any: web_input_text_username
+																		Reserved_Word: }
+																		Reserved_Word: }
+																		Reserved_Word: "
+																	Reserved_Word: )
+																	Reserved_Word: .
+																	Action
+																		Any: setText
+																		Reserved_Word: (
+																		Action2
+																			Any_Javadoc: "lcosta"
+																		Reserved_Word: )
+																Reserved_Word: ;
+														Think
+															Reserved_Word: {
+															Reserved_Word: think
+															Reserved_Word: (
+															Number
+																Reserved_Word: 0
+																Number2
+																	Reserved_Word: .
+																	Reserved_Word: 337
+															Reserved_Word: )
+															Reserved_Word: ;
+															Reserved_Word: }
+														Element_Sequence
+															Script_Element
+																Web_Textbox
+																	Reserved_Word: web.textBox
+																	Element_Details
+																		Reserved_Word: (
+																		Number
+																			Reserved_Word: 8
+																			Number2
+																				Epsilon
+																		Reserved_Word: ,
+																		Element_Name
+																			Reserved_Word: "
+																			Reserved_Word: {
+																			Reserved_Word: {
+																			Any: obj
+																			Reserved_Word: .
+																			Any: moodleL
+																			Reserved_Word: .
+																			Any: web_input_text_username
+																			Reserved_Word: }
+																			Reserved_Word: }
+																			Reserved_Word: "
+																		Reserved_Word: )
+																		Reserved_Word: .
+																		Action
+																			Any: pressTab
+																			Reserved_Word: (
+																			Action2
+																				Epsilon
+																			Reserved_Word: )
+																	Reserved_Word: ;
+															Think
+																Reserved_Word: {
+																Reserved_Word: think
+																Reserved_Word: (
+																Number
+																	Reserved_Word: 0
+																	Number2
+																		Reserved_Word: .
+																		Reserved_Word: 586
+																Reserved_Word: )
+																Reserved_Word: ;
+																Reserved_Word: }
+															Element_Sequence
+																Script_Element
+																	Web_Textbox
+																		Reserved_Word: web.textBox
+																		Element_Details
+																			Reserved_Word: (
+																			Number
+																				Reserved_Word: 9
+																				Number2
+																					Epsilon
+																			Reserved_Word: ,
+																			Element_Name
+																				Reserved_Word: "
+																				Reserved_Word: {
+																				Reserved_Word: {
+																				Any: obj
+																				Reserved_Word: .
+																				Any: moodleL
+																				Reserved_Word: .
+																				Any: web_input_password_password
+																				Reserved_Word: }
+																				Reserved_Word: }
+																				Reserved_Word: "
+																			Reserved_Word: )
+																			Reserved_Word: .
+																			Action
+																				Any: setPassword
+																				Reserved_Word: (
+																				Action2
+																					Action
+																						Any: deobfuscate
+																						Reserved_Word: (
+																						Action2
+																							Any_Javadoc: "+7Qav0cxWTQA0OpbEx8+dw=="
+																						Reserved_Word: )
+																				Reserved_Word: )
+																		Reserved_Word: ;
+																Think
+																	Reserved_Word: {
+																	Reserved_Word: think
+																	Reserved_Word: (
+																	Number
+																		Reserved_Word: 1
+																		Number2
+																			Reserved_Word: .
+																			Reserved_Word: 689
+																	Reserved_Word: )
+																	Reserved_Word: ;
+																	Reserved_Word: }
+																Element_Sequence
+																	Script_Element
+																		Web_Button
+																			Reserved_Word: web.button
+																			Element_Details
+																				Reserved_Word: (
+																				Number
+																					Reserved_Word: 10
+																					Number2
+																						Epsilon
+																				Reserved_Word: ,
+																				Element_Name
+																					Reserved_Word: "
+																					Reserved_Word: {
+																					Reserved_Word: {
+																					Any: obj
+																					Reserved_Word: .
+																					Any: moodleL
+																					Reserved_Word: .
+																					Any: web_input_submit_loginbtn
+																					Reserved_Word: }
+																					Reserved_Word: }
+																					Reserved_Word: "
+																				Reserved_Word: )
+																				Reserved_Word: .
+																				Action
+																					Any: click
+																					Reserved_Word: (
+																					Action2
+																						Epsilon
+																					Reserved_Word: )
+																			Reserved_Word: ;
+																	Think
+																		Epsilon
+																	Element_Sequence
+																		Epsilon
+											Reserved_Word: }
+											Close_Step
+												Reserved_Word: endStep();
+										Block
+											Step
+												Begin_Step
+													Reserved_Word: beginStep
+													Reserved_Word: (
+													Step_Name
+														Reserved_Word: "
+														Any3
+															Any_Javadoc: [3]
+															Any3
+																Any_Javadoc: Moodle
+																Any3
+																	Any_Javadoc: (/moodle/)
+																	Any3
+																		Epsilon
+														Reserved_Word: "
+													Reserved_Word: ,
+													Number
+														Reserved_Word: 0
+														Number2
+															Epsilon
+													Reserved_Word: )
+													Reserved_Word: ;
+												Reserved_Word: {
+												Element_Sequence
+													Script_Element
+														Web_Window
+															Reserved_Word: web.window
+															Element_Details
+																Reserved_Word: (
+																Number
+																	Reserved_Word: 11
+																	Number2
+																		Epsilon
+																Reserved_Word: ,
+																Element_Name
+																	Reserved_Word: "
+																	Reserved_Word: {
+																	Reserved_Word: {
+																	Any: obj
+																	Reserved_Word: .
+																	Any: moodleL
+																	Reserved_Word: .
+																	Any: web_window_0
+																	Reserved_Word: }
+																	Reserved_Word: }
+																	Reserved_Word: "
+																Reserved_Word: )
+																Reserved_Word: .
+																Action
+																	Any: waitForPage
+																	Reserved_Word: (
+																	Action2
+																		Any: null
+																	Reserved_Word: )
+															Reserved_Word: ;
+													Think
+														Reserved_Word: {
+														Reserved_Word: think
+														Reserved_Word: (
+														Number
+															Reserved_Word: 3
+															Number2
+																Reserved_Word: .
+																Reserved_Word: 981
+														Reserved_Word: )
+														Reserved_Word: ;
+														Reserved_Word: }
+													Element_Sequence
+														Script_Element
+															Web_Link
+																Reserved_Word: web.link
+																Element_Details
+																	Reserved_Word: (
+																	Number
+																		Reserved_Word: 12
+																		Number2
+																			Epsilon
+																	Reserved_Word: ,
+																	Element_Name
+																		Reserved_Word: "
+																		Reserved_Word: {
+																		Reserved_Word: {
+																		Any: obj
+																		Reserved_Word: .
+																		Any: moodleL
+																		Reserved_Word: .
+																		Any: web_a_My_courses
+																		Reserved_Word: }
+																		Reserved_Word: }
+																		Reserved_Word: "
+																	Reserved_Word: )
+																	Reserved_Word: .
+																	Action
+																		Any: click
+																		Reserved_Word: (
+																		Action2
+																			Epsilon
+																		Reserved_Word: )
+																Reserved_Word: ;
+														Think
+															Epsilon
+														Element_Sequence
+															Epsilon
+												Reserved_Word: }
+												Close_Step
+													Reserved_Word: endStep();
+											Block
+												Step
+													Begin_Step
+														Reserved_Word: beginStep
+														Reserved_Word: (
+														Step_Name
+															Reserved_Word: "
+															Any3
+																Any_Javadoc: [4]
+																Any3
+																	Any_Javadoc: Moodle:
+																	Any3
+																		Any_Javadoc: My
+																		Any3
+																			Any_Javadoc: home
+																			Any3
+																				Any_Javadoc: (/my/)
+																				Any3
+																					Epsilon
+															Reserved_Word: "
+														Reserved_Word: ,
+														Number
+															Reserved_Word: 0
+															Number2
+																Epsilon
+														Reserved_Word: )
+														Reserved_Word: ;
+													Reserved_Word: {
+													Element_Sequence
+														Script_Element
+															Web_Window
+																Reserved_Word: web.window
+																Element_Details
+																	Reserved_Word: (
+																	Number
+																		Reserved_Word: 13
+																		Number2
+																			Epsilon
+																	Reserved_Word: ,
+																	Element_Name
+																		Reserved_Word: "
+																		Reserved_Word: {
+																		Reserved_Word: {
+																		Any: obj
+																		Reserved_Word: .
+																		Any: moodleL
+																		Reserved_Word: .
+																		Any: web_window_0_2
+																		Reserved_Word: }
+																		Reserved_Word: }
+																		Reserved_Word: "
+																	Reserved_Word: )
+																	Reserved_Word: .
+																	Action
+																		Any: waitForPage
+																		Reserved_Word: (
+																		Action2
+																			Any: null
+																		Reserved_Word: )
+																Reserved_Word: ;
+														Think
+															Reserved_Word: {
+															Reserved_Word: think
+															Reserved_Word: (
+															Number
+																Reserved_Word: 1
+																Number2
+																	Reserved_Word: .
+																	Reserved_Word: 629
+															Reserved_Word: )
+															Reserved_Word: ;
+															Reserved_Word: }
+														Element_Sequence
+															Script_Element
+																Web_Link
+																	Reserved_Word: web.link
+																	Element_Details
+																		Reserved_Word: (
+																		Number
+																			Reserved_Word: 14
+																			Number2
+																				Epsilon
+																		Reserved_Word: ,
+																		Element_Name
+																			Reserved_Word: "
+																			Reserved_Word: {
+																			Reserved_Word: {
+																			Any: obj
+																			Reserved_Word: .
+																			Any: moodleL
+																			Reserved_Word: .
+																			Any: web_a_Functional_Testing
+																			Reserved_Word: }
+																			Reserved_Word: }
+																			Reserved_Word: "
+																		Reserved_Word: )
+																		Reserved_Word: .
+																		Action
+																			Any: click
+																			Reserved_Word: (
+																			Action2
+																				Epsilon
+																			Reserved_Word: )
+																	Reserved_Word: ;
+															Think
+																Epsilon
+															Element_Sequence
+																Epsilon
+													Reserved_Word: }
+													Close_Step
+														Reserved_Word: endStep();
+												Block
+													Step
+														Begin_Step
+															Reserved_Word: beginStep
+															Reserved_Word: (
+															Step_Name
+																Reserved_Word: "
+																Any3
+																	Any_Javadoc: [5]
+																	Any3
+																		Any_Javadoc: Course:
+																		Any3
+																			Any_Javadoc: Functional
+																			Any3
+																				Any_Javadoc: Testing
+																				Any3
+																					Any_Javadoc: (/view.php)
+																					Any3
+																						Epsilon
+																Reserved_Word: "
+															Reserved_Word: ,
+															Number
+																Reserved_Word: 0
+																Number2
+																	Epsilon
+															Reserved_Word: )
+															Reserved_Word: ;
+														Reserved_Word: {
+														Element_Sequence
+															Script_Element
+																Web_Window
+																	Reserved_Word: web.window
+																	Element_Details
+																		Reserved_Word: (
+																		Number
+																			Reserved_Word: 15
+																			Number2
+																				Epsilon
+																		Reserved_Word: ,
+																		Element_Name
+																			Reserved_Word: "
+																			Reserved_Word: {
+																			Reserved_Word: {
+																			Any: obj
+																			Reserved_Word: .
+																			Any: moodleL
+																			Reserved_Word: .
+																			Any: web_window_0_3
+																			Reserved_Word: }
+																			Reserved_Word: }
+																			Reserved_Word: "
+																		Reserved_Word: )
+																		Reserved_Word: .
+																		Action
+																			Any: waitForPage
+																			Reserved_Word: (
+																			Action2
+																				Any: null
+																			Reserved_Word: )
+																	Reserved_Word: ;
+															Think
+																Reserved_Word: {
+																Reserved_Word: think
+																Reserved_Word: (
+																Number
+																	Reserved_Word: 3
+																	Number2
+																		Reserved_Word: .
+																		Reserved_Word: 522
+																Reserved_Word: )
+																Reserved_Word: ;
+																Reserved_Word: }
+															Element_Sequence
+																Script_Element
+																	Web_Link
+																		Reserved_Word: web.link
+																		Element_Details
+																			Reserved_Word: (
+																			Number
+																				Reserved_Word: 16
+																				Number2
+																					Epsilon
+																			Reserved_Word: ,
+																			Element_Name
+																				Reserved_Word: "
+																				Reserved_Word: {
+																				Reserved_Word: {
+																				Any: obj
+																				Reserved_Word: .
+																				Any: moodleL
+																				Reserved_Word: .
+																				Any: web_a_Logout
+																				Reserved_Word: }
+																				Reserved_Word: }
+																				Reserved_Word: "
+																			Reserved_Word: )
+																			Reserved_Word: .
+																			Action
+																				Any: click
+																				Reserved_Word: (
+																				Action2
+																					Epsilon
+																				Reserved_Word: )
+																		Reserved_Word: ;
+																Think
+																	Epsilon
+																Element_Sequence
+																	Epsilon
+														Reserved_Word: }
+														Close_Step
+															Reserved_Word: endStep();
+													Block
+														Step
+															Begin_Step
+																Reserved_Word: beginStep
+																Reserved_Word: (
+																Step_Name
+																	Reserved_Word: "
+																	Any3
+																		Any_Javadoc: [6]
+																		Any3
+																			Any_Javadoc: Moodle
+																			Any3
+																				Any_Javadoc: (/moodle/)
+																				Any3
+																					Epsilon
+																	Reserved_Word: "
+																Reserved_Word: ,
+																Number
+																	Reserved_Word: 0
+																	Number2
+																		Epsilon
+																Reserved_Word: )
+																Reserved_Word: ;
+															Reserved_Word: {
+															Element_Sequence
+																Script_Element
+																	Web_Window
+																		Reserved_Word: web.window
+																		Element_Details
+																			Reserved_Word: (
+																			Number
+																				Reserved_Word: 17
+																				Number2
+																					Epsilon
+																			Reserved_Word: ,
+																			Element_Name
+																				Reserved_Word: "
+																				Reserved_Word: {
+																				Reserved_Word: {
+																				Any: obj
+																				Reserved_Word: .
+																				Any: moodleL
+																				Reserved_Word: .
+																				Any: web_window_0
+																				Reserved_Word: }
+																				Reserved_Word: }
+																				Reserved_Word: "
+																			Reserved_Word: )
+																			Reserved_Word: .
+																			Action
+																				Any: waitForPage
+																				Reserved_Word: (
+																				Action2
+																					Any: null
+																				Reserved_Word: )
+																		Reserved_Word: ;
+																Think
+																	Epsilon
+																Element_Sequence
+																	Epsilon
+															Reserved_Word: }
+															Close_Step
+																Reserved_Word: endStep();
+														Block
+															Epsilon
+								Reserved_Word: }
+							Methods
+								Javadoc
+									Epsilon
+								Methods2
+									Method
+										Method_Declaration
+											Reserved_Word: public
+											Reserved_Word: void
+											Reserved_Word: finish()
+											Method_Declaration2
+												Reserved_Word: throws
+												Reserved_Word: Exception
+										Reserved_Word: {
+										Block
+											Epsilon
+										Reserved_Word: }
+									Methods
+										Javadoc
+											Epsilon
+										Methods2
+											Epsilon
+		Reserved_Word: }

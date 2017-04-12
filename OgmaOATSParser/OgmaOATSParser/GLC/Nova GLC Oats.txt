@@ -1,0 +1,112 @@
+OATS -> 				LIST_IMPORT CLASS
+
+LIST_IMPORT -> 			IMPORT LIST_IMPORT
+					  | Epsilon
+			  
+IMPORT ->				'import' IDENTIFIER IDENTIFIER2 ';'
+{HAS SPLIT}
+
+IDENTIFIER ->			[A-za-z0-9]+
+
+IDENTIFIER2 ->			'.' IDENTIFIER IDENTIFIER3
+					  | Epsilon
+					  					  
+IDENTIFIER3 ->			'.' '*'
+					  | IDENTIFIER2
+			  
+CLASS ->				CLASS_DECLARATION '{' BODY '}'
+
+CLASS_DECLARATION ->	'public' 'class' [A-Za-z][A-Za-z0-9_]* 'extends' 'IteratingVUserScript'
+
+BODY ->					SCRIPT_SERVICE METHODS
+
+SCRIPT_SERVICE ->		'@ScriptService' IDENTIFIER IDENTIFIER2 IDENTIFIER ';' SCRIPT_SERVICE
+					  | Epsilon
+{HAS SPLIT}
+					  
+METHODS ->				JAVADOC METHODS2
+
+METHODS2 ->				METHOD METHODS
+					  | Epsilon
+					  
+ANY ->					[A-Za-z0-9,\(\)\[\]/\*&_#\- ""]*
+
+ANY2 ->					ANY_JAVADOC ANY2
+					  | Epsilon
+(special implementation)
+					  
+ANY3 ->					ANY_JAVADOC ANY3
+					  | Epsilon
+(special implementation)
+{HAS SPLIT}
+
+ANY_JAVADOC ->			[A-Za-z0-9,.:\(\)\[\]/\*&_#\-=+ ""]*
+					  
+JAVADOC ->				/\*\* ANY2 [\*]*/
+					  | Epsilon
+					  
+METHOD ->				METHOD_DECLARATION '{' BLOCK '}'
+
+METHOD_DECLARATION ->	'public' 'void' ([A-Za-z][A-Za-z0-9_]*)\(\) METHOD_DECLARATION2
+
+METHOD_DECLARATION2 ->	'throws' 'Exception'
+					  | Epsilon
+					  
+BLOCK ->				SCRIPT_ELEMENT THINK BLOCK
+					  | STEP BLOCK
+					  | Epsilon
+{HAS SPLIT}
+					  
+THINK ->				'{' 'think' '(' NUMBER ')' ';' '}'
+					  | Epsilon
+					  
+NUMBER ->				[0-9]+ NUMBER2
+
+NUMBER2 ->				'.' [0-9]+
+					  | Epsilon
+					  
+STEP ->					BEGIN_STEP ELEMENT_SEQUENCE CLOSE_STEP
+
+BEGIN_STEP ->			'beginStep' '(' STEP_NAME ',' NUMBER ')' ';'
+
+STEP_NAME ->			'"' ANY3 '"'
+
+CLOSE_STEP ->			'endStep();'
+
+ELEMENT_SEQUENCE ->		SCRIPT_ELEMENT THINK ELEMENT_SEQUENCE
+					  | Epsilon
+					  
+ELEMENT_NAME ->			'"' '{' '{' ANY '.' ANY '.' ANY '}' '}' '"'
+
+ACTION ->				ANY '(' ACTION2 ')'
+					  
+ACTION2 ->				ACTION
+					  | ANY
+					  | Epsilon
+
+SCRIPT_ELEMENT ->		WEB_WINDOW
+					  | WEB_TEXTBOX
+					  | WEB_BUTTON
+					  | WEB_IMAGE
+					  | WEB_ALERT_DIALOG
+					  | WEB_LINK
+					  | BROWSER_LAUNCH
+					  | WEB_ELEMENT
+					  
+ELEMENT_DETAILS ->		'(' NUMBER ',' ELEMENT_NAME ')' '.' ACTION
+					  
+WEB_WINDOW ->			'web.window' ELEMENT_DETAILS ';'
+
+WEB_TEXTBOX ->			'web.textBox' ELEMENT_DETAILS ';'
+
+WEB_BUTTON ->			'web.button' ELEMENT_DETAILS ';'
+
+WEB_IMAGE ->			'web.image' ELEMENT_DETAILS ';'
+
+WEB_ALERT_DIALOG ->		'web.alertDialog' ELEMENT_DETAILS ';'
+
+WEB_LINK ->				'web.link' ELEMENT_DETAILS ';'
+
+WEB_ELEMENT ->			'web.element' ELEMENT_DETAILS ';'
+
+BROWSER_LAUNCH ->		'browser.launch' '(' ')' ';'
