@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Coc.Modeling.Graph</name>
+    </assembly>
+    <members>
+        <member name="T:Coc.Modeling.Graph.Edge">
+            <summary>
+            Represents a Edge into a Graph.
+            </summary>
+        </member>
+        <member name="P:Coc.Modeling.Graph.Edge.NodeA">
+            <summary>
+            From where the Edge comes.
+            </summary>
+        </member>
+        <member name="P:Coc.Modeling.Graph.Edge.NodeB">
+            <summary>
+            To where the Edge goes.
+            </summary>
+        </member>
+        <member name="M:Coc.Modeling.Graph.Edge.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+            
+        </member>
+        <member name="M:Coc.Modeling.Graph.Edge.CompareTo(System.Object)">
+            <summary>
+            CompareTo implementation.
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Coc.Modeling.Graph.DirectedGraph">
+            <summary>
+            Represents a Node model.
+            </summary>
+        </member>
+        <member name="F:Coc.Modeling.Graph.DirectedGraph.EPSILON">
+            <summary>
+            EPSILON constant. Denotes empty sets.
+            </summary>
+        </member>
+        <member name="F:Coc.Modeling.Graph.DirectedGraph.Finals">
+            <summary>
+            Finals Nodes.
+            </summary>
+        </member>
+        <member name="P:Coc.Modeling.Graph.DirectedGraph.Input">
+            <summary>
+            Input property.
+            </summary>
+        </member>
+        <member name="P:Coc.Modeling.Graph.DirectedGraph.Output">
+            <summary>
+            Output property.
+            </summary>
+        </member>
+        <member name="P:Coc.Modeling.Graph.DirectedGraph.Nodes">
+            <summary>
+            Node property.
+            </summary>
+        </member>
+        <member name="P:Coc.Modeling.Graph.DirectedGraph.Name">
+            <summary>
+            Defines a name to the instance.
+            </summary>
+        </member>
+        <member name="P:Coc.Modeling.Graph.DirectedGraph.RootNode">
+            <summary>
+            Node.
+            </summary>
+        </member>
+        <member name="P:Coc.Modeling.Graph.DirectedGraph.Edges">
+            <summary>
+            Edges.
+            </summary>
+        </member>
+        <member name="M:Coc.Modeling.Graph.DirectedGraph.#ctor(System.String)">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:Coc.Modeling.Graph.DirectedGraph.#ctor">
+            <summary>
+            Parameterless constructor. Used by serializer.
+            </summary>
+        </member>
+        <member name="M:Coc.Modeling.Graph.DirectedGraph.addEdge(Coc.Modeling.Graph.Edge)">
+            <summary>
+            Adds a new Edge to Graph Edge data.
+            </summary>
+            <param name="e"> Edge.</param>
+        </member>
+        <member name="M:Coc.Modeling.Graph.DirectedGraph.AddInput(System.String)">
+            <summary>
+            Add a input data to input.
+            </summary>
+            <param name="inputData"></param>
+        </member>
+        <member name="M:Coc.Modeling.Graph.DirectedGraph.AddOutput(System.String)">
+            <summary>
+            Adds a output to output data.
+            </summary>
+            <param name="outputData"></param>
+        </member>
+        <member name="M:Coc.Modeling.Graph.DirectedGraph.addNode(Coc.Modeling.Graph.Node)">
+            <summary>
+            Adds a node to the Graph.
+            </summary>
+            <param name="node">A node reference.</param>
+            <returns>added to the node in list.</returns>
+        </member>
+        <member name="M:Coc.Modeling.Graph.DirectedGraph.checkFinal(Coc.Modeling.Graph.Node)">
+            <summary>
+            checkFinal.
+            </summary>
+            <param name="n">A node reference.</param>
+            <returns>added to the node in  Finals list.</returns>
+        </member>
+        <member name="T:Coc.Modeling.Graph.Node">
+            <summary>
+            Represents a node.
+            </summary>
+        </member>
+        <member name="M:Coc.Modeling.Graph.Node.#ctor">
+            <summary>
+            Parameterless constructor. Used by XmlSerializer.
+            </summary>
+        </member>
+        <member name="M:Coc.Modeling.Graph.Node.#ctor(System.String)">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Coc.Modeling.Graph.Node.#ctor(System.String,System.Boolean)">
+            <summary>
+            Full constructor.
+            </summary>
+        </member>
+        <member name="P:Coc.Modeling.Graph.Node.Id">
+            <summary>
+            Identifies the node on a graph.
+            </summary>
+        </member>
+        <member name="P:Coc.Modeling.Graph.Node.Name">
+            <summary>
+            Name property.
+            </summary>
+        </member>
+        <member name="T:Coc.Modeling.Graph.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Coc.Modeling.Graph.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Coc.Modeling.Graph.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

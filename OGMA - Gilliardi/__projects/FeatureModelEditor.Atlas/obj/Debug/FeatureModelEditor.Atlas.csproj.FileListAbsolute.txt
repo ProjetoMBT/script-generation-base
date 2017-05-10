@@ -1,0 +1,5 @@
+D:\Development\CePES\head\__output\Coc.Apps.PlugSpl\FeatureModelEditor.Atlas.dll
+D:\Development\CePES\head\__output\Coc.Apps.PlugSpl\FeatureModelEditor.Atlas.pdb
+D:\Development\CePES\head\__projects\FeatureModelEditor.Atlas\obj\Debug\FeatureModelEditor.Atlas.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\FeatureModelEditor.Atlas\obj\Debug\FeatureModelEditor.Atlas.dll
+D:\Development\CePES\head\__projects\FeatureModelEditor.Atlas\obj\Debug\FeatureModelEditor.Atlas.pdb

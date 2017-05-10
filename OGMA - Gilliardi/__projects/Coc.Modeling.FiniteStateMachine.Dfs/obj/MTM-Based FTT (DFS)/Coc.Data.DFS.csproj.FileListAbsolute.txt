@@ -1,0 +1,5 @@
+D:\Development\CePES\head\__output\plets\Coc.Modeling.FiniteStateMachine.Dfs.dll
+D:\Development\CePES\head\__output\plets\Coc.Modeling.FiniteStateMachine.Dfs.pdb
+D:\Development\CePES\head\__projects\Coc.Modeling.FiniteStateMachine.Dfs\obj\MTM-Based FTT (DFS)\Coc.Data.DFS.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\Coc.Modeling.FiniteStateMachine.Dfs\obj\MTM-Based FTT (DFS)\Coc.Modeling.FiniteStateMachine.Dfs.dll
+D:\Development\CePES\head\__projects\Coc.Modeling.FiniteStateMachine.Dfs\obj\MTM-Based FTT (DFS)\Coc.Modeling.FiniteStateMachine.Dfs.pdb

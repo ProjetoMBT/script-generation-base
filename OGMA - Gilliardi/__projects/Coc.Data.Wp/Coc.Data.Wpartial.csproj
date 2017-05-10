@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3D98F702-1377-45AA-B200-027FFDB22EC4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Coc.Data.Wp</RootNamespace>
+    <AssemblyName>Coc.Data.Wp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'OATS-Based FTT|AnyCPU'">
+    <OutputPath>..\..\__output\plets\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <DocumentationFile>..\..\__output\plets\Coc.Data.Wp.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'MTM-Based FTT %28DFS%29|AnyCPU'">
+    <OutputPath>..\..\__output\plets\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'MTM-Based FTT %28HSI%29|AnyCPU'">
+    <OutputPath>..\..\__output\plets\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'MTM-Based FTT %28DFS-HSI%29|AnyCPU'">
+    <OutputPath>..\..\__output\plets\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'MTM-Based FTT %28DFS-HSI-WP%29|AnyCPU'">
+    <OutputPath>..\..\__output\plets\</OutputPath>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'MTM-Based FTT %28WP%29|AnyCPU'">
+    <OutputPath>..\..\__output\plets\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'LR-Based PTT %28HSI|AnyCPU'">
+    <OutputPath>..\..\__output\plets\</OutputPath>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GenerateTestPlanWp.cs" />
+    <Compile Include="Wp.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StatePair.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Coc.Data.ControlAndConversionStructures\Coc.Data.ControlAndConversionStructures.csproj">
+      <Project>{AC4DEDF3-8BC9-4B66-92C5-858A1AB00A27}</Project>
+      <Name>Coc.Data.ControlAndConversionStructures</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Coc.Data.ControlStructure\Coc.Data.ControlStructure.csproj">
+      <Project>{FF241B72-D0B0-42A3-84E4-5B243E07F148}</Project>
+      <Name>Coc.Data.ControlStructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Coc.Data.CSV\Coc.Data.CSV.csproj">
+      <Project>{99B420FC-A18C-476D-A2C4-86A50C184279}</Project>
+      <Name>Coc.Data.CSV</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Coc.Data.Interfaces\Coc.Data.Interfaces.csproj">
+      <Project>{E9B148A0-E1F6-4849-9D74-1EFDB9FCC9B8}</Project>
+      <Name>Coc.Data.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Coc.Modeling.FiniteStateMachine\Coc.Modeling.FiniteStateMachine.csproj">
+      <Project>{1CC27328-CE37-4147-9C53-4A530B8B3E7F}</Project>
+      <Name>Coc.Modeling.FiniteStateMachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Coc.Modeling.TestPlanStructure\Coc.Modeling.TestPlanStructure.csproj">
+      <Project>{877E0BDC-37F7-481D-AB9C-45752A494B49}</Project>
+      <Name>Coc.Modeling.TestPlanStructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

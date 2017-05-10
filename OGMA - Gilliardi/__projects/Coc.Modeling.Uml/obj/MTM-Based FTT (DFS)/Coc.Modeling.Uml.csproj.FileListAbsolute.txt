@@ -1,0 +1,5 @@
+D:\Development\CePES\head\__output\plets\Coc.Modeling.Uml.dll
+D:\Development\CePES\head\__output\plets\Coc.Modeling.Uml.pdb
+D:\Development\CePES\head\__projects\Coc.Modeling.Uml\obj\MTM-Based FTT (DFS)\Coc.Modeling.Uml.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\Coc.Modeling.Uml\obj\MTM-Based FTT (DFS)\Coc.Modeling.Uml.dll
+D:\Development\CePES\head\__projects\Coc.Modeling.Uml\obj\MTM-Based FTT (DFS)\Coc.Modeling.Uml.pdb

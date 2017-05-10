@@ -1,0 +1,5 @@
+D:\Development\CePES\head\__output\plets\Coc.Data.AbstractParser.dll
+D:\Development\CePES\head\__output\plets\Coc.Data.AbstractParser.pdb
+D:\Development\CePES\head\__projects\Coc.Data.AbstractParser\obj\MTM-Based FTT (DFS)\Coc.Data.AbstractParser.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\Coc.Data.AbstractParser\obj\MTM-Based FTT (DFS)\Coc.Data.AbstractParser.dll
+D:\Development\CePES\head\__projects\Coc.Data.AbstractParser\obj\MTM-Based FTT (DFS)\Coc.Data.AbstractParser.pdb

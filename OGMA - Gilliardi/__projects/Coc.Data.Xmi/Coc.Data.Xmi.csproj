@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)' == 'Default'">
+    <OutputPath>..\..\__output\plets\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug - Coc.Uml.Xmi'">
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <OutputPath>..\..\__output\plets\</OutputPath>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'OATS-Based FTT'">
+    <OutputPath>..\..\__output\plets\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <DocumentationFile>..\..\__output\plets\Coc.Data.Xmi.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'MTM-Based FTT %28DFS%29'">
+    <OutputPath>..\..\__output\plets\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'MTM-Based FTT %28HSI%29'">
+    <OutputPath>..\..\__output\plets\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'MTM-Based FTT %28DFS-HSI%29'">
+    <OutputPath>..\..\__output\plets\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'MTM-Based FTT %28DFS-HSI-WP%29'">
+    <OutputPath>..\..\__output\plets\</OutputPath>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'MTM-Based FTT %28WP%29'">
+    <OutputPath>..\..\__output\plets\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'LR-Based PTT %28HSI'">
+    <OutputPath>..\..\__output\plets\</OutputPath>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FC478C4A-96D8-4B28-8890-17FD4C367C8B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Coc.Data.Xmi</RootNamespace>
+    <AssemblyName>Coc.Data.Xmi</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - Coc.Uml.Xmi' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\__output</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\..\__third-party\log4net-1.2.13\bin\net\4.0\release\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enterprise ArchitectImporter2.cs" />
+    <Compile Include="LoadRunnerImporter.cs" />
+    <Compile Include="Script\Configuration.cs" />
+    <Compile Include="Script\DatabankConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Script\DatabankConfigForm.designer.cs">
+      <DependentUpon>DatabankConfigForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Script\GroupNode.cs" />
+    <Compile Include="Script\ScriptParser.cs" />
+    <Compile Include="Script\ScriptSequence.cs" />
+    <Compile Include="Script\TabHelper.cs" />
+    <Compile Include="XmiExporter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XmiImporter.cs" />
+    <Compile Include="XmiToOATS.cs" />
+    <Compile Include="XmlArgoUml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Coc.Data.ControlAndConversionStructures\Coc.Data.ControlAndConversionStructures.csproj">
+      <Project>{AC4DEDF3-8BC9-4B66-92C5-858A1AB00A27}</Project>
+      <Name>Coc.Data.ControlAndConversionStructures</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Coc.Data.ControlStructure\Coc.Data.ControlStructure.csproj">
+      <Project>{FF241B72-D0B0-42A3-84E4-5B243E07F148}</Project>
+      <Name>Coc.Data.ControlStructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Coc.Data.ConversionUnit\Coc.Data.ConversionUnit.csproj">
+      <Project>{F6BE6CD4-3590-40F8-B4FC-CA3341AF2889}</Project>
+      <Name>Coc.Data.ConversionUnit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Coc.Data.CSV\Coc.Data.CSV.csproj">
+      <Project>{99B420FC-A18C-476D-A2C4-86A50C184279}</Project>
+      <Name>Coc.Data.CSV</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Coc.Data.Interfaces\Coc.Data.Interfaces.csproj">
+      <Project>{E9B148A0-E1F6-4849-9D74-1EFDB9FCC9B8}</Project>
+      <Name>Coc.Data.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Coc.Modeling.FiniteStateMachine\Coc.Modeling.FiniteStateMachine.csproj">
+      <Project>{1CC27328-CE37-4147-9C53-4A530B8B3E7F}</Project>
+      <Name>Coc.Modeling.FiniteStateMachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Coc.Modeling.Graph\Coc.Modeling.Graph.csproj">
+      <Project>{9DE5D444-FA7C-4C03-B70B-17B681F07B67}</Project>
+      <Name>Coc.Modeling.Graph</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Coc.Modeling.Uml\Coc.Modeling.Uml.csproj">
+      <Project>{AC0CEEEF-C2F2-45FA-904A-2E758A6B5A3A}</Project>
+      <Name>Coc.Modeling.Uml</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="Graph1.dgml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Script\DatabankConfigForm.resx">
+      <DependentUpon>DatabankConfigForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>del *.pdb</PostBuildEvent>
+  </PropertyGroup>
+</Project>

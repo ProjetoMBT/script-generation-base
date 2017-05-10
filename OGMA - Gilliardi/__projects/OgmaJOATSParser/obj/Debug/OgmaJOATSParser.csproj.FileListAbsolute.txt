@@ -1,0 +1,4 @@
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\OgmaJOATSParser.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\OgmaJOATSParser.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\OgmaJOATSParser\obj\Debug\OgmaJOATSParser.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\OgmaJOATSParser\obj\Debug\OgmaJOATSParser.pdb

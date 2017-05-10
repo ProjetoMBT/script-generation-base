@@ -1,0 +1,18 @@
+D:\Development\CePES\head\__output\plets\Coc.Data.Interfaces.XML
+D:\Development\CePES\head\__output\plets\Coc.Data.Interfaces.dll
+D:\Development\CePES\head\__output\plets\Coc.Data.Interfaces.pdb
+D:\Development\CePES\head\__projects\Coc.Data.Interfaces\obj\OATS-Based FTT\Coc.Data.Interfaces.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\Coc.Data.Interfaces\obj\OATS-Based FTT\Coc.Data.Interfaces.dll
+D:\Development\CePES\head\__projects\Coc.Data.Interfaces\obj\OATS-Based FTT\Coc.Data.Interfaces.pdb
+F:\Development\CePES\head\__output\plets\Coc.Data.Interfaces.XML
+F:\Development\CePES\head\__output\plets\Coc.Data.Interfaces.dll
+F:\Development\CePES\head\__output\plets\Coc.Data.Interfaces.pdb
+F:\Development\CePES\head\__projects\Coc.Data.Interfaces\obj\OATS-Based FTT\Coc.Data.Interfaces.csprojResolveAssemblyReference.cache
+F:\Development\CePES\head\__projects\Coc.Data.Interfaces\obj\OATS-Based FTT\Coc.Data.Interfaces.dll
+F:\Development\CePES\head\__projects\Coc.Data.Interfaces\obj\OATS-Based FTT\Coc.Data.Interfaces.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.Interfaces.XML
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.Interfaces.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.Interfaces.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Interfaces\obj\OATS-Based FTT\Coc.Data.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Interfaces\obj\OATS-Based FTT\Coc.Data.Interfaces.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Interfaces\obj\OATS-Based FTT\Coc.Data.Interfaces.pdb

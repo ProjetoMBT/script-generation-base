@@ -1,0 +1,24 @@
+D:\Development\CePES\head\__output\plets\Coc.Data.Xmi.XML
+D:\Development\CePES\head\__output\plets\Coc.Data.Xmi.dll
+D:\Development\CePES\head\__output\plets\Coc.Data.Xmi.pdb
+D:\Development\CePES\head\__projects\Coc.Data.Xmi\obj\OATS-Based FTT\Coc.Data.Xmi.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\Coc.Data.Xmi\obj\OATS-Based FTT\Coc.Data.Xmi.DatabankConfigForm.resources
+D:\Development\CePES\head\__projects\Coc.Data.Xmi\obj\OATS-Based FTT\Coc.Data.Xmi.csproj.GenerateResource.Cache
+D:\Development\CePES\head\__projects\Coc.Data.Xmi\obj\OATS-Based FTT\Coc.Data.Xmi.dll
+D:\Development\CePES\head\__projects\Coc.Data.Xmi\obj\OATS-Based FTT\Coc.Data.Xmi.pdb
+F:\Development\CePES\head\__output\plets\Coc.Data.Xmi.XML
+F:\Development\CePES\head\__output\plets\Coc.Data.Xmi.dll
+F:\Development\CePES\head\__output\plets\Coc.Data.Xmi.pdb
+F:\Development\CePES\head\__projects\Coc.Data.Xmi\obj\OATS-Based FTT\Coc.Data.Xmi.csprojResolveAssemblyReference.cache
+F:\Development\CePES\head\__projects\Coc.Data.Xmi\obj\OATS-Based FTT\Coc.Data.Xmi.DatabankConfigForm.resources
+F:\Development\CePES\head\__projects\Coc.Data.Xmi\obj\OATS-Based FTT\Coc.Data.Xmi.csproj.GenerateResource.Cache
+F:\Development\CePES\head\__projects\Coc.Data.Xmi\obj\OATS-Based FTT\Coc.Data.Xmi.dll
+F:\Development\CePES\head\__projects\Coc.Data.Xmi\obj\OATS-Based FTT\Coc.Data.Xmi.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.Xmi.XML
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.Xmi.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.Xmi.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xmi\obj\OATS-Based FTT\Coc.Data.Xmi.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xmi\obj\OATS-Based FTT\Coc.Data.Xmi.DatabankConfigForm.resources
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xmi\obj\OATS-Based FTT\Coc.Data.Xmi.csproj.GenerateResource.Cache
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xmi\obj\OATS-Based FTT\Coc.Data.Xmi.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xmi\obj\OATS-Based FTT\Coc.Data.Xmi.pdb

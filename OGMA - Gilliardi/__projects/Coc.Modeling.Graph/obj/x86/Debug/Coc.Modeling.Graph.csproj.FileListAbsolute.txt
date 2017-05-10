@@ -1,0 +1,14 @@
+C:\Users\anderson\Downloads\head\head\__output\plets\Coc.Modeling.Graph.dll
+C:\Users\anderson\Downloads\head\head\__output\plets\Coc.Modeling.Graph.pdb
+C:\Users\anderson\Downloads\head\head\__projects\Coc.Modeling.Graph\obj\x86\Debug\Coc.Modeling.Graph.csprojResolveAssemblyReference.cache
+C:\Users\anderson\Downloads\head\head\__projects\Coc.Modeling.Graph\obj\x86\Debug\Coc.Modeling.Graph.Properties.Resources.resources
+C:\Users\anderson\Downloads\head\head\__projects\Coc.Modeling.Graph\obj\x86\Debug\Coc.Modeling.Graph.csproj.GenerateResource.Cache
+C:\Users\anderson\Downloads\head\head\__projects\Coc.Modeling.Graph\obj\x86\Debug\Coc.Modeling.Graph.dll
+C:\Users\anderson\Downloads\head\head\__projects\Coc.Modeling.Graph\obj\x86\Debug\Coc.Modeling.Graph.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Modeling.Graph.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Modeling.Graph.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.Graph\obj\x86\Debug\Coc.Modeling.Graph.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.Graph\obj\x86\Debug\Coc.Modeling.Graph.Properties.Resources.resources
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.Graph\obj\x86\Debug\Coc.Modeling.Graph.csproj.GenerateResource.Cache
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.Graph\obj\x86\Debug\Coc.Modeling.Graph.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.Graph\obj\x86\Debug\Coc.Modeling.Graph.pdb

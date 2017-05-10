@@ -1,0 +1,173 @@
+OATS -> 				{ Create new UML Model;
+						  Create new Use Case Diagram;
+						  Create Use Case and Actor, connect them;
+						  Create Activity Diagram with same name as the Use Case;
+						  Create Initial State;
+						  Create Final State; }
+						LIST_IMPORT CLASS
+
+LIST_IMPORT -> 			IMPORT LIST_IMPORT
+					  | Epsilon
+			  
+IMPORT ->				'import' IDENTIFIER IDENTIFIER2 ';'
+{HAS SPLIT}
+
+IDENTIFIER ->			[A-za-z0-9]+
+
+IDENTIFIER2 ->			'.' IDENTIFIER IDENTIFIER3
+					  | Epsilon
+					  					  
+IDENTIFIER3 ->			'.' '*'
+					  | IDENTIFIER2
+			  
+CLASS ->				CLASS_DECLARATION '{' BODY '}'
+
+CLASS_DECLARATION ->	'public' 'class' [A-Za-z][A-Za-z0-9_]* 'extends' 'IteratingVUserScript'
+
+BODY ->					SCRIPT_SERVICE METHODS
+
+SCRIPT_SERVICE ->		'@ScriptService' IDENTIFIER IDENTIFIER2 IDENTIFIER ';' SCRIPT_SERVICE
+					  | Epsilon
+{HAS SPLIT}
+					  
+METHODS ->				JAVADOC METHODS2
+
+METHODS2 ->				METHOD METHODS
+					  | Epsilon
+					  
+ANY ->					[A-Za-z0-9,\(\)\[\]/\*&_#\- ""]*
+						{ Return as String; }
+
+ANY2 ->					ANY_JAVADOC 
+						{ Set value of "ANY_JAVADOC" as String; }
+						ANY2
+						{ Append value of "ANY2" as String and return; }
+					  | Epsilon
+(special implementation)
+					  
+ANY3 ->					ANY_JAVADOC
+						{ Set value of "ANY_JAVADOC" as String; }
+						ANY3
+						{ Append value of "ANY3" as String and return; }
+					  | Epsilon
+(special implementation)
+{HAS SPLIT}
+
+ANY_JAVADOC ->			[A-Za-z0-9,.:\(\)\[\]/\*&_#\-=+ ""]*
+						{ Return as String; }
+					  
+JAVADOC ->				/\*\* ANY2 [\*]*/
+					  | Epsilon
+					  
+METHOD ->				METHOD_DECLARATION '{' BLOCK '}'
+
+METHOD_DECLARATION ->	'public' 'void' ([A-Za-z][A-Za-z0-9_]*)\(\) METHOD_DECLARATION2
+
+METHOD_DECLARATION2 ->	'throws' 'Exception'
+					  | Epsilon
+					  
+BLOCK ->				SCRIPT_ELEMENT THINK BLOCK
+					  | STEP BLOCK
+					  | Epsilon
+{HAS SPLIT}
+					  
+THINK ->				'{' 'think' '(' NUMBER ')' ';' '}'
+					  | Epsilon
+					  
+NUMBER ->				[0-9]+ NUMBER2
+
+NUMBER2 ->				'.' [0-9]+
+					  | Epsilon
+					  
+STEP ->					BEGIN_STEP '{' ELEMENT_SEQUENCE '}' CLOSE_STEP
+
+BEGIN_STEP ->			'beginStep' '(' STEP_NAME ',' NUMBER ')' ';'
+
+STEP_NAME ->			'"' ANY3 
+						{ Set Current Step; }
+						'"'
+
+CLOSE_STEP ->			'endStep();'
+						{ Set Current Step to "", Step Position to 1; }
+
+ELEMENT_SEQUENCE ->		SCRIPT_ELEMENT THINK ELEMENT_SEQUENCE
+					  | Epsilon
+					  
+ELEMENT_NAME ->			'"' '{' '{' ANY '.' ANY '.' ANY 
+						{ Return the last "ANY" as a string; }
+						'}' '}' '"'
+
+ACTION ->				ANY
+						{ Append Action to TDAction;
+						  If Action is of type "set", append "dt_" + second part of TDObject;
+						  Return TDAction; }
+						'(' ACTION2 ')'
+					  
+ACTION2 ->				ACTION
+					  | ANY
+					  | '"' ANY3 '"'
+					  | Epsilon
+
+SCRIPT_ELEMENT ->		WEB_WINDOW
+					  | WEB_TEXTBOX
+					  | WEB_BUTTON
+					  | WEB_IMAGE
+					  | WEB_ALERT_DIALOG
+					  | WEB_LINK
+					  | BROWSER_LAUNCH
+					  | WEB_ELEMENT
+					  
+ELEMENT_DETAILS ->		'(' NUMBER ',' ELEMENT_NAME 
+						{ Set up second part of TDObject; 
+						  If TDObject does not equal CurrentObject, create new Activity; } 
+						')' '.' ACTION
+					  
+WEB_WINDOW ->			'web.window' 
+						{ Set up first part of TDObject; } 
+						ELEMENT_DETAILS ';'
+
+WEB_TEXTBOX ->			'web.textBox' 
+						{ Set up first part of TDObject; } 
+						ELEMENT_DETAILS ';'
+
+WEB_BUTTON ->			'web.button' 
+						{ Set up first part of TDObject; } 
+						ELEMENT_DETAILS ';'
+
+WEB_IMAGE ->			'web.image' 
+						{ Set up first part of TDObject; } 
+						ELEMENT_DETAILS ';'
+
+WEB_ALERT_DIALOG ->		'web.alertDialog' 
+						{ Set up first part of TDObject; } 
+						ELEMENT_DETAILS ';'
+
+WEB_LINK ->				'web.link' 
+						{ Set up first part of TDObject; } 
+						ELEMENT_DETAILS ';'
+
+WEB_ELEMENT ->			'web.element' 
+						{ Set up first part of TDObject; } 
+						ELEMENT_DETAILS ';'
+
+WEB_SELECT_BOX ->		'web.selectBox' 
+						{ Set up first part of TDObject; } 
+						ELEMENT_DETAILS ';'
+						
+WEB_DIALOG ->			'web.dialog' 
+						{ Set up first part of TDObject; } 
+						ELEMENT_DETAILS ';'
+						
+WEB_RADIO_BUTTON ->		'web.radioButton' 
+						{ Set up first part of TDObject; } 
+						ELEMENT_DETAILS ';'
+						
+WEB_CHECK_BOX ->		'web.checkBox' 
+						{ Set up first part of TDObject; } 
+						ELEMENT_DETAILS ';'
+						
+WEB_TEXT_AREA ->		'web.textArea' 
+						{ Set up first part of TDObject; } 
+						ELEMENT_DETAILS ';'
+
+BROWSER_LAUNCH ->		'browser.launch' '(' ')' ';'

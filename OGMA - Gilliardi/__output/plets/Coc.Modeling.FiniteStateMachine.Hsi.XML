@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Coc.Modeling.FiniteStateMachine.Hsi</name>
+    </assembly>
+    <members>
+        <member name="T:Coc.Data.HSI.HsiMethod.Failness">
+            <summary>
+            Denotes the status of each state pair in GetHiSet method.
+            - Invalid state pairs doesn´t exists in Lzero set. 
+            - Fail state pairs have different output for a same input.
+            - Valid state pairs does point to another state pair.
+            </summary>
+        </member>
+        <member name="M:Coc.Data.HSI.HsiMethod.GetPreamble(Coc.Modeling.FiniteStateMachine.State)">
+            <summary>
+            Shortcut for GetPreamble(State s, List-of-State visited) method.
+            </summary>
+        </member>
+        <member name="M:Coc.Data.HSI.HsiMethod.GetPreamble(Coc.Modeling.FiniteStateMachine.State,System.Collections.Generic.List{Coc.Modeling.FiniteStateMachine.State})">
+            <summary>
+            Gets a preamble of a given state S.
+            </summary>
+        </member>
+        <member name="M:Coc.Data.HSI.HsiMethod.GetAllowedInputs(Coc.Modeling.FiniteStateMachine.State)">
+            <summary>
+            Gets the allowed inputs list of a given state S.
+            </summary>
+        </member>
+        <member name="M:Coc.Data.HSI.HsiMethod.GetTransitionCover(Coc.Modeling.FiniteStateMachine.State)">
+            <summary>
+            Gets the transitio cover of given state S.
+            </summary>
+        </member>
+        <member name="M:Coc.Data.HSI.HsiMethod.GetTransitionCover(Coc.Modeling.FiniteStateMachine.StateNode)">
+            <summary>
+            Gets the transition cover of given state S.
+            </summary>
+        </member>
+        <member name="M:Coc.Data.HSI.HsiMethod.GetStatePairGroup">
+            <summary>
+            Generate every combination of state-state for current fsm.
+            </summary>
+        </member>
+        <member name="M:Coc.Data.HSI.HsiMethod.GetFailnessTable">
+            <summary>
+            Stores information about state pairs and its transitions.
+            Used by HSI method to generate harmonized sets.
+            </summary>
+            <summary>
+            Apply fsm inputs and set points from a state-pair to another one.
+            </summary>
+        </member>
+        <member name="M:Coc.Data.HSI.HsiMethod.GetHiSet">
+            <summary>
+            Gets the harmonized set for each state
+            </summary>
+        </member>
+        <member name="M:Coc.Data.HSI.HsiMethod.GetHsiSet">
+            <summary>
+            Generate a separating set combining generated Hi sets.
+            </summary>
+        </member>
+        <member name="M:Coc.Data.HSI.HsiMethod.GenerateTestCases">
+            <summary>
+            Generate test sequences using HSI method.
+            </summary>
+        </member>
+        <member name="M:Coc.Data.HSI.HsiMethod.GetIdentifierState(System.String[])">
+            <summary>
+            Equality compare implementation. Compares two arrays of String.
+            </summary>
+            <summary>
+            Apply a sequence of input to the fsm. Returns last visited state.
+            </summary>
+        </member>
+        <member name="M:Coc.Data.HSI.HsiMethod.AddPrefixToState(Coc.Modeling.FiniteStateMachine.State,System.String[])">
+            <summary>
+            Associate a prefix with given state
+            </summary>
+        </member>
+        <member name="M:Coc.Data.HSI.HsiMethod.FindShortestInputToFail(System.Collections.Generic.List{Coc.Data.HSI.HsiMethod.FailnessRecord},Coc.Data.HSI.HsiMethod.StatePair[],Coc.Data.HSI.HsiMethod.StatePair)">
+            <summary>
+            Returns input which made state pair failed. If current
+            State pair is not fail, locate the shortest sequence to
+            reach a failed state pair.
+            </summary>
+        </member>
+        <member name="M:Coc.Data.HSI.HsiMethod.GenerateTree(Coc.Modeling.FiniteStateMachine.State)">
+             <summary>
+             Represents an unsorted pair of distinct states.
+             </summary>
+            
+        </member>
+        <member name="M:Coc.Data.HSI.HsiMethod.RemoveDuplicatedSequences(System.Collections.Generic.List{System.String[]})">
+            <summary>
+            Remove duplicated sequences and prefixes from test case set.
+            </summary>
+        </member>
+        <member name="T:Coc.Data.HSI.HsiMethod.FailnessRecord">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Coc.Data.HSI.HsiMethod.ArrayComparer.Equals(System.String[],System.String[])">
+            <summary>
+            Interface Implementation
+            </summary>
+        </member>
+        <member name="M:Coc.Data.HSI.HsiMethod.ArrayComparer.GetHashCode(System.String[])">
+            <summary>
+            Interface implementation
+            </summary>
+        </member>
+        <member name="M:Coc.Data.HSI.HsiMethod.ArrayComparer.IsPrefixOf(System.String[],System.String[])">
+            <summary>
+            returns true if seq is prefix of seqq
+            </summary>
+        </member>
+    </members>
+</doc>

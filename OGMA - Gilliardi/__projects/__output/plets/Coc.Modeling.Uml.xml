@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Coc.Modeling.Uml</name>
+    </assembly>
+    <members>
+        <member name="T:Coc.Modeling.Uml.UmlActivityDiagram">
+            <summary>
+            Represents an activity diagram.
+            </summary>
+        </member>
+        <member name="M:Coc.Modeling.Uml.UmlActivityDiagram.#ctor(System.String)">
+            <summary>
+            Default constructor. Takes its name as argument.
+            </summary>
+            <param name="p">Diagram's name.</param>
+        </member>
+        <member name="P:Coc.Modeling.Uml.UmlActivityDiagram.Lanes">
+            <summary>
+            Stores lanes for this diagram
+            </summary>
+        </member>
+        <member name="T:Coc.Modeling.Uml.UmlBase">
+            <summary>
+            Represents a base object for each Uml Object. Every Uml
+            Object must derive from UmlBase. Properties that are
+            commom to all Uml Objects must be changed in its base.
+            </summary>
+        </member>
+        <member name="P:Coc.Modeling.Uml.UmlBase.TaggedValues">
+            <summary>
+            Stores current tagged values.
+            </summary>
+        </member>
+        <member name="M:Coc.Modeling.Uml.UmlBase.#ctor">
+            <summary>
+            Default construtor. Initializes internal structures.
+            </summary>
+        </member>
+        <member name="P:Coc.Modeling.Uml.UmlBase.Comments">
+            <summary>
+            Stores comments for this object. Objects can be shared between 
+            uml objects.
+            </summary>
+        </member>
+        <member name="M:Coc.Modeling.Uml.UmlBase.SetTaggedValue(System.String,System.String)">
+            <summary>
+            Set given tag value to given string.
+            </summary>
+            <param name="tag">Tag to be changed.</param>
+            <param name="value">Value to be set.</param>
+        </member>
+        <member name="M:Coc.Modeling.Uml.UmlBase.GetTaggedValue(System.String)">
+            <summary>
+            Return the value associated with given tag.
+            </summary>
+            <param name="tag">Tag to search for.</param>
+            <returns>Value associated with given tag.</returns>
+        </member>
+        <member name="P:Coc.Modeling.Uml.UmlBase.Id">
+            <summary>
+            Returns a identifier for this object. Identifier may 
+            prevent item duplication inside a list.
+            </summary>
+        </member>
+        <member name="P:Coc.Modeling.Uml.UmlBase.Name">
+            <summary>
+            Stores uml base name.
+            </summary>
+        </member>
+        <member name="P:Coc.Modeling.Uml.UmlBase.Stereotypes">
+            <summary>
+            Stores object's stereotypes.
+            </summary>
+        </member>
+        <member name="T:Coc.Modeling.Uml.UmlComments">
+            <summary>
+            Represents a UML annotation. It must be attached
+            to an Uml Object in order to be part of a model.
+            </summary>
+        </member>
+        <member name="P:Coc.Modeling.Uml.UmlDiagram.Name">
+            <summary>
+            Stores this diagram name
+            </summary>
+        </member>
+        <member name="P:Coc.Modeling.Uml.UmlDiagram.UmlObjects">
+            <summary>
+            Stores uml objects for this model. 
+            TODO: See UML documentation for validation.
+            </summary>
+        </member>
+        <member name="P:Coc.Modeling.Uml.UmlDiagram.UmlStereotypes">
+            <summary>
+            Stores stereotype set for this model.
+            TODO: Should be vailable by profile.
+            </summary>
+        </member>
+        <member name="M:Coc.Modeling.Uml.UmlDiagram.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Coc.Modeling.Uml.UmlLane.AddElement(Coc.Modeling.Uml.UmlElement)">
+            <summary>
+            Adds an element to list.
+            </summary>
+            <param name="element">Element to be added.</param>
+        </member>
+        <member name="T:Coc.Modeling.Uml.UmlModel">
+            <summary>
+            Represents a full UmlModel. A model contains a set of 
+            diagrams and stereotypes.
+            </summary>
+        </member>
+        <member name="P:Coc.Modeling.Uml.UmlModel.Name">
+            <summary>
+            Stores model name (optional).
+            </summary>
+        </member>
+        <member name="F:Coc.Modeling.Uml.UmlModel.stereotypes">
+            <summary>
+            Stores stereotype for this model.
+            </summary>
+        </member>
+        <member name="M:Coc.Modeling.Uml.UmlModel.#ctor(System.String)">
+            <summary>
+            Default constructor. Takes its name as parameter.
+            </summary>
+            <param name="modelName">Model name.</param>
+        </member>
+        <member name="F:Coc.Modeling.Uml.UmlModel.diagrams">
+            <summary>
+            Stores diagrams. A model is made of diagrams and stereotypes.
+            TODO: Review Uml documentation.
+            </summary>
+        </member>
+        <member name="M:Coc.Modeling.Uml.UmlModel.AddDiagram(Coc.Modeling.Uml.UmlDiagram)">
+            <summary>
+            Adds a diagram to this model.
+            </summary>
+            <param name="diagram">Diagram to be added.</param>
+        </member>
+        <member name="P:Coc.Modeling.Uml.UmlModel.Diagrams">
+            <summary>
+            Returns a set containing diagram models.
+            </summary>
+        </member>
+    </members>
+</doc>

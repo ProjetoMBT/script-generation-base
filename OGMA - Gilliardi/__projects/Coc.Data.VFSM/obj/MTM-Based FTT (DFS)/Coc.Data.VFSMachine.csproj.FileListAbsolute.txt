@@ -1,0 +1,5 @@
+D:\Development\CePES\head\__output\plets\Coc.Data.VFSM.dll
+D:\Development\CePES\head\__output\plets\Coc.Data.VFSM.pdb
+D:\Development\CePES\head\__projects\Coc.Data.VFSM\obj\MTM-Based FTT (DFS)\Coc.Data.VFSMachine.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\Coc.Data.VFSM\obj\MTM-Based FTT (DFS)\Coc.Data.VFSM.dll
+D:\Development\CePES\head\__projects\Coc.Data.VFSM\obj\MTM-Based FTT (DFS)\Coc.Data.VFSM.pdb

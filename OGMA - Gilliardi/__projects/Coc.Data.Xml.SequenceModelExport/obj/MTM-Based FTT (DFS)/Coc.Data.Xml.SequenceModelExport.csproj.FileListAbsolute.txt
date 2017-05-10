@@ -1,0 +1,5 @@
+D:\Development\CePES\head\__output\plets\Coc.Data.Xml.SequenceModelExport.dll
+D:\Development\CePES\head\__output\plets\Coc.Data.Xml.SequenceModelExport.pdb
+D:\Development\CePES\head\__projects\Coc.Data.Xml.SequenceModelExport\obj\MTM-Based FTT (DFS)\Coc.Data.Xml.SequenceModelExport.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\Coc.Data.Xml.SequenceModelExport\obj\MTM-Based FTT (DFS)\Coc.Data.Xml.SequenceModelExport.dll
+D:\Development\CePES\head\__projects\Coc.Data.Xml.SequenceModelExport\obj\MTM-Based FTT (DFS)\Coc.Data.Xml.SequenceModelExport.pdb

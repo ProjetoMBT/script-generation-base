@@ -1,0 +1,18 @@
+D:\Development\CePES\head\__output\plets\Coc.Data.CSV.XML
+D:\Development\CePES\head\__output\plets\Coc.Data.CSV.dll
+D:\Development\CePES\head\__output\plets\Coc.Data.CSV.pdb
+D:\Development\CePES\head\__projects\Coc.Data.CSV\obj\OATS-Based FTT\Coc.Data.CSV.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\Coc.Data.CSV\obj\OATS-Based FTT\Coc.Data.CSV.dll
+D:\Development\CePES\head\__projects\Coc.Data.CSV\obj\OATS-Based FTT\Coc.Data.CSV.pdb
+F:\Development\CePES\head\__output\plets\Coc.Data.CSV.XML
+F:\Development\CePES\head\__output\plets\Coc.Data.CSV.dll
+F:\Development\CePES\head\__output\plets\Coc.Data.CSV.pdb
+F:\Development\CePES\head\__projects\Coc.Data.CSV\obj\OATS-Based FTT\Coc.Data.CSV.csprojResolveAssemblyReference.cache
+F:\Development\CePES\head\__projects\Coc.Data.CSV\obj\OATS-Based FTT\Coc.Data.CSV.dll
+F:\Development\CePES\head\__projects\Coc.Data.CSV\obj\OATS-Based FTT\Coc.Data.CSV.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.CSV.XML
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.CSV.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.CSV.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.CSV\obj\OATS-Based FTT\Coc.Data.CSV.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.CSV\obj\OATS-Based FTT\Coc.Data.CSV.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.CSV\obj\OATS-Based FTT\Coc.Data.CSV.pdb

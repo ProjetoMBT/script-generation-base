@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="ComponentPoolManager.InterfaceEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Background="White">
+    <Grid>
+        <TextBlock Name="textBoxInterfaceName" Text="MyInterfaceName" Margin="10"
+                 VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="14"/>
+        <ScrollViewer  Margin="40,35,10,10" VerticalScrollBarVisibility="Auto">
+            <StackPanel Name="stackPanelMethodEditor"/>
+        </ScrollViewer>
+        
+        <Button VerticalAlignment="Top" HorizontalAlignment="Right" Margin="10" 
+                ToolTip="Adds a new Method to interface." Click="buttonAdd_Click" Name="buttonAdd">
+            <Image Source="/ComponentPoolManager;component/Images/add.gif" Width="16" Height="16" />
+        </Button>
+        <Button VerticalAlignment="Top" HorizontalAlignment="Right" Margin="10 10 35 10" 
+                ToolTip="Save changes made." Click="buttonSave_Click" Name="buttonSave">
+            <Image Source="/ComponentPoolManager;component/Images/save_as.gif" Width="16" Height="16" />
+        </Button>
+    </Grid>
+</UserControl>

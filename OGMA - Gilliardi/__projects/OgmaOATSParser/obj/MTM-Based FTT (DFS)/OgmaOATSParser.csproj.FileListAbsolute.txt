@@ -1,0 +1,5 @@
+D:\Development\CePES\head\__output\plets\OgmaOATSParser.dll
+D:\Development\CePES\head\__output\plets\OgmaOATSParser.pdb
+D:\Development\CePES\head\__projects\OgmaOATSParser\obj\MTM-Based FTT (DFS)\OgmaOATSParser.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\OgmaOATSParser\obj\MTM-Based FTT (DFS)\OgmaOATSParser.dll
+D:\Development\CePES\head\__projects\OgmaOATSParser\obj\MTM-Based FTT (DFS)\OgmaOATSParser.pdb

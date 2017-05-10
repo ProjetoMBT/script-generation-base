@@ -1,0 +1,5 @@
+D:\Development\CePES\head\__output\plets\Coc.Data.Xmi.dll
+D:\Development\CePES\head\__output\plets\Coc.Data.Xmi.pdb
+D:\Development\CePES\head\__projects\Coc.Data.Xmi\obj\MTM-Based FTT (DFS)\Coc.Data.Xmi.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\Coc.Data.Xmi\obj\MTM-Based FTT (DFS)\Coc.Data.Xmi.dll
+D:\Development\CePES\head\__projects\Coc.Data.Xmi\obj\MTM-Based FTT (DFS)\Coc.Data.Xmi.pdb

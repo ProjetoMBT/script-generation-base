@@ -1,0 +1,10 @@
+C:\Users\anderson\Downloads\head\head\__output\plets\Coc.Data.CSV.dll
+C:\Users\anderson\Downloads\head\head\__output\plets\Coc.Data.CSV.pdb
+C:\Users\anderson\Downloads\head\head\__projects\Coc.Data.CSV\obj\Debug\Coc.Data.CSV.csprojResolveAssemblyReference.cache
+C:\Users\anderson\Downloads\head\head\__projects\Coc.Data.CSV\obj\Debug\Coc.Data.CSV.dll
+C:\Users\anderson\Downloads\head\head\__projects\Coc.Data.CSV\obj\Debug\Coc.Data.CSV.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.CSV\obj\Debug\Coc.Data.CSV.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.CSV\obj\Debug\Coc.Data.CSV.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.CSV\obj\Debug\Coc.Data.CSV.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.CSV.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.CSV.pdb

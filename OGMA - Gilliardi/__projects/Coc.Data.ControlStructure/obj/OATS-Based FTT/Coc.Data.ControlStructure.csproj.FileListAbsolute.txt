@@ -1,0 +1,17 @@
+D:\Development\CePES\head\__output\plets\Coc.Data.ControlStructure.XML
+D:\Development\CePES\head\__output\plets\Coc.Data.ControlStructure.dll
+D:\Development\CePES\head\__output\plets\Coc.Data.ControlStructure.pdb
+D:\Development\CePES\head\__projects\Coc.Data.ControlStructure\obj\OATS-Based FTT\Coc.Data.ControlStructure.dll
+D:\Development\CePES\head\__projects\Coc.Data.ControlStructure\obj\OATS-Based FTT\Coc.Data.ControlStructure.pdb
+F:\Development\CePES\head\__output\plets\Coc.Data.ControlStructure.XML
+F:\Development\CePES\head\__output\plets\Coc.Data.ControlStructure.dll
+F:\Development\CePES\head\__output\plets\Coc.Data.ControlStructure.pdb
+F:\Development\CePES\head\__projects\Coc.Data.ControlStructure\obj\OATS-Based FTT\Coc.Data.ControlStructure.csprojResolveAssemblyReference.cache
+F:\Development\CePES\head\__projects\Coc.Data.ControlStructure\obj\OATS-Based FTT\Coc.Data.ControlStructure.dll
+F:\Development\CePES\head\__projects\Coc.Data.ControlStructure\obj\OATS-Based FTT\Coc.Data.ControlStructure.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.ControlStructure.XML
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.ControlStructure.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.ControlStructure.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.ControlStructure\obj\OATS-Based FTT\Coc.Data.ControlStructure.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.ControlStructure\obj\OATS-Based FTT\Coc.Data.ControlStructure.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.ControlStructure\obj\OATS-Based FTT\Coc.Data.ControlStructure.pdb

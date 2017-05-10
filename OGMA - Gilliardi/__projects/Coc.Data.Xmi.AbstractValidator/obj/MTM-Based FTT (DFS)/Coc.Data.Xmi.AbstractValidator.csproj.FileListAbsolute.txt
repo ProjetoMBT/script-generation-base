@@ -1,0 +1,5 @@
+D:\Development\CePES\head\__output\plets\Coc.Data.Xmi.AbstractValidator.dll
+D:\Development\CePES\head\__output\plets\Coc.Data.Xmi.AbstractValidator.pdb
+D:\Development\CePES\head\__projects\Coc.Data.Xmi.AbstractValidator\obj\MTM-Based FTT (DFS)\Coc.Data.Xmi.AbstractValidator.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\Coc.Data.Xmi.AbstractValidator\obj\MTM-Based FTT (DFS)\Coc.Data.Xmi.AbstractValidator.dll
+D:\Development\CePES\head\__projects\Coc.Data.Xmi.AbstractValidator\obj\MTM-Based FTT (DFS)\Coc.Data.Xmi.AbstractValidator.pdb

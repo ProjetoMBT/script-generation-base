@@ -1,0 +1,23 @@
+D:\Development\CePES\head\__output\plets\LeitorExcel.XML
+D:\Development\CePES\head\__output\plets\LeitorExcel.dll
+D:\Development\CePES\head\__output\plets\LeitorExcel.pdb
+D:\Development\CePES\head\__projects\Coc.Data.ReadXlsx\obj\OATS-Based FTT\Interop.AccessibilityCplAdminLib.dll
+D:\Development\CePES\head\__projects\Coc.Data.ReadXlsx\obj\OATS-Based FTT\Coc.Data.ReadXlsx.csproj.ResolveComReference.cache
+D:\Development\CePES\head\__projects\Coc.Data.ReadXlsx\obj\OATS-Based FTT\LeitorExcel.dll
+D:\Development\CePES\head\__projects\Coc.Data.ReadXlsx\obj\OATS-Based FTT\LeitorExcel.pdb
+F:\Development\CePES\head\__output\plets\LeitorExcel.XML
+F:\Development\CePES\head\__output\plets\LeitorExcel.dll
+F:\Development\CePES\head\__output\plets\LeitorExcel.pdb
+F:\Development\CePES\head\__projects\Coc.Data.ReadXlsx\obj\OATS-Based FTT\Coc.Data.ReadXlsx.csprojResolveAssemblyReference.cache
+F:\Development\CePES\head\__projects\Coc.Data.ReadXlsx\obj\OATS-Based FTT\Interop.AccessibilityCplAdminLib.dll
+F:\Development\CePES\head\__projects\Coc.Data.ReadXlsx\obj\OATS-Based FTT\Coc.Data.ReadXlsx.csproj.ResolveComReference.cache
+F:\Development\CePES\head\__projects\Coc.Data.ReadXlsx\obj\OATS-Based FTT\LeitorExcel.dll
+F:\Development\CePES\head\__projects\Coc.Data.ReadXlsx\obj\OATS-Based FTT\LeitorExcel.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\LeitorExcel.XML
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\LeitorExcel.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\LeitorExcel.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.ReadXlsx\obj\OATS-Based FTT\Coc.Data.ReadXlsx.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.ReadXlsx\obj\OATS-Based FTT\Interop.AccessibilityCplAdminLib.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.ReadXlsx\obj\OATS-Based FTT\Coc.Data.ReadXlsx.csproj.ResolveComReference.cache
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.ReadXlsx\obj\OATS-Based FTT\LeitorExcel.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.ReadXlsx\obj\OATS-Based FTT\LeitorExcel.pdb

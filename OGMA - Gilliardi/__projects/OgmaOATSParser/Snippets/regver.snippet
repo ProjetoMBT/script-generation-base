@@ -1,0 +1,32 @@
+<CodeSnippets
+    xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Regular Expression Verification</Title>
+			<Author>Marcelo Schmitt Laser</Author>
+			<Description>Code for Regular Expression verification.</Description>
+			<Shortcut>regver</Shortcut>
+        </Header>
+        <Snippet>
+			<Declarations>
+				<Literal>
+					<ID>REGEX</ID>
+					<ToolTip>Regular Expression being verified</ToolTip>
+					<Default>REGEX$</Default>
+				</Literal>
+				<Literal>
+					<ID>INPUT</ID>
+					<ToolTip>Input being verified</ToolTip>
+					<Default>input</Default>
+				</Literal>
+			</Declarations>
+            <Code Language="CSharp">
+                <![CDATA[Regex toCheck = new Regex(@"^$REGEX$");
+                if (toCheck.Match($INPUT$).Success)
+                    toReturn.Derivations.Add(new ClassNode(Classes.Reserved_Word));
+                else
+                    throw new FormatException();]]>
+            </Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

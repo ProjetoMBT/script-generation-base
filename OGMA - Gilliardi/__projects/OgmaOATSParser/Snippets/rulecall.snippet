@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+    xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Rule Call</Title>
+			<Author>Marcelo Schmitt Laser</Author>
+			<Description>Calls a lexical rule function.</Description>
+			<Shortcut>rulecall</Shortcut>
+        </Header>
+        <Snippet>
+			<Declarations>
+				<Literal>
+					<ID>RULE_NAME</ID>
+					<ToolTip>Name of the rule function to be called</ToolTip>
+					<Default>RULE_NAME</Default>
+				</Literal>
+				<Literal>
+					<ID>INPUT</ID>
+					<ToolTip>Input to be used</ToolTip>
+					<Default>input</Default>
+				</Literal>
+			</Declarations>
+            <Code Language="CSharp">
+                <![CDATA[toReturn.Derivations.Add($RULE_NAME$($INPUT$));]]>
+            </Code>
+        </Snippet>		
+    </CodeSnippet>
+</CodeSnippets>

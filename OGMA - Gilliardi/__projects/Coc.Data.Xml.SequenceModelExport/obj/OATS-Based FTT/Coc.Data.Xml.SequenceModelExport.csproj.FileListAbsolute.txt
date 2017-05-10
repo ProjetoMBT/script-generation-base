@@ -1,0 +1,12 @@
+D:\Development\CePES\head\__output\plets\Coc.Data.Xml.SequenceModelExport.XML
+D:\Development\CePES\head\__output\plets\Coc.Data.Xml.SequenceModelExport.dll
+D:\Development\CePES\head\__output\plets\Coc.Data.Xml.SequenceModelExport.pdb
+D:\Development\CePES\head\__projects\Coc.Data.Xml.SequenceModelExport\obj\OATS-Based FTT\Coc.Data.Xml.SequenceModelExport.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\Coc.Data.Xml.SequenceModelExport\obj\OATS-Based FTT\Coc.Data.Xml.SequenceModelExport.dll
+D:\Development\CePES\head\__projects\Coc.Data.Xml.SequenceModelExport\obj\OATS-Based FTT\Coc.Data.Xml.SequenceModelExport.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.Xml.SequenceModelExport.XML
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.Xml.SequenceModelExport.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.Xml.SequenceModelExport.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xml.SequenceModelExport\obj\OATS-Based FTT\Coc.Data.Xml.SequenceModelExport.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xml.SequenceModelExport\obj\OATS-Based FTT\Coc.Data.Xml.SequenceModelExport.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xml.SequenceModelExport\obj\OATS-Based FTT\Coc.Data.Xml.SequenceModelExport.pdb

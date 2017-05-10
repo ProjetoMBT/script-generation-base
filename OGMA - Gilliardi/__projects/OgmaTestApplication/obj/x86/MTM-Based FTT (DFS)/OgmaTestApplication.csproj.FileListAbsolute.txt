@@ -1,0 +1,14 @@
+D:\Development\CePES\head\__projects\OgmaTestApplication\bin\x86\MTM-Based FTT (DFS)\OgmaTestApplication.exe.config
+D:\Development\CePES\head\__projects\OgmaTestApplication\bin\x86\MTM-Based FTT (DFS)\OgmaTestApplication.exe
+D:\Development\CePES\head\__projects\OgmaTestApplication\bin\x86\MTM-Based FTT (DFS)\Coc.Data.ControlStructure.dll
+D:\Development\CePES\head\__projects\OgmaTestApplication\bin\x86\MTM-Based FTT (DFS)\Coc.Data.ConversionUnit.dll
+D:\Development\CePES\head\__projects\OgmaTestApplication\bin\x86\MTM-Based FTT (DFS)\Coc.Data.Interfaces.dll
+D:\Development\CePES\head\__projects\OgmaTestApplication\bin\x86\MTM-Based FTT (DFS)\Coc.Modeling.Uml.dll
+D:\Development\CePES\head\__projects\OgmaTestApplication\bin\x86\MTM-Based FTT (DFS)\ControlAndConversionStructures.dll
+D:\Development\CePES\head\__projects\OgmaTestApplication\bin\x86\MTM-Based FTT (DFS)\OgmaOATSParser.dll
+D:\Development\CePES\head\__projects\OgmaTestApplication\bin\x86\MTM-Based FTT (DFS)\Coc.Modeling.FiniteStateMachine.dll
+D:\Development\CePES\head\__projects\OgmaTestApplication\bin\x86\MTM-Based FTT (DFS)\Coc.Modeling.Graph.dll
+D:\Development\CePES\head\__projects\OgmaTestApplication\bin\x86\MTM-Based FTT (DFS)\Coc.Data.VFSM.dll
+D:\Development\CePES\head\__projects\OgmaTestApplication\bin\x86\MTM-Based FTT (DFS)\OgmaOATSParser.pdb
+D:\Development\CePES\head\__projects\OgmaTestApplication\obj\x86\MTM-Based FTT (DFS)\OgmaTestApplication.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\OgmaTestApplication\obj\x86\MTM-Based FTT (DFS)\OgmaTestApplication.exe

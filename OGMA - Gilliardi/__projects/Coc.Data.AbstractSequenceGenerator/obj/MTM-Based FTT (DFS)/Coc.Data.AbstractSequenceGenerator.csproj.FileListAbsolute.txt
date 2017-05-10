@@ -1,0 +1,5 @@
+D:\Development\CePES\head\__output\plets\Coc.Data.AbstractSequenceGenerator.dll
+D:\Development\CePES\head\__output\plets\Coc.Data.AbstractSequenceGenerator.pdb
+D:\Development\CePES\head\__projects\Coc.Data.AbstractSequenceGenerator\obj\MTM-Based FTT (DFS)\Coc.Data.AbstractSequenceGenerator.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\Coc.Data.AbstractSequenceGenerator\obj\MTM-Based FTT (DFS)\Coc.Data.AbstractSequenceGenerator.dll
+D:\Development\CePES\head\__projects\Coc.Data.AbstractSequenceGenerator\obj\MTM-Based FTT (DFS)\Coc.Data.AbstractSequenceGenerator.pdb
