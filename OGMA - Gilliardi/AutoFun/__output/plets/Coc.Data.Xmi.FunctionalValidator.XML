@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Coc.Data.Xmi.FunctionalValidator</name>
+    </assembly>
+    <members>
+        <member name="M:Coc.Data.Xmi.FunctionalValidator.FunctionalValidator.Validate(System.Collections.Generic.List{Coc.Data.ControlAndConversionStructures.GeneralUseStructure},System.String)">
+            <summary>
+            Inicia a validacao de um ou mais diagramas.
+            </summary>
+        </member>
+    </members>
+</doc>

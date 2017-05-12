@@ -1,5 +1,0 @@
-D:\Development\CePES\head\__output\Coc.Apps.PlugSpl\FeatureModelEditor.Clafer.dll
-D:\Development\CePES\head\__output\Coc.Apps.PlugSpl\FeatureModelEditor.Clafer.pdb
-D:\Development\CePES\head\__projects\FeatureModelEditor.Clafer\obj\Debug\FeatureModelEditor.Clafer.csprojResolveAssemblyReference.cache
-D:\Development\CePES\head\__projects\FeatureModelEditor.Clafer\obj\Debug\FeatureModelEditor.Clafer.dll
-D:\Development\CePES\head\__projects\FeatureModelEditor.Clafer\obj\Debug\FeatureModelEditor.Clafer.pdb

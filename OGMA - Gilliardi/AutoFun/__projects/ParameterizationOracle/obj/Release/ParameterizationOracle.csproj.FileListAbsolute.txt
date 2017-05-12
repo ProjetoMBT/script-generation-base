@@ -1,0 +1,8 @@
+D:\Development\CePES\head\__output\plets\ParameterizationOracle.dll
+D:\Development\CePES\head\__output\plets\ParameterizationOracle.pdb
+D:\Development\CePES\head\__projects\ParameterizationOracle\obj\Release\ParameterizationOracle.dll
+D:\Development\CePES\head\__projects\ParameterizationOracle\obj\Release\ParameterizationOracle.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\ParameterizationOracle.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\ParameterizationOracle.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\ParameterizationOracle\obj\Release\ParameterizationOracle.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\ParameterizationOracle\obj\Release\ParameterizationOracle.pdb

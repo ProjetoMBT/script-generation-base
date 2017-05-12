@@ -1,0 +1,221 @@
+﻿<UserControl x:Class="FeatureModelEditor.FeatureModel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.c om/expression/blend/2008" 
+             mc:Ignorable="d" d:DesignHeight="400" 
+             d:DesignWidth="600" xmlns:my="clr-namespace:FeatureModelEditor">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="22" />
+            <RowDefinition Height="28" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="22" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" MinWidth="20"/>
+            <ColumnDefinition Width="320" MinWidth="20" />
+        </Grid.ColumnDefinitions>
+        <Menu Grid.Row="0" Background="#73A3C4" Grid.ColumnSpan="2">
+            <MenuItem Foreground="White" Header="File">
+                <MenuItem Foreground="Black" Header="_New" Click="buttonClear_Click">
+                    <MenuItem.Icon>
+                        <Image Source="/FeatureModelEditor;component/Images/document_file.gif" Width="16" Height="16" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Foreground="Black" Header="_Open" Click="buttonOpenFile_Click">
+                    <MenuItem.Icon>
+                        <Image Source="/FeatureModelEditor;component/Images/folder.gif" Width="16" Height="16"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Foreground="Black" Header="_Save as..." Click="buttonSaveFileAs_Click">
+                    <MenuItem.Icon>
+                        <Image Source="/FeatureModelEditor;component/Images/save_as.gif" Width="16" Height="16"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Foreground="Black" Header="_Print..." Click="buttonPrint_Click">
+                    <MenuItem.Icon>
+                        <Image Source="/FeatureModelEditor;component/Images/printer.gif" Width="16" Height="16"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <StackPanel Orientation="Horizontal" Background="White" Grid.Row="1" Grid.ColumnSpan="2">
+            <ToolBar>
+                <Button Name="buttonClear" Click="buttonClear_Click" 
+                        ToolTip="Creates a new document. Unsaved changes will be lost." Padding="0"  >
+                    <Image Source="/FeatureModelEditor;component/Images/document_file.gif" />
+                </Button>
+                <Button Name="buttonOpen" Click="buttonOpenFile_Click" 
+                              ToolTip="Load a feature model from file." Padding="0" >
+                    <Image Source="/FeatureModelEditor;component/Images/folder.gif" />
+                </Button>
+                <Button Name="buttonSaveAs" Click="buttonSaveFileAs_Click" 
+                        ToolTip="Save current feature model as..."  Padding="0" >
+                    <Image Source="/FeatureModelEditor;component/Images/save_as.gif"  />
+                </Button>
+                <Button Name="buttonSave" Click="buttonSave_Click"
+                        ToolTip="Save current feature model to file." Padding="0">
+                    <Image Source="/FeatureModelEditor;component/Images/save.png" />
+                </Button>
+
+                <Button Name="buttonPrint" Click="buttonPrint_Click" 
+                        ToolTip="Print current feature model in current grid mode."  Padding="0"  >
+                    <Image Source="/FeatureModelEditor;component/Images/printer.gif" />
+                </Button>
+            </ToolBar>
+            <ToolBar>
+                <ToggleButton Name="buttonAddFeature" Click="buttonAddFeature_Click" 
+                              ToolTip="Adds a feature to model." Padding="0" >
+                    <Image Source="/FeatureModelEditor;component/Images/add.gif" />
+                </ToggleButton>
+                <Button Name="buttonRemoveFeature" Click="buttonRemoveFeature_Click" 
+                        ToolTip="Removes a feature from model."  Padding="0" >
+                    <Image Source="/FeatureModelEditor;component/Images/eraser.gif" />
+                </Button>
+                <Button Name="buttonAddChildFeature" Click="buttonAddChildFeature_Click" 
+                        ToolTip="Connect  a feature-child relation from model."  Padding="0"  >
+                    <Image Source="/FeatureModelEditor;component/Images/lock.gif" />
+                </Button>
+                <Button Name="buttonRemoveChildFeature" Click="buttonRemoveChildFeature_Click" 
+                        ToolTip="Removes a feature-child relation from model."  Padding="0" >
+                    <Image Source="/FeatureModelEditor;component/Images/unlock.gif" />
+                </Button>
+                <Separator />
+                <RadioButton GroupName="featureType" Name="radioButtonMandatory" Checked="radioButtonMandatory_Checked" ToolTip="Select to set feature type to Mandatory">
+                    <Ellipse Height="12" Width="12" Fill="Black" Stroke="Black" HorizontalAlignment="Left"/>
+                </RadioButton>
+                <RadioButton GroupName="featureType" Name="radioButtonOptional" Checked="radioButtonOptional_Checked" ToolTip="Select to set feature type to Optinal">
+                    <Ellipse Height="12" Width="12" Fill="White" Stroke="Black" HorizontalAlignment="Left"/>
+                </RadioButton>
+                <RadioButton GroupName="featureType" Name="radionButtonOr" Checked="radionButtonOr_Checked" ToolTip="Select to set feature type to Or">
+                    <Polygon Points="0,12 12,12 6,1 0,12" Stroke="Black" StrokeThickness="1" Fill="Black" />
+                </RadioButton>
+                <RadioButton GroupName="featureType" Name="radioButtonAlternative" Checked="radioButtonAlternative_Checked" ToolTip="Select to set feature type to Alternative">
+                    <Polygon Points="0,12 12,12 6,1 0,12" Stroke="Black" StrokeThickness="1" Fill="White" />
+                </RadioButton>
+                <Separator />
+                <ToggleButton Name="buttonAbstract" Click="buttonAbstract_Click" ToolTip="Click to set selected feature to Abstract.">
+                    <TextBlock Text="A" Width="17" Height="17" TextAlignment="Center" FontSize="12"/>
+                </ToggleButton>
+                <TextBox Height="18" Name="textBoxSelected" Width="120" Foreground="Red" 
+                     Margin="5 0 0 0" MaxLength="25" KeyDown="textBoxSelected_KeyDown" ToolTip="Edit the selected feature's name"/>
+            </ToolBar>
+            <ToolBar>
+                <ToggleButton Name="buttonGrid" ToolTip="Enables/Disabled grid mode." Click="buttonGrid_Click" IsChecked="True">
+                    <Image Source="/FeatureModelEditor;component/Images/options_2.gif" />
+                </ToggleButton>
+                <ToggleButton Name="buttonSnapToGrid" ToolTip="Enables/Disables snap-to-grid mode." Click="buttonSnapToGrid_Click" IsChecked="True">
+                    <Image Source="/FeatureModelEditor;component/Images/sound_music-on.gif" />
+                </ToggleButton>
+                <ToggleButton Name="buttonHelp" ToolTip="Show help">
+                    <Image Source="/FeatureModelEditor;component/Images/information.gif" />
+                </ToggleButton>
+                <Button Name="buttonPerformLayout" Click="buttonPerformLayout_Click" ToolTip="Perform layout of the diagram">
+                    <Image Source="/FeatureModelEditor;component/Images/wizard.gif"/>
+                </Button>
+                <!--<ToggleButton Name="buttonActivateLegend" Click="buttonActivateLegend_Click" ToolTip="Activate the legend of the diagram" IsChecked="False">
+                    <Image Source="/FeatureModelEditor;component/Images/comment.png"/>
+                </ToggleButton>-->
+            </ToolBar>
+        </StackPanel>
+        
+        <ScrollViewer Grid.Row="2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" VerticalScrollBarVisibility="Visible"
+                      HorizontalScrollBarVisibility="Visible" Grid.Column="0" Background="#eeeeee" >
+            <Grid>
+                <TextBlock Margin="5 5 0 0" FontSize="10" VerticalAlignment="Top" HorizontalAlignment="Left" Text="0.12 Inches²" />
+                <Border Margin="0 20 0 0" BorderThickness="1" BorderBrush="Gray">
+                    <Grid Name="gridEditorContainer" Focusable="True" Drop="gridEditorContainer_Drop" AllowDrop="True"
+                          MouseMove="gridEditorContainer_MouseMove"
+                          MouseDown="gridEditorContainer_MouseDown" 
+                          MouseEnter="gridEditorContainer_MouseEnter"
+                          MouseLeave="gridEditorContainer_MouseLeave"
+                          KeyDown="gridEditorContainer_KeyDown">
+                        <Grid.Background>
+                            <ImageBrush ImageSource="/FeatureModelEditor;component/Images/grid.png" Stretch="None" TileMode="Tile" Viewport="0,0,24.0033497716744,24.0033497716744" ViewportUnits="Absolute" />
+                        </Grid.Background>
+                        <Grid.Style>
+                            <Style TargetType="{x:Type Grid}">
+                                <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+                            </Style>
+                        </Grid.Style>
+                        <Rectangle Width="135" Height="35" Stroke="Blue" Fill="CornflowerBlue" Opacity = "0.25" IsHitTestVisible="False"
+                            VerticalAlignment="Top" HorizontalAlignment="Left" Name="rectanglePlaceholder"/>
+                </Grid>
+            </Border>
+            </Grid>
+        </ScrollViewer>
+        <GridSplitter Grid.Row="2" Grid.Column="0" Width="1" Background="#73A3C4"/>
+        <GridSplitter Grid.Row="2" Grid.Column="1" Width="1" Background="#73A3C4" HorizontalAlignment="Left"/>
+        <Grid Grid.Row="2" Grid.Column="1" Name="gridContraintEditor">
+            <TextBlock Text="No contraint editor available." Foreground="Gray"
+                       VerticalAlignment="Center" HorizontalAlignment="Center" />
+        </Grid>
+        
+        <!-- help popup -->
+        <Popup x:Name="popup" PlacementTarget="{Binding ElementName = buttonHelp}"
+                       VerticalOffset="0" HorizontalOffset="5" Placement="Right" PopupAnimation="Scroll"
+                       AllowsTransparency="True" StaysOpen="False"
+                       IsOpen="{Binding ElementName=buttonHelp, Path=IsChecked, Mode=TwoWay}" >
+            <Border Background="Beige" BorderBrush="Blue" BorderThickness="1" Padding="35">
+                <StackPanel Orientation="Horizontal">
+                    <!-- legends -->
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Margin="3" Foreground="Blue" TextAlignment="Center" Text="Legend"/>
+                        <Grid HorizontalAlignment="Left">
+                            <Polygon Height="12" Width="12" Fill="CornflowerBlue" HorizontalAlignment="Left" Points="0,0 0,12 12,12 12,0 0,0" />
+                            <TextBlock Text="Concrete" Margin="15 0 0 0" FontSize="10" HorizontalAlignment="Left"/>
+                        </Grid>
+                        <Grid HorizontalAlignment="Left">
+                            <Polygon Height="12" Width="12" Fill="CadetBlue" HorizontalAlignment="Left" Points="0,0 0,12 12,12 12,0 0,0" />
+                            <TextBlock Text="Abstract" Margin="15 0 0 0" FontSize="10" HorizontalAlignment="Left"/>
+                        </Grid>
+                        <Grid HorizontalAlignment="Left">
+                            <Ellipse Height="12" Width="12" Fill="Black" Stroke="Black" HorizontalAlignment="Left"/>
+                            <TextBlock Text="Mandatory" Margin="15 0 0 0" FontSize="10" HorizontalAlignment="Left"/>
+                        </Grid>
+                        <Grid HorizontalAlignment="Left">
+                            <Ellipse Height="12" Width="12" Fill="White" Stroke="Black" HorizontalAlignment="Left"/>
+                            <TextBlock Text="Optional" Margin="15 0 0 0"  FontSize="10" HorizontalAlignment="Left"/>
+                        </Grid>
+                        <Grid HorizontalAlignment="Left">
+                            <Polygon Points="0,12 12,12 6,1 0,12" Stroke="Black" StrokeThickness="1" Fill="Black" />
+                            <TextBlock Text="Or" Margin="15 0 0 0"  FontSize="10" HorizontalAlignment="Left"/>
+                        </Grid>
+                        <Grid HorizontalAlignment="Left">
+                            <Polygon Points="0,12 12,12 6,1 0,12" Stroke="Black" StrokeThickness="1" Fill="White" />
+                            <TextBlock Text="Alternative" Margin="15 0 0 0"  FontSize="10" HorizontalAlignment="Left"/>
+                        </Grid>
+                    </StackPanel>
+                    <!-- shortcuts -->
+                    <StackPanel Orientation="Vertical" Margin="20 0 0 0">
+                        <TextBlock Margin="3" Foreground="Blue" TextAlignment="Center" Text="Shortcut"/>
+                        <Grid HorizontalAlignment="Left">
+                            <TextBlock Text="A" HorizontalAlignment="Left" Foreground="Blue" FontSize="11"/>
+                            <TextBlock Text=": adds feature to model" HorizontalAlignment="Left" FontSize="11" Margin="10 0 0 0"/>
+                        </Grid>
+                        <Grid HorizontalAlignment="Left">
+                            <TextBlock Text="C" HorizontalAlignment="Left" Foreground="Blue" FontSize="11"/>
+                            <TextBlock Text=": connects two features" HorizontalAlignment="Left" FontSize="11" Margin="10 0 0 0"/>
+                        </Grid>
+                        <Grid HorizontalAlignment="Left">
+                            <TextBlock Text="DEL" HorizontalAlignment="Left" Foreground="Blue" FontSize="11"/>
+                            <TextBlock Text=": removes feature from model" HorizontalAlignment="Left" FontSize="11" Margin="22 0 0 0"/>
+                        </Grid>
+                        <Grid HorizontalAlignment="Left">
+                            <TextBlock Text="ARROWS" HorizontalAlignment="Left" Foreground="Blue" FontSize="11"/>
+                            <TextBlock Text=": moves feature around" HorizontalAlignment="Left" FontSize="11" Margin="50 0 0 0"/>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Popup>
+        <!-- end help -->        
+        
+        <StatusBar Name="statusBar" Grid.Row="3" Background="#73A3C4" Foreground="White" Grid.ColumnSpan="2">
+            <StatusBar.Items>
+                <TextBlock Text="Ready" Foreground="White" Name="textBlockStatus" Margin="3 0 0 0"/>
+            </StatusBar.Items>            
+        </StatusBar>
+    </Grid>
+</UserControl>

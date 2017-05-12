@@ -1,0 +1,451 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Coc.Testing.Performance</name>
+    </assembly>
+    <members>
+        <member name="T:Coc.Testing.Performance.AbstractTestCases.Counter">
+            <summary>
+            Class that represents a generic Counter
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Counter.Name">
+            <summary>
+            Counter name.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Counter.Thresholds">
+            <summary>
+            Thresholds. Expected SLA value.
+            </summary>
+        </member>
+        <member name="T:Coc.Testing.Performance.AbstractTestCases.Host">
+            <summary>
+            Class that represents a generic Host
+            </summary>
+        </member>
+        <member name="T:Coc.Testing.Performance.AbstractTestCases.Host.HostType">
+            <summary>
+            HostType
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Host.Type">
+            <summary>
+            Host type.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Host.Name">
+            <summary>
+            Host name (or IP adress).
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Host.Monitoring">
+            <summary>
+            Monitoring.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Host.Counters">
+            <summary>
+            Counter list.
+            </summary>
+        </member>
+        <member name="T:Coc.Testing.Performance.AbstractTestCases.Metric">
+            <summary>
+            Class that represents a generic Metric
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Metric.Counters">
+            <summary>
+            Counter list.
+            </summary>
+        </member>
+        <member name="T:Coc.Testing.Performance.AbstractTestCases.Metric.OperationalSystem">
+            <summary>
+            Operational system enum list
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Metric.OS">
+            <summary>
+            Os.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Metric.Name">
+            <summary>
+            Metric name.
+            </summary>
+        </member>
+        <member name="T:Coc.Testing.Performance.AbstractTestCases.Parameter">
+            <summary>
+            Class that represents a generic Parameter
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Parameter.Name">
+            <summary>
+            Name.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Parameter.Value">
+            <summary>
+            Value.
+            </summary>
+        </member>
+        <member name="T:Coc.Testing.Performance.AbstractTestCases.Request">
+            <summary>
+            Class that represents a generic Request
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Request.Name">
+            <summary>
+            Indexes this Request. Names are unique - Request with the same name are the same Request.
+            </summary>
+        </member>
+        <member name="M:Coc.Testing.Performance.AbstractTestCases.Request.Equals(System.Object)">
+            <summary>
+            Returns true if this Request has the same name of given Request. 
+            Names act as unique identifier each for Request objects.
+            </summary>
+        </member>
+        <member name="M:Coc.Testing.Performance.AbstractTestCases.Request.GetHashCode">
+            <summary>
+            Overrides base method for prevent warnings.
+            </summary>
+        </member>
+        <member name="T:Coc.Testing.Performance.AbstractTestCases.Scenario">
+            <summary>
+            Class that represents a generic Scenario
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Scenario.Population">
+            <summary>
+            Number of users.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Scenario.ExecutionTime">
+            <summary>
+            Scenario execution time.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Scenario.ThinkTime">
+            <summary>
+            Global think time used in all transactions whitin the scenario.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Scenario.WarmUpTime">
+            <summary>
+            Scenario warmup time.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Scenario.TestCases">
+            <summary>
+            Test Cases list.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Scenario.RampUpTime">
+            <summary>
+            RampUp time. (as seconds)
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Scenario.RampUpUser">
+            <summary>
+            Ramp up number of users.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Scenario.RampDownTime">
+            <summary>
+            RampDown time. (as seconds)
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Scenario.RampDownUser">
+            <summary>
+            Ramp down number of users.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Scenario.AdditionalHosts">
+            <summary>
+            Adicional Host list.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Scenario.HostSUT">
+            <summary>
+            Host sut.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Scenario.Name">
+            <summary>
+            Host sut.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Subtransaction.Name">
+            <summary>
+            Name.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Subtransaction.Begin">
+            <summary>
+            Begin trans.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Subtransaction.End">
+            <summary>
+            End trans.
+            </summary>
+        </member>
+        <member name="T:Coc.Testing.Performance.AbstractTestCases.TestCase">
+            <summary>
+            Class that represents a generic TestCase
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.TestCase.Probability">
+            <summary>
+            Test Case Propability.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.TestCase.Name">
+            <summary>
+            Test case name;
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.TestCase.Requests">
+            <summary>
+            Request list.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.TestCase.Transactions">
+            <summary>
+            Transactions.
+            </summary>
+        </member>
+        <member name="T:Coc.Testing.Performance.AbstractTestCases.Transaction">
+            <summary>
+            Class that represents a generic Transaction
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Transaction.Name">
+            <summary>
+            Name.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Transaction.Begin">
+            <summary>
+            Begin trans.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Transaction.End">
+            <summary>
+            End trans.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.AbstractTestCases.Transaction.Subtransactions">
+            <summary>
+            Subtransactions.
+            </summary>
+        </member>
+        <member name="M:Coc.Testing.Performance.Importers.UmlToFsm.TransformToFsm(Coc.Modeling.Uml.UmlModel)">
+            <summary>
+            Converts given model to an array of FiniteStateMachine.
+            </summary>
+        </member>
+        <member name="M:Coc.Testing.Performance.Importers.UmlToFsm.ActivityDiagramToFsm(Coc.Modeling.Uml.UmlActivityDiagram,Coc.Modeling.Uml.UmlModel)">
+            <summary>
+            Converts an activity diagram to a finite state machine.
+            </summary>
+            <param name="diagram">Diagram to be converted</param>
+            <param name="model">Parent model of diagram, used to get sub-diagrams</param>
+            <returns>a FSM of diagram</returns>
+        </member>
+        <member name="M:Coc.Testing.Performance.Importers.UmlToFsm.GetTransitionsOfDiagram(Coc.Modeling.Uml.UmlModel,Coc.Modeling.Uml.UmlTransition@,Coc.Testing.Performance.Importers.UmlToFsm.hyperLinkType)">
+            <summary>
+            Get all transitions of the desired diagram adjusting the initial and final insertion points using <paramref name="t"/>
+            </summary>
+            <param name="model">The model where the diagram is</param>
+            <param name="t">the transation with hyperlink</param>
+            <param name="tp">the side where the hyperlink is (source or target)</param>
+            <returns>a list of the transitions</returns>
+        </member>
+        <member name="M:Coc.Testing.Performance.Importers.UmlToFsm.getInitial(Coc.Modeling.FiniteStateMachine.FiniteStateMachine)">
+            <summary>
+            Get initial state of FSM
+            </summary>
+            <param name="fsm"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Coc.Testing.Performance.Importers.UmlToFsm.RemoveDecisions(Coc.Modeling.Uml.UmlActivityDiagram@,System.Collections.Generic.List{Coc.Modeling.Uml.UmlTransition}@)">
+            <summary>
+            Remove decisions/merge nodes of diagram
+            </summary>
+            <param name="diagram">targeted diagram to remove decision/merge nodes from</param>
+            <param name="transitions">transitions to be searched and replaced</param>
+        </member>
+        <member name="M:Coc.Testing.Performance.Importers.UmlToFsm.RemoveForks(Coc.Modeling.Uml.UmlActivityDiagram@,System.Collections.Generic.List{Coc.Modeling.Uml.UmlTransition}@)">
+            <summary>
+            Remove forks and joins of diagram
+            </summary>
+            <param name="diagram">targeted diagram to remove fork/join nodes from</param>
+            <param name="transitions">transitions to be searched and replaced</param>
+        </member>
+        <member name="M:Coc.Testing.Performance.Importers.UmlToFsm.WipeOutOutermost(Coc.Modeling.Uml.UmlActivityDiagram,Coc.Modeling.FiniteStateMachine.FiniteStateMachine)">
+            <summary>
+            Wipe out of the given FSM the outermost states of it, i.e. UmlInitialState and UmlFinalState
+            </summary>
+            <param name="diagram">Uml diagram of the given FSM</param>
+            <param name="fsm">FSM to clean</param>
+            <returns>cleaned FSM</returns>
+        </member>
+        <member name="T:Coc.Testing.Performance.IntermediateStruct.Counter">
+            <summary>
+            Class that represents a generic Counter
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.IntermediateStruct.Counter.Name">
+            <summary>
+            Counter name.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.IntermediateStruct.Counter.Thresholds">
+            <summary>
+            Thresholds. Expected SLA value.
+            </summary>
+        </member>
+        <member name="T:Coc.Testing.Performance.IntermediateStruct.Host">
+            <summary>
+            Class that represents a generic Host
+            </summary>
+        </member>
+        <member name="T:Coc.Testing.Performance.IntermediateStruct.Host.HostType">
+            <summary>
+            HostType
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.IntermediateStruct.Host.Type">
+            <summary>
+            Host type.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.IntermediateStruct.Host.Name">
+            <summary>
+            Host name (or IP adress).
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.IntermediateStruct.Host.Monitoring">
+            <summary>
+            Monitoring.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.IntermediateStruct.Host.Counters">
+            <summary>
+            Counter list.
+            </summary>
+        </member>
+        <member name="T:Coc.Testing.Performance.IntermediateStruct.Metric">
+            <summary>
+            Class that represents a generic Metric
+            </summary>
+        </member>
+        <member name="T:Coc.Testing.Performance.IntermediateStruct.Metric.OperationalSystem">
+            <summary>
+            Operational system enum list
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.IntermediateStruct.Metric.OS">
+            <summary>
+            OS
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.IntermediateStruct.Metric.Counters">
+            <summary>
+            Counter list.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.IntermediateStruct.Metric.Name">
+            <summary>
+            Metric name.
+            </summary>
+        </member>
+        <member name="T:Coc.Testing.Performance.IntermediateStruct.Parameter">
+            <summary>
+            Models a parameter of a certain entity, which will generally be sent along with the request to the SUT.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.IntermediateStruct.Parameter.Name">
+            <summary>
+            Name.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.IntermediateStruct.Parameter.Value">
+            <summary>
+            Value.
+            </summary>
+        </member>
+        <member name="T:Coc.Testing.Performance.IntermediateStruct.Request">
+            <summary>
+            Models the entity that results from the parsing of an Action Node in an Activity Diagram.
+            </summary>
+        </member>
+        <member name="T:Coc.Testing.Performance.IntermediateStruct.Scenario">
+            <summary>
+            Models the entity that results from the parsing of an Actor.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.IntermediateStruct.Scenario.Population">
+            <summary>
+            Number of users.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.IntermediateStruct.Scenario.ExecutionTime">
+            <summary>
+            Execution Time (in seconds).
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.IntermediateStruct.Scenario.RampUpTime">
+            <summary>
+            Initialization time (in seconds).
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.IntermediateStruct.Scenario.RampUpUser">
+            <summary>
+            Number of users during Initialization time.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.IntermediateStruct.Scenario.RampDownTime">
+            <summary>
+            Finalization time (in seconds).
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.IntermediateStruct.Scenario.RampDownUser">
+            <summary>
+            Number of users in Finalization.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.IntermediateStruct.Scenario.AdditionalHosts">
+            <summary>
+            Additional Hosts list (for use with monitoring and external resources).
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.IntermediateStruct.Scenario.HostSUT">
+            <summary>
+            Host for the System Under Test (SUT).
+            </summary>
+        </member>
+        <member name="T:Coc.Testing.Performance.IntermediateStruct.TestCase">
+            <summary>
+            Models the entity that results from the parsing of an Use Case.
+            </summary>
+        </member>
+        <member name="P:Coc.Testing.Performance.IntermediateStruct.TestCase.Probability">
+            <summary>
+            Probability of occurrence of an Use Case.
+            </summary>
+        </member>
+        <member name="T:Coc.Testing.Performance.IntermediateStruct.TestSuit">
+            <summary>
+            Root of the Intermediate Structure for Performance Testing. The parsed UML diagram is used to construct this
+            structure, which is the resulting artifact of the parsing stage.
+            </summary>
+        </member>
+        <member name="T:Coc.Testing.Performance.IntermediateStruct.Transition">
+            <summary>
+            Models the entity that results from parsing a transition within an Activity Diagram.
+            </summary>
+        </member>
+    </members>
+</doc>

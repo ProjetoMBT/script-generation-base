@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1848C712-DEC5-4554-A3BC-3484827AA8F8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Coc.Testing.Functional</RootNamespace>
+    <AssemblyName>Coc.Testing.Functional</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Default|AnyCPU'">
+    <OutputPath>..\..\__output\plets\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Importers\FsmToUml.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Coc.Data.ControlStructure\Coc.Data.ControlStructure.csproj">
+      <Project>{FF241B72-D0B0-42A3-84E4-5B243E07F148}</Project>
+      <Name>Coc.Data.ControlStructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Coc.Data.CSV\Coc.Data.CSV.csproj">
+      <Project>{99B420FC-A18C-476D-A2C4-86A50C184279}</Project>
+      <Name>Coc.Data.CSV</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Coc.Data.Xmi\Coc.Data.Xmi.csproj">
+      <Project>{FC478C4A-96D8-4B28-8890-17FD4C367C8B}</Project>
+      <Name>Coc.Data.Xmi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Coc.Modeling.FiniteStateMachine.Hsi\Coc.Data.HSI.csproj">
+      <Project>{2B279868-95A8-4854-B505-62FEF2737ABB}</Project>
+      <Name>Coc.Data.HSI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Coc.Modeling.FiniteStateMachine\Coc.Modeling.FiniteStateMachine.csproj">
+      <Project>{1CC27328-CE37-4147-9C53-4A530B8B3E7F}</Project>
+      <Name>Coc.Modeling.FiniteStateMachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Coc.Modeling.Graph\Coc.Modeling.Graph.csproj">
+      <Project>{9DE5D444-FA7C-4C03-B70B-17B681F07B67}</Project>
+      <Name>Coc.Modeling.Graph</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Coc.Modeling.TestPlanStructure\Coc.Modeling.TestPlanStructure.csproj">
+      <Project>{877E0BDC-37F7-481D-AB9C-45752A494B49}</Project>
+      <Name>Coc.Modeling.TestPlanStructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Coc.Modeling.Uml\Coc.Modeling.Uml.csproj">
+      <Project>{AC0CEEEF-C2F2-45FA-904A-2E758A6B5A3A}</Project>
+      <Name>Coc.Modeling.Uml</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Coc.Testing.Performance\Coc.Testing.Performance.csproj">
+      <Project>{1D82C00C-F55F-41CC-83A7-63A18B017E85}</Project>
+      <Name>Coc.Testing.Performance</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

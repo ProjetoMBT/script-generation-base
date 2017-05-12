@@ -1,0 +1,16 @@
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\OgmaOATSParser\bin\Debug\OgmaOATSParser.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\OgmaOATSParser\bin\Debug\OgmaOATSParser.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\OgmaOATSParser\bin\Debug\Coc.Data.ControlStructure.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\OgmaOATSParser\bin\Debug\Coc.Data.ConversionUnit.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\OgmaOATSParser\bin\Debug\Coc.Data.Interfaces.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\OgmaOATSParser\bin\Debug\Coc.Modeling.Uml.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\OgmaOATSParser\bin\Debug\ControlAndConversionStructures.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\OgmaOATSParser\bin\Debug\Coc.Modeling.FiniteStateMachine.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\OgmaOATSParser\bin\Debug\Coc.Modeling.Graph.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\OgmaOATSParser\bin\Debug\Coc.Data.VFSM.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\OgmaOATSParser\bin\Debug\ControlAndConversionStructures.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\OgmaOATSParser\bin\Debug\Coc.Data.ConversionUnit.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\OgmaOATSParser\bin\Debug\Coc.Data.Interfaces.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\OgmaOATSParser\bin\Debug\Coc.Data.VFSM.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\OgmaOATSParser\obj\Debug\OgmaOATSParser.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\OgmaOATSParser\obj\Debug\OgmaOATSParser.pdb

@@ -1,5 +1,0 @@
-D:\Development\CePES\head\__output\Coc.Apps.PlugSpl\CSharpCodeGenerator.dll
-D:\Development\CePES\head\__output\Coc.Apps.PlugSpl\CSharpCodeGenerator.pdb
-D:\Development\CePES\head\__projects\CSharpCodeGenerator\obj\Debug\CSharpCodeGenerator.csprojResolveAssemblyReference.cache
-D:\Development\CePES\head\__projects\CSharpCodeGenerator\obj\Debug\CSharpCodeGenerator.dll
-D:\Development\CePES\head\__projects\CSharpCodeGenerator\obj\Debug\CSharpCodeGenerator.pdb

@@ -1,0 +1,5 @@
+D:\Development\CePES\head\__output\Coc.Apps.PlugSpl\FeatureModelEditor.PlugComponentDiagram.dll
+D:\Development\CePES\head\__output\Coc.Apps.PlugSpl\FeatureModelEditor.PlugComponentDiagram.pdb
+D:\Development\CePES\head\__projects\FeatureModelEditor.PlugComponentDiagram\obj\Debug\FeatureModelEditor.PlugComponentDiagram.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\FeatureModelEditor.PlugComponentDiagram\obj\Debug\FeatureModelEditor.PlugComponentDiagram.dll
+D:\Development\CePES\head\__projects\FeatureModelEditor.PlugComponentDiagram\obj\Debug\FeatureModelEditor.PlugComponentDiagram.pdb

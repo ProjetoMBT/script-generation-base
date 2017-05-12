@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Coc.Data.Xmi.Enterprise_ArchitectImporter2" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAIAAAAAAIEAAAAAAAEACAAAAAAAARAAEAAAAAAA=</HashCode>
+      <FileName>Enterprise ArchitectImporter2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Data.Xmi.LoadRunnerImporter" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAECAAACgAAAAQ=</HashCode>
+      <FileName>LoadRunnerImporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Data.Xmi.XmiExporter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAIIAAAAAA=</HashCode>
+      <FileName>XmiExporter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Coc.Data.Xmi.XmiImporter" Collapsed="true">
+    <Position X="5.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAMAAAAAAAAAAAIAAAAAAAAAAQAUEAAAQAAA=</HashCode>
+      <FileName>XmiImporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Data.Xmi.XmiToOATS">
+    <Position X="5.5" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABIFAAAiEIBiCAAhwAAAAAAIAAAEQAEAYABAAgCAAUA=</HashCode>
+      <FileName>XmiToOATS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Data.Xmi.XmlArgoUml">
+    <Position X="8" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAKAAAAAAAAAAAAAAAAAAAABAQAAEAAAAAAA=</HashCode>
+      <FileName>XmlArgoUml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Data.Xmi.Script.Configuration">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Coc.Data.Xmi.Script.Configuration.Fields" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Script\Configuration.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAAAQkAAEAAAAAAAAAAAAAAAAABAIAYAAAAABDAAAAA=</HashCode>
+      <FileName>Script\Configuration.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="instance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Coc.Data.Xmi.Script.GroupNode" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQQAAAAAAAAAIAAAACAAAAAAAAAAAAAAACAAAAEk=</HashCode>
+      <FileName>Script\GroupNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Data.Xmi.Script.ScriptParser">
+    <Position X="9.75" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Coc.Data.Xmi.Script.ScriptParser.Tupla" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Script\ScriptParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="Coc.Data.Xmi.Script.ScriptParser.TagNames" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Script\ScriptParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Coc.Data.Xmi.Script.ScriptParser.Components" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Script\ScriptParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IAEAQAAADCAIIQQAAAgAAAACAAIAEQEAQSAAIAEAIAA=</HashCode>
+      <FileName>Script\ScriptParser.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sequence" />
+      <Field Name="tabHelper" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Coc.Data.Xmi.Script.ScriptSequence" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAQAAAAEAAAA=</HashCode>
+      <FileName>Script\ScriptSequence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Data.Xmi.Script.TabHelper" Collapsed="true">
+    <Position X="13.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgYAAAwAAAAAAAAAAAYAAAAAAAA=</HashCode>
+      <FileName>Script\TabHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

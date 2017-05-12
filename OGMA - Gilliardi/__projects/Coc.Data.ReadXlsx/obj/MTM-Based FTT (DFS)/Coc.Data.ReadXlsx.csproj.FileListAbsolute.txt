@@ -1,6 +1,0 @@
-D:\Development\CePES\head\__output\plets\LeitorExcel.dll
-D:\Development\CePES\head\__output\plets\LeitorExcel.pdb
-D:\Development\CePES\head\__projects\Coc.Data.ReadXlsx\obj\MTM-Based FTT (DFS)\Interop.AccessibilityCplAdminLib.dll
-D:\Development\CePES\head\__projects\Coc.Data.ReadXlsx\obj\MTM-Based FTT (DFS)\Coc.Data.ReadXlsx.csproj.ResolveComReference.cache
-D:\Development\CePES\head\__projects\Coc.Data.ReadXlsx\obj\MTM-Based FTT (DFS)\LeitorExcel.dll
-D:\Development\CePES\head\__projects\Coc.Data.ReadXlsx\obj\MTM-Based FTT (DFS)\LeitorExcel.pdb

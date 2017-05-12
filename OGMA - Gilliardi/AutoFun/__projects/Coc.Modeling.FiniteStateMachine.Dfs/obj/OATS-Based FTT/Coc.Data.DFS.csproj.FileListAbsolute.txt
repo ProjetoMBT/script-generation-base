@@ -1,0 +1,18 @@
+D:\Development\CePES\head\__output\plets\Coc.Modeling.FiniteStateMachine.Dfs.XML
+D:\Development\CePES\head\__output\plets\Coc.Modeling.FiniteStateMachine.Dfs.dll
+D:\Development\CePES\head\__output\plets\Coc.Modeling.FiniteStateMachine.Dfs.pdb
+D:\Development\CePES\head\__projects\Coc.Modeling.FiniteStateMachine.Dfs\obj\OATS-Based FTT\Coc.Data.DFS.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\Coc.Modeling.FiniteStateMachine.Dfs\obj\OATS-Based FTT\Coc.Modeling.FiniteStateMachine.Dfs.dll
+D:\Development\CePES\head\__projects\Coc.Modeling.FiniteStateMachine.Dfs\obj\OATS-Based FTT\Coc.Modeling.FiniteStateMachine.Dfs.pdb
+F:\Development\CePES\head\__output\plets\Coc.Modeling.FiniteStateMachine.Dfs.XML
+F:\Development\CePES\head\__output\plets\Coc.Modeling.FiniteStateMachine.Dfs.dll
+F:\Development\CePES\head\__output\plets\Coc.Modeling.FiniteStateMachine.Dfs.pdb
+F:\Development\CePES\head\__projects\Coc.Modeling.FiniteStateMachine.Dfs\obj\OATS-Based FTT\Coc.Data.DFS.csprojResolveAssemblyReference.cache
+F:\Development\CePES\head\__projects\Coc.Modeling.FiniteStateMachine.Dfs\obj\OATS-Based FTT\Coc.Modeling.FiniteStateMachine.Dfs.dll
+F:\Development\CePES\head\__projects\Coc.Modeling.FiniteStateMachine.Dfs\obj\OATS-Based FTT\Coc.Modeling.FiniteStateMachine.Dfs.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Modeling.FiniteStateMachine.Dfs.XML
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Modeling.FiniteStateMachine.Dfs.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Modeling.FiniteStateMachine.Dfs.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.FiniteStateMachine.Dfs\obj\OATS-Based FTT\Coc.Data.DFS.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.FiniteStateMachine.Dfs\obj\OATS-Based FTT\Coc.Modeling.FiniteStateMachine.Dfs.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.FiniteStateMachine.Dfs\obj\OATS-Based FTT\Coc.Modeling.FiniteStateMachine.Dfs.pdb

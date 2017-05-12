@@ -1,0 +1,6 @@
+C:\Users\anderson\Downloads\head\head\__projects\Coc.Data.ReadXlsx\obj\Debug\Coc.Data.ReadXlsx.csprojResolveAssemblyReference.cache
+C:\Users\anderson\Downloads\head\head\__projects\Coc.Data.ReadXlsx\obj\Debug\Interop.AccessibilityCplAdminLib.dll
+C:\Users\anderson\Downloads\head\head\__projects\Coc.Data.ReadXlsx\obj\Debug\Coc.Data.ReadXlsx.csproj.ResolveComReference.cache
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.ReadXlsx\obj\Debug\Coc.Data.ReadXlsx.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.ReadXlsx\obj\Debug\Interop.AccessibilityCplAdminLib.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.ReadXlsx\obj\Debug\Coc.Data.ReadXlsx.csproj.ResolveComReference.cache

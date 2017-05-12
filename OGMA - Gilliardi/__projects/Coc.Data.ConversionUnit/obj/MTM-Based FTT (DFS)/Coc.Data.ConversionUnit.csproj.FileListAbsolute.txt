@@ -1,5 +1,0 @@
-D:\Development\CePES\head\__output\plets\Coc.Data.ConversionUnit.dll
-D:\Development\CePES\head\__output\plets\Coc.Data.ConversionUnit.pdb
-D:\Development\CePES\head\__projects\Coc.Data.ConversionUnit\obj\MTM-Based FTT (DFS)\Coc.Data.ConversionUnit.csprojResolveAssemblyReference.cache
-D:\Development\CePES\head\__projects\Coc.Data.ConversionUnit\obj\MTM-Based FTT (DFS)\Coc.Data.ConversionUnit.dll
-D:\Development\CePES\head\__projects\Coc.Data.ConversionUnit\obj\MTM-Based FTT (DFS)\Coc.Data.ConversionUnit.pdb

@@ -1,0 +1,5 @@
+D:\Development\CePES\head\__output\plets\Coc.Data.OATS.dll
+D:\Development\CePES\head\__output\plets\Coc.Data.OATS.pdb
+D:\Development\CePES\head\__projects\Coc.Data.OATS\obj\MTM-Based FTT (DFS)\Coc.Data.OATS.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\Coc.Data.OATS\obj\MTM-Based FTT (DFS)\Coc.Data.OATS.dll
+D:\Development\CePES\head\__projects\Coc.Data.OATS\obj\MTM-Based FTT (DFS)\Coc.Data.OATS.pdb

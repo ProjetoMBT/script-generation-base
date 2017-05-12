@@ -1,0 +1,15 @@
+﻿<Window x:Class="Coc.Apps.PleTs.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Options" Height="269" Width="365">
+    <Grid>
+        <Label Content="ThinkTime Default :" Height="28" HorizontalAlignment="Left" Margin="24,25,0,0" Name="ThinkTimeDefault" VerticalAlignment="Top" />
+        <Label Content="Astah Path :" Height="28" HorizontalAlignment="Left" Margin="24,72,0,0" Name="AstahPath" VerticalAlignment="Top" />
+        <Label Content="Java Path :" Height="28" HorizontalAlignment="Left" Margin="24,126,0,0" Name="JavaPath" VerticalAlignment="Top" />
+        <Slider Height="28" HorizontalAlignment="Left" Margin="142,25,0,0" Name="ThinkTime_slider" VerticalAlignment="Top" Width="162" Value="1" UseLayoutRounding="True" TickFrequency="1" Maximum="60"/>
+        <TextBox Height="26" HorizontalAlignment="Left" Margin="142,74,0,0" Name="AstahPath_textBox" VerticalAlignment="Top" Width="162" />
+        <TextBox Height="26" HorizontalAlignment="Left" Margin="142,128,0,0" Name="JavaPath_textBox" VerticalAlignment="Top" Width="162" />
+        <Button Content="Salvar" Height="34" HorizontalAlignment="Left" Margin="47,176,0,0" Name="button_Salvar" VerticalAlignment="Top" Width="109" />
+        <Button Content="Cancelar" Height="34" HorizontalAlignment="Left" Margin="175,176,0,0" Name="button_Cancelar" VerticalAlignment="Top" Width="110" />
+    </Grid>
+</Window>

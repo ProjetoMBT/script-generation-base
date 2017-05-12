@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Coc.Uml.UmlActionState" Collapsed="true">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UmlActionState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Uml.UmlActivityDiagram" Collapsed="true">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>UmlActivityDiagram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Uml.UmlAssociation" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UmlAssociation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Uml.UmlBase" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAEAAJAA=</HashCode>
+      <FileName>UmlBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Uml.UmlComments" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>UmlComments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Uml.UmlDiagram" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAEAAAAAACAQAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>UmlDiagram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Uml.UmlElement" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UmlElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Uml.UmlFinalState" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UmlFinalState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Uml.UmlInitialState" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UmlInitialState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Uml.UmlLane" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UmlLane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Uml.UmlModel" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASAAAAAAAAAAAAAAAAAAQAAAAAAAAAABAggABQAAA=</HashCode>
+      <FileName>UmlModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Uml.UmlStereotype" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACAAAAAAAAAAEAhAAAAAQAAAAAAMAAAABAAAAAAAA=</HashCode>
+      <FileName>UmlStereotype.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Uml.UmlTag" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgABAAAQAAAAAAIAAAAAgAAAAAAA=</HashCode>
+      <FileName>UmlTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Uml.UmlTransition" Collapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UmlTransition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Uml.UmlPseudoState" Collapsed="true">
+    <Position X="4.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UmlPseudoState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Uml.UmlDecision" Collapsed="true">
+    <Position X="4.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UmlDecision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Uml.UmlFork" Collapsed="true">
+    <Position X="6.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UmlFork.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coc.Uml.UmlJoin" Collapsed="true">
+    <Position X="8" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UmlJoin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

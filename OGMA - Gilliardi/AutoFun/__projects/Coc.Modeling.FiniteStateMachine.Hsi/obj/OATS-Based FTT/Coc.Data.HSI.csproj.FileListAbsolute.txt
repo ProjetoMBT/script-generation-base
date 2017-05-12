@@ -1,0 +1,18 @@
+D:\Development\CePES\head\__output\plets\Coc.Modeling.FiniteStateMachine.Hsi.XML
+D:\Development\CePES\head\__output\plets\Coc.Modeling.FiniteStateMachine.Hsi.dll
+D:\Development\CePES\head\__output\plets\Coc.Modeling.FiniteStateMachine.Hsi.pdb
+D:\Development\CePES\head\__projects\Coc.Modeling.FiniteStateMachine.Hsi\obj\OATS-Based FTT\Coc.Data.HSI.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\Coc.Modeling.FiniteStateMachine.Hsi\obj\OATS-Based FTT\Coc.Modeling.FiniteStateMachine.Hsi.dll
+D:\Development\CePES\head\__projects\Coc.Modeling.FiniteStateMachine.Hsi\obj\OATS-Based FTT\Coc.Modeling.FiniteStateMachine.Hsi.pdb
+F:\Development\CePES\head\__output\plets\Coc.Modeling.FiniteStateMachine.Hsi.XML
+F:\Development\CePES\head\__projects\Coc.Modeling.FiniteStateMachine.Hsi\obj\OATS-Based FTT\Coc.Data.HSI.csprojResolveAssemblyReference.cache
+F:\Development\CePES\head\__projects\Coc.Modeling.FiniteStateMachine.Hsi\obj\OATS-Based FTT\Coc.Modeling.FiniteStateMachine.Hsi.dll
+F:\Development\CePES\head\__projects\Coc.Modeling.FiniteStateMachine.Hsi\obj\OATS-Based FTT\Coc.Modeling.FiniteStateMachine.Hsi.pdb
+F:\Development\CePES\head\__output\plets\Coc.Modeling.FiniteStateMachine.Hsi.dll
+F:\Development\CePES\head\__output\plets\Coc.Modeling.FiniteStateMachine.Hsi.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Modeling.FiniteStateMachine.Hsi.XML
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Modeling.FiniteStateMachine.Hsi.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Modeling.FiniteStateMachine.Hsi.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.FiniteStateMachine.Hsi\obj\OATS-Based FTT\Coc.Data.HSI.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.FiniteStateMachine.Hsi\obj\OATS-Based FTT\Coc.Modeling.FiniteStateMachine.Hsi.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.FiniteStateMachine.Hsi\obj\OATS-Based FTT\Coc.Modeling.FiniteStateMachine.Hsi.pdb

@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{F29A8897-69F2-4BBD-85D5-C75751839762}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\..\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets">
+    <Files>
+      <File FileName="__projects\Coc.Data.ReadXlsx\ReadXLsx.cs" Line="15" Column="22" />
+      <File FileName="__projects\Coc.Apps.PLeTs.ControlUnit\ControlUnit.cs" Line="24" Column="26" />
+      <File FileName="..\..\..\..\..\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" Line="723" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>

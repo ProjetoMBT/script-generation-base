@@ -1,0 +1,5 @@
+D:\Development\CePES\head\__output\Coc.Apps.PlugSpl\ClassicProductConfigurator.SerializedBragiFormat.dll
+D:\Development\CePES\head\__output\Coc.Apps.PlugSpl\ClassicProductConfigurator.SerializedBragiFormat.pdb
+D:\Development\CePES\head\__projects\ClassicProductConfigurator.SerializedBragiFormat\obj\Debug\ClassicProductConfigurator.SerializedBragiFormat.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\ClassicProductConfigurator.SerializedBragiFormat\obj\Debug\ClassicProductConfigurator.SerializedBragiFormat.dll
+D:\Development\CePES\head\__projects\ClassicProductConfigurator.SerializedBragiFormat\obj\Debug\ClassicProductConfigurator.SerializedBragiFormat.pdb

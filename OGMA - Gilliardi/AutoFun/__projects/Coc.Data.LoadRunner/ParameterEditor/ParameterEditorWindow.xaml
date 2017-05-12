@@ -1,0 +1,176 @@
+﻿<Window x:Class="Coc.Data.LoadRunner.ParameterEditor.ParameterEditorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:my="clr-namespace:Coc.Data.LoadRunner.ParameterEditor"
+        Title="Script Parameterization" Height="600" Width="800" Icon="/Users/11202217/Desktop/LoadRunner Impoter/__projects/Coc.Data.LoadRunner/Images/ParameterEditor/Add-Files-To-Archive-Blue.ico" WindowStartupLocation="CenterScreen"
+        Loaded="Window_Loaded" Closing="Window_Closing" ResizeMode="CanMinimize">
+    <Window.Resources>
+        <ResourceDictionary>
+            <Style TargetType="my:ImageTreeViewItem">
+                <Style.Resources>
+                    <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="LightBlue"/>
+                    <SolidColorBrush x:Key="{x:Static SystemColors.HighlightTextBrushKey}" Color="Black"/>
+                </Style.Resources>
+            </Style>
+        </ResourceDictionary>
+    </Window.Resources>
+    <TabControl>
+        <TabItem Header="Parameters">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150" MinWidth="100" />
+                    <ColumnDefinition Width="*" MinWidth="200"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="23"/>
+                </Grid.RowDefinitions>
+        <TextBlock VerticalAlignment="Top" Text="Scenarios" TextAlignment="Center" Background="#9cf" Padding="3" Margin="1,0"/>
+                <ScrollViewer Grid.Column="0" Grid.Row="1" HorizontalScrollBarVisibility="Auto"
+                              VerticalScrollBarVisibility="Auto">
+                    <Grid>                        
+                        <TreeView BorderThickness="0" Name="treeViewScenarios" Margin="0,0,0,0"/>
+                    </Grid>
+                </ScrollViewer>        
+                <GridSplitter VerticalAlignment="Stretch" Width="1" Grid.Row="1" Margin="-1">
+                    <GridSplitter.Background>
+                        <LinearGradientBrush>
+                            <GradientStop Color="#fff" Offset="0"/>
+                            <GradientStop Color="#0af" Offset="0.5"/>
+                            <GradientStop Color="#fff" Offset="1"/>
+                        </LinearGradientBrush>
+                    </GridSplitter.Background>
+                </GridSplitter>
+                <GridSplitter Background="#0af" Height="30" Width="3" Grid.Row="1" Margin="-2" DragIncrement="1"/>
+                <Grid Grid.Row="1" Grid.Column="1">
+                    <TextBlock VerticalAlignment="Top" HorizontalAlignment="Left"  
+                               Padding="3" Margin="5,20" Text="File"/>
+                    <TextBox Foreground="Blue" BorderThickness="0" Height="23" Name="textBoxDataFileName" 
+                             Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Top" 
+                             Margin="35,22,33,0" IsReadOnly="True" />
+                    <Button VerticalAlignment="Top" HorizontalAlignment="Right" Height="23" Width="26" BorderThickness="0"
+                            BorderBrush="Transparent" Background="Transparent" Name="buttonLoadDataFile" Click="buttonLoadDataFile_Click" Margin="5,20,5,0">
+                        <Image Source="/Users/11202217/Desktop/LoadRunner Impoter/__projects/Coc.Data.LoadRunner/Images/ParameterEditor/Gnome-Folder-Saved-Search-32.png" />
+                    </Button>
+                    <GroupBox Margin="5,48,5,0" VerticalAlignment="Top">
+                        <GroupBox.Header>
+                            <TextBlock Text="Preview"/>
+                        </GroupBox.Header>
+                        <DataGrid Name="dataGridFileValues" ItemsSource="{Binding}" Height="200" IsReadOnly="True"
+                                    EnableColumnVirtualization="True" EnableRowVirtualization="True" />
+                    </GroupBox>
+                    <GroupBox Header="Select column by" Width="160" Margin="5,283,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">
+                        <Grid>
+                            <RadioButton Checked="RadioButton_Checked_3" Content="Name" IsChecked="True" Margin="5,5,0,27" HorizontalAlignment="Left" GroupName="columnSelection"/>
+                            <RadioButton Checked="RadioButton_Checked_4" Content="Index" Margin="60,5,0,27" HorizontalAlignment="Left" GroupName="columnSelection" />
+                            <ComboBox Margin="5,26,5,5" Name="comboBoxName" IsEnabled="False" SelectionChanged="comboBoxName_SelectionChanged"/>
+                            <ComboBox Margin="5,26,5,5" Name="comboBoxIndex" Visibility="Collapsed" />
+                        </Grid>                
+                    </GroupBox>
+                    <GroupBox Header="Next row" Margin="10,380,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">
+                        <Grid>
+                            <ComboBox Name="cbNextRow" SelectionChanged="cbNextRow_SelectionChanged">
+                                <ComboBoxItem Name="cbItemUnique" Content="Unique"/>
+                                <ComboBoxItem Name="cbItemRandom" Content="Random" IsSelected="True"/>
+                                <ComboBoxItem Name="cbItemSequential" Content="Sequential"/>
+                            </ComboBox>
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Header="Update value on" Margin="170,284,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">
+                        <Grid>
+                            <RadioButton Checked="radioButtonOnce_Click" Name="radioButtonOnce" Content="Once" Margin="5,5,5,5" HorizontalAlignment="Right" GroupName="valueUpdate" VerticalAlignment="Top" />
+                            <RadioButton Checked="radioButtonIteration_Click" Name="radioButtonIteration" Content="Iteration" Margin="5,5,55,5" HorizontalAlignment="Right" GroupName="valueUpdate" VerticalAlignment="Top"  IsChecked="True"/>
+                            <RadioButton Checked="radioButtonOcurrence_Click"  Name="radioButtonOcurrence" Content="Ocurrence" Margin="5,5,119,5" HorizontalAlignment="Right" GroupName="valueUpdate" VerticalAlignment="Top" />
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Header="When out of values" Margin="170,333,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                              Name="groupBoxWhenOutOfValues">
+                        <Grid>
+                            <RadioButton Checked="radioButtonAbout_Checked" Name="radioButtonAbout" Content="About" Margin="5,5,215,5" HorizontalAlignment="Right" GroupName="outOfValues" VerticalAlignment="Top" />
+                            <RadioButton Checked="radioButtonCyclic_Checked" Name="radioButtonCyclic" Content="Continue Cyclic" Margin="5,5,105,5" HorizontalAlignment="Right" GroupName="outOfValues" IsChecked="True" VerticalAlignment="Top" />
+                            <RadioButton Checked="radioButtonContinueLast_Checked" Name="radioButtonContinueLast" Content="Continue Last" Margin="5,5,5,0" HorizontalAlignment="Right" GroupName="outOfValues" VerticalAlignment="Top" />
+                        </Grid>
+                    </GroupBox>
+                    <Button Name="buttonExportAll" Click="buttonExportAll_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,10">
+                        <Grid>
+                            <Image HorizontalAlignment="Left" Width="20" Height="20" Source="/Users/11202217/Desktop/LoadRunner Impoter/__projects/Coc.Data.LoadRunner/Images/ParameterEditor/Gnome-Document-Save-As-32.png" />
+                            <TextBlock Text="Export Script" Margin="20,0,0,0" HorizontalAlignment="Left"/>
+                        </Grid>
+                    </Button>
+                </Grid> 
+                <StatusBar Grid.Row="2" Grid.ColumnSpan="2">
+                    <TextBlock>After you parameterize, click on export button.</TextBlock>
+                </StatusBar>               
+                <TextBlock VerticalAlignment="Top" Text="Properties" TextAlignment="Center" Background="#9cf" Padding="3" Margin="0,0,2,0" Grid.Column="1" />
+            </Grid>
+        </TabItem>
+        <TabItem Header="Save Parameters">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150" MinWidth="100" />
+                    <ColumnDefinition Width="*" MinWidth="200"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="23"/>
+                </Grid.RowDefinitions>
+                <ToolBar Grid.Column="0" Grid.ColumnSpan="2">
+                    <Button Name="buttonSaveChanges" Click="buttonSaveChanges_Click" Width="100">
+                        <Grid Width="100" >
+                            <Image HorizontalAlignment="Left" Width="20" Height="20" Source="/Users/11202217/Desktop/LoadRunner Impoter/__projects/Coc.Data.LoadRunner/Images/ParameterEditor/Gnome-Document-Save-32.png" />
+                            <TextBlock Text="Save Changes" HorizontalAlignment="Right"/>
+                        </Grid>
+                    </Button>                    
+                </ToolBar>
+                <ScrollViewer Grid.Column="0" Grid.Row="1" HorizontalScrollBarVisibility="Auto"
+                              VerticalScrollBarVisibility="Auto">
+                    <Grid>
+                        <TextBlock VerticalAlignment="Top" Text="Save Parameters" TextAlignment="Center" Background="#9cf" Padding="3" Margin="1,0"/>
+                        <TreeView BorderThickness="0" Name="treeViewSParameters" Margin="0,22,0,0"/>
+                    </Grid>
+                </ScrollViewer>
+                <GridSplitter VerticalAlignment="Stretch" Width="1" Grid.Row="1" Margin="-1">
+                    <GridSplitter.Background>
+                        <LinearGradientBrush>
+                            <GradientStop Color="#fff" Offset="0"/>
+                            <GradientStop Color="#0af" Offset="0.5"/>
+                            <GradientStop Color="#fff" Offset="1"/>
+                        </LinearGradientBrush>
+                    </GridSplitter.Background>
+                </GridSplitter>
+                <GridSplitter Background="#0af" Height="30" Width="3" Grid.Row="1" Margin="-2" />
+                <Grid Grid.Row="1" Grid.Column="1">                   
+                    <Button HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="80" Height="auto" Margin="11,170" Name="btnExportCor" Click="btnExportCor_Click">
+                        <Grid Width="90" IsHitTestVisible="False">
+                            <Image HorizontalAlignment="Left" VerticalAlignment="Center" Width="20" Height="20" Source="/Users/11202217/Desktop/LoadRunner Impoter/__projects/Coc.Data.LoadRunner/Images/arrow_down.png" IsHitTestVisible="False"/>
+                            <TextBlock Width="auto" Height="auto" Text="Export..." HorizontalAlignment="Left" VerticalAlignment="Center" Margin="23,0" IsHitTestVisible="False"/>
+                        </Grid>
+                    </Button>
+                    <TextBlock VerticalAlignment="Top" Text="Properties" TextAlignment="Center" 
+                               Background="#9cf" Padding="3" Margin="1,0"/>
+                    <TextBlock VerticalAlignment="Top" HorizontalAlignment="Left"  
+                               Padding="3" Margin="5,30" Text="File"/>                                       
+                    <GroupBox Margin="5,56,5,0" VerticalAlignment="Top">
+                        <GroupBox.Header>
+                            <TextBlock Text="Preview"/>
+                        </GroupBox.Header>
+                        <ScrollViewer Height="200">
+                            <Grid Background="LightGray" Name="previewInformationGrid">                            
+                            </Grid>
+                        </ScrollViewer>
+                    </GroupBox>
+                    <!--
+                    <Button HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="100" Height="auto" Margin="107,171" Name="btnExportAllCor" Click="btnExportAllCor_Click">
+                        <Grid IsHitTestVisible="False" Width="auto">
+                            <Image Height="20" HorizontalAlignment="Left" IsHitTestVisible="False" Source="/PerformanceTool;component/Images/arrow_down.png" VerticalAlignment="Center" Width="20" />
+                            <TextBlock Width="74" Height="auto" Text="Export All..." HorizontalAlignment="Left" VerticalAlignment="Center" Margin="23,0,0,0" IsHitTestVisible="False"/>
+                        </Grid>
+                    </Button>-->
+                </Grid>
+                <StatusBar Grid.Row="2" Grid.ColumnSpan="2" />
+            </Grid>
+        </TabItem>
+    </TabControl>
+</Window>

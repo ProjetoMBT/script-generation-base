@@ -1,5 +1,0 @@
-D:\Development\CePES\head\__output\plets\Coc.Testing.Performance.dll
-D:\Development\CePES\head\__output\plets\Coc.Testing.Performance.pdb
-D:\Development\CePES\head\__projects\Coc.Testing.Performance\obj\MTM-Based FTT (DFS)\Coc.Testing.Performance.csprojResolveAssemblyReference.cache
-D:\Development\CePES\head\__projects\Coc.Testing.Performance\obj\MTM-Based FTT (DFS)\Coc.Testing.Performance.dll
-D:\Development\CePES\head\__projects\Coc.Testing.Performance\obj\MTM-Based FTT (DFS)\Coc.Testing.Performance.pdb

@@ -1,7 +1,0 @@
-C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xmi\obj\Debug - Coc.Uml.Xmi\Coc.Data.Xmi.csprojResolveAssemblyReference.cache
-C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xmi\obj\Debug - Coc.Uml.Xmi\Coc.Data.Xmi.DatabankConfigForm.resources
-C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xmi\obj\Debug - Coc.Uml.Xmi\Coc.Data.Xmi.csproj.GenerateResource.Cache
-C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.Xmi.dll
-C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.Xmi.pdb
-C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xmi\obj\Debug - Coc.Uml.Xmi\Coc.Data.Xmi.dll
-C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xmi\obj\Debug - Coc.Uml.Xmi\Coc.Data.Xmi.pdb

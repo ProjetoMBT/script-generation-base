@@ -1,5 +1,0 @@
-D:\Development\CePES\head\__output\plets\Coc.Data.CSV.dll
-D:\Development\CePES\head\__output\plets\Coc.Data.CSV.pdb
-D:\Development\CePES\head\__projects\Coc.Data.CSV\obj\MTM-Based FTT (DFS)\Coc.Data.CSV.csprojResolveAssemblyReference.cache
-D:\Development\CePES\head\__projects\Coc.Data.CSV\obj\MTM-Based FTT (DFS)\Coc.Data.CSV.dll
-D:\Development\CePES\head\__projects\Coc.Data.CSV\obj\MTM-Based FTT (DFS)\Coc.Data.CSV.pdb

@@ -1,0 +1,18 @@
+D:\Development\CePES\head\__output\plets\Coc.Data.VFSM.XML
+D:\Development\CePES\head\__output\plets\Coc.Data.VFSM.dll
+D:\Development\CePES\head\__output\plets\Coc.Data.VFSM.pdb
+D:\Development\CePES\head\__projects\Coc.Data.VFSM\obj\OATS-Based FTT\Coc.Data.VFSMachine.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\Coc.Data.VFSM\obj\OATS-Based FTT\Coc.Data.VFSM.dll
+D:\Development\CePES\head\__projects\Coc.Data.VFSM\obj\OATS-Based FTT\Coc.Data.VFSM.pdb
+F:\Development\CePES\head\__output\plets\Coc.Data.VFSM.XML
+F:\Development\CePES\head\__output\plets\Coc.Data.VFSM.dll
+F:\Development\CePES\head\__output\plets\Coc.Data.VFSM.pdb
+F:\Development\CePES\head\__projects\Coc.Data.VFSM\obj\OATS-Based FTT\Coc.Data.VFSMachine.csprojResolveAssemblyReference.cache
+F:\Development\CePES\head\__projects\Coc.Data.VFSM\obj\OATS-Based FTT\Coc.Data.VFSM.dll
+F:\Development\CePES\head\__projects\Coc.Data.VFSM\obj\OATS-Based FTT\Coc.Data.VFSM.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.VFSM.XML
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.VFSM.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.VFSM.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.VFSM\obj\OATS-Based FTT\Coc.Data.VFSMachine.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.VFSM\obj\OATS-Based FTT\Coc.Data.VFSM.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.VFSM\obj\OATS-Based FTT\Coc.Data.VFSM.pdb

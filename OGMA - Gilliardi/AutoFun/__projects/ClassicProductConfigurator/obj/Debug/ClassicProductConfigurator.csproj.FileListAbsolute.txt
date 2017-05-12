@@ -1,0 +1,9 @@
+D:\Development\CePES\head\__output\Coc.Apps.PlugSpl\ClassicProductConfigurator.dll
+D:\Development\CePES\head\__output\Coc.Apps.PlugSpl\ClassicProductConfigurator.pdb
+D:\Development\CePES\head\__projects\ClassicProductConfigurator\obj\Debug\ClassicProductConfigurator.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\ClassicProductConfigurator\obj\Debug\ProductConfigurator.baml
+D:\Development\CePES\head\__projects\ClassicProductConfigurator\obj\Debug\ProductConfigurator.g.cs
+D:\Development\CePES\head\__projects\ClassicProductConfigurator\obj\Debug\ClassicProductConfigurator_MarkupCompile.cache
+D:\Development\CePES\head\__projects\ClassicProductConfigurator\obj\Debug\ClassicProductConfigurator.g.resources
+D:\Development\CePES\head\__projects\ClassicProductConfigurator\obj\Debug\ClassicProductConfigurator.dll
+D:\Development\CePES\head\__projects\ClassicProductConfigurator\obj\Debug\ClassicProductConfigurator.pdb

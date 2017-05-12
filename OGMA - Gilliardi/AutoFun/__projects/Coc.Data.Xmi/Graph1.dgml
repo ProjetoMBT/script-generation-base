@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(Namespace=Coc.Data.Modeling.FiniteStateMachine.Hsi.UTest)" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Data.Modeling.FiniteStateMachine.Hsi.UTest" />
+    <Node Id="(Namespace=Coc.Data.OATS)" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Data.OATS" />
+    <Node Id="(Namespace=Coc.Data.ReadLR)" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Data.ReadLR" />
+    <Node Id="(Namespace=Coc.Data.ReadXlsx)" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Data.ReadXlsx" />
+    <Node Id="(Namespace=Coc.Data.VFSMachine)" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Data.VFSMachine" />
+    <Node Id="(Namespace=Coc.Data.Wpartial)" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Data.Wpartial" />
+    <Node Id="(Namespace=Coc.Data.Xmi.AbstractValidator)" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Data.Xmi.AbstractValidator" />
+    <Node Id="(Namespace=Coc.Data.Xmi.FunctionalValidator)" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Data.Xmi.FunctionalValidator" />
+    <Node Id="(Namespace=Coc.Data.Xmi.FuntionalValidator.UTest)" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Data.Xmi.FuntionalValidator.UTest" />
+    <Node Id="(Namespace=Coc.Data.Xmi.PerformanceValidator)" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Data.Xmi.PerformanceValidator" />
+    <Node Id="(Namespace=Coc.Data.Xmi.Script)" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Data.Xmi.Script" />
+    <Node Id="(Namespace=Coc.Data.Xmi.UTest)" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Data.Xmi.UTest" />
+    <Node Id="(Namespace=Coc.Data.Xml.SequenceModelExport)" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Data.Xml.SequenceModelExport" />
+    <Node Id="(Namespace=Coc.Modeling.FiniteStateMachine)" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Modeling.FiniteStateMachine" />
+    <Node Id="(Namespace=Coc.Modeling.Graph.Properties)" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Modeling.Graph.Properties" />
+    <Node Id="(Namespace=Coc.Modeling.TestPlanStructure)" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Modeling.TestPlanStructure" />
+    <Node Id="(Namespace=Coc.Modeling.TestSuitStructure)" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Modeling.TestSuitStructure" />
+    <Node Id="(Namespace=Coc.Modeling.Uml)" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Modeling.Uml" />
+    <Node Id="(Namespace=Coc.Plets)" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Plets" />
+    <Node Id="(Namespace=Coc.Testing.Performance.AbstractTestCases)" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Testing.Performance.AbstractTestCases" />
+    <Node Id="(Namespace=Coc.Testing.Performance.Importers)" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Testing.Performance.Importers" />
+    <Node Id="(Namespace=Coc.Testing.Performance.IntermediateStruct)" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Testing.Performance.IntermediateStruct" />
+    <Node Id="(Namespace=ControlAndConversionStructures)" Category="CodeSchema_Namespace" IsDragSource="True" Label="ControlAndConversionStructures" />
+    <Node Id="(Namespace=HSI)" Category="CodeSchema_Namespace" IsDragSource="True" Label="HSI" />
+    <Node Id="(Namespace=OgmaJOATSParser)" Category="CodeSchema_Namespace" IsDragSource="True" Label="OgmaJOATSParser" />
+    <Node Id="(Namespace=OgmaOATSParser)" Category="CodeSchema_Namespace" IsDragSource="True" Label="OgmaOATSParser" />
+    <Node Id="(Namespace=OgmaTestApplication)" Category="CodeSchema_Namespace" IsDragSource="True" Label="OgmaTestApplication" />
+    <Node Id="(Namespace=ParameterizationOracle)" Category="CodeSchema_Namespace" IsDragSource="True" Label="ParameterizationOracle" />
+    <Node Id="(Namespace=ServicesWeb)" Category="CodeSchema_Namespace" IsDragSource="True" Label="ServicesWeb" />
+    <Node Id="(Namespace=TesteMachineFinite.Negocio)" Category="CodeSchema_Namespace" IsDragSource="True" Label="TesteMachineFinite.Negocio" />
+    <Node Id="@1" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Data.Xmi" />
+    <Node Id="@2" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Modeling" />
+    <Node Id="@3" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Modeling.Graph" />
+    <Node Id="@4" Category="CodeSchema_Namespace" IsDragSource="True" Label="Coc.Testing.Performance" />
+  </Nodes>
+  <Links>
+    <Link Source="@1" Target="(Namespace=Coc.Data.Xmi.AbstractValidator)" Category="Contains" />
+    <Link Source="@1" Target="(Namespace=Coc.Data.Xmi.FunctionalValidator)" Category="Contains" />
+    <Link Source="@1" Target="(Namespace=Coc.Data.Xmi.FuntionalValidator.UTest)" Category="Contains" />
+    <Link Source="@1" Target="(Namespace=Coc.Data.Xmi.PerformanceValidator)" Category="Contains" />
+    <Link Source="@1" Target="(Namespace=Coc.Data.Xmi.Script)" Category="Contains" />
+    <Link Source="@1" Target="(Namespace=Coc.Data.Xmi.UTest)" Category="Contains" />
+    <Link Source="@2" Target="(Namespace=Coc.Modeling.FiniteStateMachine)" Category="Contains" />
+    <Link Source="@2" Target="(Namespace=Coc.Modeling.TestPlanStructure)" Category="Contains" />
+    <Link Source="@2" Target="(Namespace=Coc.Modeling.TestSuitStructure)" Category="Contains" />
+    <Link Source="@2" Target="(Namespace=Coc.Modeling.Uml)" Category="Contains" />
+    <Link Source="@2" Target="@3" Category="Contains" />
+    <Link Source="@3" Target="(Namespace=Coc.Modeling.Graph.Properties)" Category="Contains" />
+    <Link Source="@4" Target="(Namespace=Coc.Testing.Performance.AbstractTestCases)" Category="Contains" />
+    <Link Source="@4" Target="(Namespace=Coc.Testing.Performance.Importers)" Category="Contains" />
+    <Link Source="@4" Target="(Namespace=Coc.Testing.Performance.IntermediateStruct)" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Block" Label="Block" BasedOn="CodeSchema_Statement" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Blocks" />
+    <Category Id="CodeSchema_Namespace" Label="Namespace" BasedOn="CodeSchema_Block" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" IsProviderRoot="False" NavigationActionLabel="Namespaces" />
+    <Category Id="CodeSchema_Statement" Label="Statement" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Statement" />
+    <Category Id="Contains" Label="Contains" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+  </Categories>
+  <Properties>
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsDragSource" Label="IsDragSource" Description="IsDragSource" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+  </QualifiedNames>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Namespace" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FFC0C0C0" />
+      <Setter Property="Icon" Value="pack://application:,,,/Microsoft.VisualStudio.Progression.VSPackage;component/Icons/Namespace.png" />
+    </Style>
+  </Styles>
+  <IdentifierAliases>
+    <Alias n="1" Id="(Namespace=Coc.Data.Xmi)" />
+    <Alias n="2" Id="(Namespace=Coc.Modeling)" />
+    <Alias n="3" Id="(Namespace=Coc.Modeling.Graph)" />
+    <Alias n="4" Id="(Namespace=Coc.Testing.Performance)" />
+  </IdentifierAliases>
+</DirectedGraph>

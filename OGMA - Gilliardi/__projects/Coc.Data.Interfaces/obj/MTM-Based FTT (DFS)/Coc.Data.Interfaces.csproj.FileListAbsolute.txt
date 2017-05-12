@@ -1,5 +1,0 @@
-D:\Development\CePES\head\__output\plets\Coc.Data.Interfaces.dll
-D:\Development\CePES\head\__output\plets\Coc.Data.Interfaces.pdb
-D:\Development\CePES\head\__projects\Coc.Data.Interfaces\obj\MTM-Based FTT (DFS)\Coc.Data.Interfaces.csprojResolveAssemblyReference.cache
-D:\Development\CePES\head\__projects\Coc.Data.Interfaces\obj\MTM-Based FTT (DFS)\Coc.Data.Interfaces.dll
-D:\Development\CePES\head\__projects\Coc.Data.Interfaces\obj\MTM-Based FTT (DFS)\Coc.Data.Interfaces.pdb

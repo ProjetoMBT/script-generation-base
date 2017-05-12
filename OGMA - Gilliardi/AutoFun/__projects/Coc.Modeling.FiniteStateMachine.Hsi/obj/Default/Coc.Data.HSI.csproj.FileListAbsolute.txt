@@ -1,0 +1,5 @@
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.FiniteStateMachine.Hsi\obj\Default\Coc.Data.HSI.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Modeling.FiniteStateMachine.Hsi.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Modeling.FiniteStateMachine.Hsi.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.FiniteStateMachine.Hsi\obj\Default\Coc.Modeling.FiniteStateMachine.Hsi.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.FiniteStateMachine.Hsi\obj\Default\Coc.Modeling.FiniteStateMachine.Hsi.pdb

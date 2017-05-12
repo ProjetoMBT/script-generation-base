@@ -1,5 +1,0 @@
-D:\Development\CePES\head\__output\plets\Coc.Modeling.FiniteStateMachine.Hsi.dll
-D:\Development\CePES\head\__output\plets\Coc.Modeling.FiniteStateMachine.Hsi.pdb
-D:\Development\CePES\head\__projects\Coc.Modeling.FiniteStateMachine.Hsi\obj\MTM-Based FTT (DFS)\Coc.Data.HSI.csprojResolveAssemblyReference.cache
-D:\Development\CePES\head\__projects\Coc.Modeling.FiniteStateMachine.Hsi\obj\MTM-Based FTT (DFS)\Coc.Modeling.FiniteStateMachine.Hsi.dll
-D:\Development\CePES\head\__projects\Coc.Modeling.FiniteStateMachine.Hsi\obj\MTM-Based FTT (DFS)\Coc.Modeling.FiniteStateMachine.Hsi.pdb

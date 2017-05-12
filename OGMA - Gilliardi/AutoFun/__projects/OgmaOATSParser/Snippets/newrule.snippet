@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+    xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Lexical Rule Template</Title>
+			<Author>Marcelo Schmitt Laser</Author>
+			<Description>Template for adding new syntax rules to the Lexical Analyser.</Description>
+			<Shortcut>newrule</Shortcut>
+        </Header>
+        <Snippet>
+			<Declarations>
+				<Literal>
+					<ID>RULE_NAME</ID>
+					<ToolTip>Name of the rule function being specified</ToolTip>
+					<Default>RULE_NAME</Default>
+				</Literal>
+				<Literal>
+					<ID>Rule_Name</ID>
+					<ToolTip>Class of the rule being specified</ToolTip>
+					<Default>Classes.Epsilon</Default>
+				</Literal>
+			</Declarations>
+            <Code Language="CSharp">
+                <![CDATA[private ClassNode $RULE_NAME$(string input)
+        {
+            ClassNode toReturn = new ClassNode($Rule_Name$);
+            InputQueue backupInput = (InputQueue)inputQueue.Clone();
+
+            try
+            {
+                //RuleChecks
+            }
+            catch (FormatException)
+            {
+                inputQueue = backupInput;
+                throw new FormatException("Input " + input + " and following terms are not of $RULE_NAME$ type");
+            }
+
+            return toReturn;
+        }]]>
+            </Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

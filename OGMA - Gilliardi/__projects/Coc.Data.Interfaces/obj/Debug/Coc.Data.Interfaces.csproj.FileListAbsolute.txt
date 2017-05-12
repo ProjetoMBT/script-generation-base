@@ -1,5 +1,0 @@
-C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.Interfaces.dll
-C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.Interfaces.pdb
-C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Interfaces\obj\Debug\Coc.Data.Interfaces.csprojResolveAssemblyReference.cache
-C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Interfaces\obj\Debug\Coc.Data.Interfaces.dll
-C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Interfaces\obj\Debug\Coc.Data.Interfaces.pdb

@@ -1,5 +1,0 @@
-D:\Development\CePES\head\__output\plets\Coc.Data.Excel.dll
-D:\Development\CePES\head\__output\plets\Coc.Data.Excel.pdb
-D:\Development\CePES\head\__projects\Coc.Data.Excel\obj\MTM-Based FTT (DFS)\Coc.Data.Excel.csprojResolveAssemblyReference.cache
-D:\Development\CePES\head\__projects\Coc.Data.Excel\obj\MTM-Based FTT (DFS)\Coc.Data.Excel.dll
-D:\Development\CePES\head\__projects\Coc.Data.Excel\obj\MTM-Based FTT (DFS)\Coc.Data.Excel.pdb

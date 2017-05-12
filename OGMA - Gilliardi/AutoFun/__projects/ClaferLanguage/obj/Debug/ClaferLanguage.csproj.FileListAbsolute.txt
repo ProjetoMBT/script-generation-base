@@ -1,0 +1,5 @@
+D:\Development\CePES\head\__output\Coc.Apps.PlugSpl\ClaferLanguage.dll
+D:\Development\CePES\head\__output\Coc.Apps.PlugSpl\ClaferLanguage.pdb
+D:\Development\CePES\head\__projects\ClaferLanguage\obj\Debug\ClaferLanguage.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\ClaferLanguage\obj\Debug\ClaferLanguage.dll
+D:\Development\CePES\head\__projects\ClaferLanguage\obj\Debug\ClaferLanguage.pdb

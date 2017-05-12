@@ -1,5 +1,0 @@
-D:\Development\CePES\head\__output\plets\Coc.Data.Xmi.FunctionalValidator.dll
-D:\Development\CePES\head\__output\plets\Coc.Data.Xmi.FunctionalValidator.pdb
-D:\Development\CePES\head\__projects\Coc.Data.Xmi.FunctionalValidator\obj\MTM-Based FTT (DFS)\Coc.Data.Xmi.FunctionalValidator.csprojResolveAssemblyReference.cache
-D:\Development\CePES\head\__projects\Coc.Data.Xmi.FunctionalValidator\obj\MTM-Based FTT (DFS)\Coc.Data.Xmi.FunctionalValidator.dll
-D:\Development\CePES\head\__projects\Coc.Data.Xmi.FunctionalValidator\obj\MTM-Based FTT (DFS)\Coc.Data.Xmi.FunctionalValidator.pdb

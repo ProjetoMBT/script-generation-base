@@ -1,0 +1,8 @@
+C:\Users\anderson\Downloads\head\head\__output\plets\Coc.Modeling.TestSuitStructure.dll
+C:\Users\anderson\Downloads\head\head\__output\plets\Coc.Modeling.TestSuitStructure.pdb
+C:\Users\anderson\Downloads\head\head\__projects\Coc.Modeling.TestSuitStructure\obj\Debug\Coc.Modeling.TestSuitStructure.dll
+C:\Users\anderson\Downloads\head\head\__projects\Coc.Modeling.TestSuitStructure\obj\Debug\Coc.Modeling.TestSuitStructure.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Modeling.TestSuitStructure.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Modeling.TestSuitStructure.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.TestSuitStructure\obj\Debug\Coc.Modeling.TestSuitStructure.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.TestSuitStructure\obj\Debug\Coc.Modeling.TestSuitStructure.pdb

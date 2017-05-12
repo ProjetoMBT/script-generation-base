@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
-    <system systemId="http://10.32.135.70:10458/Teste/ttt?wsdl" uri="xml-resources/web-service-references/ttt/wsdl/10.32.135.70_10458/Teste/ttt.wsdl"/>
-    <system systemId="http://10.32.135.70:10458/Teste/ttt?xsd=1" uri="xml-resources/web-service-references/ttt/wsdl/10.32.135.70_10458/Teste/ttt.xsd_1.xsd"/>
-</catalog>

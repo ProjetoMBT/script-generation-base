@@ -1,5 +1,0 @@
-D:\Development\CePES\head\__output\plets\ControlAndConversionStructures.dll
-D:\Development\CePES\head\__output\plets\ControlAndConversionStructures.pdb
-D:\Development\CePES\head\__projects\Coc.Data.ControlAndConversionStructures\obj\MTM-Based FTT (DFS)\Coc.Data.ControlAndConversionStructures.csprojResolveAssemblyReference.cache
-D:\Development\CePES\head\__projects\Coc.Data.ControlAndConversionStructures\obj\MTM-Based FTT (DFS)\ControlAndConversionStructures.dll
-D:\Development\CePES\head\__projects\Coc.Data.ControlAndConversionStructures\obj\MTM-Based FTT (DFS)\ControlAndConversionStructures.pdb

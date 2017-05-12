@@ -1,5 +1,0 @@
-C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.Xmi.FunctionalValidator.dll
-C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.Xmi.FunctionalValidator.pdb
-C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xmi.FunctionalValidator\obj\Default\Coc.Data.Xmi.FunctionalValidator.csprojResolveAssemblyReference.cache
-C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xmi.FunctionalValidator\obj\Default\Coc.Data.Xmi.FunctionalValidator.dll
-C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xmi.FunctionalValidator\obj\Default\Coc.Data.Xmi.FunctionalValidator.pdb

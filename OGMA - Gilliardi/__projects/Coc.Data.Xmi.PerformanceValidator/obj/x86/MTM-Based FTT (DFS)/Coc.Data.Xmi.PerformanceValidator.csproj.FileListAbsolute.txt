@@ -1,5 +1,0 @@
-D:\Development\CePES\head\__output\plets\Coc.Data.Xmi.PerformanceValidator.dll
-D:\Development\CePES\head\__output\plets\Coc.Data.Xmi.PerformanceValidator.pdb
-D:\Development\CePES\head\__projects\Coc.Data.Xmi.PerformanceValidator\obj\x86\MTM-Based FTT (DFS)\Coc.Data.Xmi.PerformanceValidator.csprojResolveAssemblyReference.cache
-D:\Development\CePES\head\__projects\Coc.Data.Xmi.PerformanceValidator\obj\x86\MTM-Based FTT (DFS)\Coc.Data.Xmi.PerformanceValidator.dll
-D:\Development\CePES\head\__projects\Coc.Data.Xmi.PerformanceValidator\obj\x86\MTM-Based FTT (DFS)\Coc.Data.Xmi.PerformanceValidator.pdb

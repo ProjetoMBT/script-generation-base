@@ -1,0 +1,5 @@
+D:\Development\CePES\head\__output\plets\Coc.Data.ReadLR.dll
+D:\Development\CePES\head\__output\plets\Coc.Data.ReadLR.pdb
+D:\Development\CePES\head\__projects\Coc.Data.ReadLR\obj\MTM-Based FTT (DFS)\Coc.Data.ReadLR.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\Coc.Data.ReadLR\obj\MTM-Based FTT (DFS)\Coc.Data.ReadLR.dll
+D:\Development\CePES\head\__projects\Coc.Data.ReadLR\obj\MTM-Based FTT (DFS)\Coc.Data.ReadLR.pdb

@@ -1,0 +1,18 @@
+D:\Development\CePES\head\__output\plets\Coc.Modeling.Uml.XML
+D:\Development\CePES\head\__output\plets\Coc.Modeling.Uml.dll
+D:\Development\CePES\head\__output\plets\Coc.Modeling.Uml.pdb
+D:\Development\CePES\head\__projects\Coc.Modeling.Uml\obj\OATS-Based FTT\Coc.Modeling.Uml.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\Coc.Modeling.Uml\obj\OATS-Based FTT\Coc.Modeling.Uml.dll
+D:\Development\CePES\head\__projects\Coc.Modeling.Uml\obj\OATS-Based FTT\Coc.Modeling.Uml.pdb
+F:\Development\CePES\head\__output\plets\Coc.Modeling.Uml.XML
+F:\Development\CePES\head\__output\plets\Coc.Modeling.Uml.dll
+F:\Development\CePES\head\__output\plets\Coc.Modeling.Uml.pdb
+F:\Development\CePES\head\__projects\Coc.Modeling.Uml\obj\OATS-Based FTT\Coc.Modeling.Uml.csprojResolveAssemblyReference.cache
+F:\Development\CePES\head\__projects\Coc.Modeling.Uml\obj\OATS-Based FTT\Coc.Modeling.Uml.dll
+F:\Development\CePES\head\__projects\Coc.Modeling.Uml\obj\OATS-Based FTT\Coc.Modeling.Uml.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Modeling.Uml.XML
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Modeling.Uml.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Modeling.Uml.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.Uml\obj\OATS-Based FTT\Coc.Modeling.Uml.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.Uml\obj\OATS-Based FTT\Coc.Modeling.Uml.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.Uml\obj\OATS-Based FTT\Coc.Modeling.Uml.pdb

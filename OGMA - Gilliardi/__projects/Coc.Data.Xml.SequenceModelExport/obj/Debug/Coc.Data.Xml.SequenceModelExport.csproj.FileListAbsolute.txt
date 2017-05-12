@@ -1,5 +1,0 @@
-C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.Xml.SequenceModelExport.dll
-C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.Xml.SequenceModelExport.pdb
-C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xml.SequenceModelExport\obj\Debug\Coc.Data.Xml.SequenceModelExport.csprojResolveAssemblyReference.cache
-C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xml.SequenceModelExport\obj\Debug\Coc.Data.Xml.SequenceModelExport.dll
-C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xml.SequenceModelExport\obj\Debug\Coc.Data.Xml.SequenceModelExport.pdb

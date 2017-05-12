@@ -1,9 +1,0 @@
-D:\Development\CePES\head\__output\Coc.Apps.PlugSpl\FeatureModelEditor.ConstraintEditor.dll
-D:\Development\CePES\head\__output\Coc.Apps.PlugSpl\FeatureModelEditor.ConstraintEditor.pdb
-D:\Development\CePES\head\__projects\FeatureModelEditor.ConstraintEditor\obj\Debug\FeatureModelEditor.ConstraintEditor.csprojResolveAssemblyReference.cache
-D:\Development\CePES\head\__projects\FeatureModelEditor.ConstraintEditor\obj\Debug\ConstraintEditorControl.baml
-D:\Development\CePES\head\__projects\FeatureModelEditor.ConstraintEditor\obj\Debug\ConstraintEditorControl.g.cs
-D:\Development\CePES\head\__projects\FeatureModelEditor.ConstraintEditor\obj\Debug\FeatureModelEditor.ConstraintEditor_MarkupCompile.cache
-D:\Development\CePES\head\__projects\FeatureModelEditor.ConstraintEditor\obj\Debug\FeatureModelEditor.ConstraintEditor.g.resources
-D:\Development\CePES\head\__projects\FeatureModelEditor.ConstraintEditor\obj\Debug\FeatureModelEditor.ConstraintEditor.dll
-D:\Development\CePES\head\__projects\FeatureModelEditor.ConstraintEditor\obj\Debug\FeatureModelEditor.ConstraintEditor.pdb

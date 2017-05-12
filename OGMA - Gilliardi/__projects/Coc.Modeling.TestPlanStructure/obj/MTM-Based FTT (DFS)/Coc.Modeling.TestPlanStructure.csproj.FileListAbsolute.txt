@@ -1,5 +1,0 @@
-D:\Development\CePES\head\__output\plets\Coc.Modeling.TestPlanStructure.dll
-D:\Development\CePES\head\__output\plets\Coc.Modeling.TestPlanStructure.pdb
-D:\Development\CePES\head\__projects\Coc.Modeling.TestPlanStructure\obj\MTM-Based FTT (DFS)\Coc.Modeling.TestPlanStructure.csprojResolveAssemblyReference.cache
-D:\Development\CePES\head\__projects\Coc.Modeling.TestPlanStructure\obj\MTM-Based FTT (DFS)\Coc.Modeling.TestPlanStructure.dll
-D:\Development\CePES\head\__projects\Coc.Modeling.TestPlanStructure\obj\MTM-Based FTT (DFS)\Coc.Modeling.TestPlanStructure.pdb

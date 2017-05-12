@@ -1,4 +1,0 @@
-D:\Development\CePES\head\__output\plets\Coc.Data.ControlStructure.dll
-D:\Development\CePES\head\__output\plets\Coc.Data.ControlStructure.pdb
-D:\Development\CePES\head\__projects\Coc.Data.ControlStructure\obj\MTM-Based FTT (DFS)\Coc.Data.ControlStructure.dll
-D:\Development\CePES\head\__projects\Coc.Data.ControlStructure\obj\MTM-Based FTT (DFS)\Coc.Data.ControlStructure.pdb

@@ -1,0 +1,18 @@
+D:\Development\CePES\head\__output\plets\Coc.Data.AbstractParser.XML
+D:\Development\CePES\head\__output\plets\Coc.Data.AbstractParser.dll
+D:\Development\CePES\head\__output\plets\Coc.Data.AbstractParser.pdb
+D:\Development\CePES\head\__projects\Coc.Data.AbstractParser\obj\OATS-Based FTT\Coc.Data.AbstractParser.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\Coc.Data.AbstractParser\obj\OATS-Based FTT\Coc.Data.AbstractParser.dll
+D:\Development\CePES\head\__projects\Coc.Data.AbstractParser\obj\OATS-Based FTT\Coc.Data.AbstractParser.pdb
+F:\Development\CePES\head\__output\plets\Coc.Data.AbstractParser.XML
+F:\Development\CePES\head\__output\plets\Coc.Data.AbstractParser.dll
+F:\Development\CePES\head\__output\plets\Coc.Data.AbstractParser.pdb
+F:\Development\CePES\head\__projects\Coc.Data.AbstractParser\obj\OATS-Based FTT\Coc.Data.AbstractParser.csprojResolveAssemblyReference.cache
+F:\Development\CePES\head\__projects\Coc.Data.AbstractParser\obj\OATS-Based FTT\Coc.Data.AbstractParser.dll
+F:\Development\CePES\head\__projects\Coc.Data.AbstractParser\obj\OATS-Based FTT\Coc.Data.AbstractParser.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.AbstractParser.XML
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.AbstractParser.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.AbstractParser.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.AbstractParser\obj\OATS-Based FTT\Coc.Data.AbstractParser.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.AbstractParser\obj\OATS-Based FTT\Coc.Data.AbstractParser.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.AbstractParser\obj\OATS-Based FTT\Coc.Data.AbstractParser.pdb

@@ -1,0 +1,16 @@
+D:\Development\CePES\head\__output\Coc.Apps.PlugSpl\FeatureModelEditor.dll
+D:\Development\CePES\head\__output\Coc.Apps.PlugSpl\FeatureModelEditor.pdb
+D:\Development\CePES\head\__projects\FeatureModelEditor\obj\x86\Debug\FeatureModelEditor.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\FeatureModelEditor\obj\x86\Debug\Feature.baml
+D:\Development\CePES\head\__projects\FeatureModelEditor\obj\x86\Debug\Legend.baml
+D:\Development\CePES\head\__projects\FeatureModelEditor\obj\x86\Debug\Feature.g.cs
+D:\Development\CePES\head\__projects\FeatureModelEditor\obj\x86\Debug\FeatureModel.g.cs
+D:\Development\CePES\head\__projects\FeatureModelEditor\obj\x86\Debug\Legend.g.cs
+D:\Development\CePES\head\__projects\FeatureModelEditor\obj\x86\Debug\FeatureModelEditor_MarkupCompile.cache
+D:\Development\CePES\head\__projects\FeatureModelEditor\obj\x86\Debug\FeatureModelEditor_MarkupCompile.lref
+D:\Development\CePES\head\__projects\FeatureModelEditor\obj\x86\Debug\FeatureModel.baml
+D:\Development\CePES\head\__projects\FeatureModelEditor\obj\x86\Debug\FeatureModelEditor.g.resources
+D:\Development\CePES\head\__projects\FeatureModelEditor\obj\x86\Debug\FeatureModelEditor.Properties.Resources.resources
+D:\Development\CePES\head\__projects\FeatureModelEditor\obj\x86\Debug\FeatureModelEditor.csproj.GenerateResource.Cache
+D:\Development\CePES\head\__projects\FeatureModelEditor\obj\x86\Debug\FeatureModelEditor.dll
+D:\Development\CePES\head\__projects\FeatureModelEditor\obj\x86\Debug\FeatureModelEditor.pdb

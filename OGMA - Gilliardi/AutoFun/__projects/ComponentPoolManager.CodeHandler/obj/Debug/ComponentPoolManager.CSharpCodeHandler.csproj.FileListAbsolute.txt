@@ -1,0 +1,5 @@
+D:\Development\CePES\head\__output\Coc.Apps.PlugSpl\ComponentPoolManager.CSCodeHandler.dll
+D:\Development\CePES\head\__output\Coc.Apps.PlugSpl\ComponentPoolManager.CSCodeHandler.pdb
+D:\Development\CePES\head\__projects\ComponentPoolManager.CodeHandler\obj\Debug\ComponentPoolManager.CSharpCodeHandler.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\ComponentPoolManager.CodeHandler\obj\Debug\ComponentPoolManager.CSCodeHandler.dll
+D:\Development\CePES\head\__projects\ComponentPoolManager.CodeHandler\obj\Debug\ComponentPoolManager.CSCodeHandler.pdb

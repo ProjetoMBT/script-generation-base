@@ -1,0 +1,16 @@
+C:\Users\anderson\Downloads\head\head\__projects\ParameterizationOracle\bin\Debug\ParameterizationOracle.dll
+C:\Users\anderson\Downloads\head\head\__projects\ParameterizationOracle\bin\Debug\ParameterizationOracle.pdb
+C:\Users\anderson\Downloads\head\head\__projects\ParameterizationOracle\bin\Debug\mscorlib.dll
+C:\Users\anderson\Downloads\head\head\__projects\ParameterizationOracle\bin\Debug\normidna.nlp
+C:\Users\anderson\Downloads\head\head\__projects\ParameterizationOracle\bin\Debug\normnfc.nlp
+C:\Users\anderson\Downloads\head\head\__projects\ParameterizationOracle\bin\Debug\normnfd.nlp
+C:\Users\anderson\Downloads\head\head\__projects\ParameterizationOracle\bin\Debug\normnfkc.nlp
+C:\Users\anderson\Downloads\head\head\__projects\ParameterizationOracle\bin\Debug\normnfkd.nlp
+C:\Users\anderson\Downloads\head\head\__projects\ParameterizationOracle\obj\Debug\ParameterizationOracle.csprojResolveAssemblyReference.cache
+C:\Users\anderson\Downloads\head\head\__projects\ParameterizationOracle\obj\Debug\ParameterizationOracle.dll
+C:\Users\anderson\Downloads\head\head\__projects\ParameterizationOracle\obj\Debug\ParameterizationOracle.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\ParameterizationOracle\bin\Debug\ParameterizationOracle.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\ParameterizationOracle\bin\Debug\ParameterizationOracle.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\ParameterizationOracle\obj\Debug\ParameterizationOracle.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\ParameterizationOracle\obj\Debug\ParameterizationOracle.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\ParameterizationOracle\obj\Debug\ParameterizationOracle.pdb

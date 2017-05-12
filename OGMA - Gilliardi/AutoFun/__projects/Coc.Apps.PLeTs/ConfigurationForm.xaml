@@ -1,0 +1,29 @@
+﻿<Window x:Class="Coc.Apps.PleTs.ConfigurationForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        Title="Options" Height="378" Width="384" ResizeMode="NoResize" Icon="/TestingTool;component/Images/Three_gears_of_configuration_tools_16.png">
+    <Grid Width="359">
+        <Label Content="ThinkTime Default :" Height="28" HorizontalAlignment="Left" Margin="24,25,0,0" Name="ThinkTimeDefault" VerticalAlignment="Top" />
+        <Label Content="Astah Path :" Height="23" HorizontalAlignment="Left" Margin="24,72,0,0" Name="AstahPath" VerticalAlignment="Top" />
+        <Label Content="Workspace Path :" Height="23" HorizontalAlignment="Left" Margin="24,130,0,0" Name="JavaPath" VerticalAlignment="Top" />
+        <Slider Height="28" HorizontalAlignment="Left" Margin="142,25,0,0" Name="ThinkTime_slider" VerticalAlignment="Top" Width="162" Value="1" UseLayoutRounding="True" TickFrequency="1" Maximum="60" DataContext="{Binding}" ValueChanged="ThinkTime_slider_ValueChanged" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="142,74,0,0" Name="txtAstahPath" VerticalAlignment="Top" Width="162" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="142,132,0,0" Name="txtWorkspacePath" VerticalAlignment="Top" Width="162" />
+        <Button Content="Save" Height="23" HorizontalAlignment="Left" Margin="212,304,0,0" Name="btnSalvar" VerticalAlignment="Top" Width="66" Click="button_Salvar_Click" />
+        <Button Content="Cancel" Height="23" HorizontalAlignment="Left" Margin="284,304,0,0" Name="btnCancelar" VerticalAlignment="Top" Width="66" Click="button_Cancelar_Click" Loaded="configurationForm_Loaded" />
+        <Button Content="..." Height="23" HorizontalAlignment="Left" Margin="320,74,0,0" Name="btnSrchAstah" VerticalAlignment="Top" Width="30" Click="btnSrchAstah_Click" />
+        <Button Content="..." Height="23" HorizontalAlignment="Left" Margin="320,132,0,0" Name="btnSrchWorkspace" VerticalAlignment="Top" Width="30" Click="btnSrchScrptOutput_Click" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="310,27,0,0" Name="txtThinkTime" VerticalAlignment="Top" Width="40" FontSize="10" LostFocus="txtThinkTime_LostFocus" />
+        <Button Content="..." Height="23" HorizontalAlignment="Left" Margin="320,103,0,0" Name="btnSrchOATSPath" VerticalAlignment="Top" Width="30" Click="btnSrchOATSPath_Click" />
+        <Label Content="OATS Path:" Height="23" HorizontalAlignment="Left" Margin="24,102,0,0" Name="label1" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="142,103,0,0" Name="txtOATSPath" VerticalAlignment="Top" Width="162" />
+
+
+        <CheckBox Content="Verify Script Objects" Height="16" HorizontalAlignment="Left" Margin="24,260,0,0" Name="chkVerifyAll" VerticalAlignment="Top" Width="162" FlowDirection="LeftToRight" DataContext="{Binding}" HorizontalContentAlignment="Left" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="142,218,0,0" Name="txtActions" VerticalAlignment="Top" Width="162" FontSize="10" />
+        <Label Content="Transition Color:" Height="28" HorizontalAlignment="Left" Margin="24,184,0,0" Name="label2" VerticalAlignment="Top" />
+        <Label Content="Action List:" Height="28" HorizontalAlignment="Left" Margin="24,214,0,0" Name="label3" VerticalAlignment="Top" />
+    </Grid>
+    
+</Window>

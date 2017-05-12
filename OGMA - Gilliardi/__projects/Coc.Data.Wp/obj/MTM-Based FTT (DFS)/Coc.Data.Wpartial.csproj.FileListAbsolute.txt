@@ -1,5 +1,0 @@
-D:\Development\CePES\head\__output\plets\Coc.Data.Wp.dll
-D:\Development\CePES\head\__output\plets\Coc.Data.Wp.pdb
-D:\Development\CePES\head\__projects\Coc.Data.Wp\obj\MTM-Based FTT (DFS)\Coc.Data.Wpartial.csprojResolveAssemblyReference.cache
-D:\Development\CePES\head\__projects\Coc.Data.Wp\obj\MTM-Based FTT (DFS)\Coc.Data.Wp.dll
-D:\Development\CePES\head\__projects\Coc.Data.Wp\obj\MTM-Based FTT (DFS)\Coc.Data.Wp.pdb

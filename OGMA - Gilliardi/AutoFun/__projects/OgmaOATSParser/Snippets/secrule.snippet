@@ -1,0 +1,33 @@
+<CodeSnippets
+    xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Secondary Rule</Title>
+			<Author>Marcelo Schmitt Laser</Author>
+			<Description>Code for treatment of Symbols with multiple derivations.</Description>
+			<Shortcut>secrule</Shortcut>
+        </Header>
+        <Snippet>
+			<Declarations>
+				<Literal>
+					<ID>RULE_NAME</ID>
+					<ToolTip>Name of the rule function being specified</ToolTip>
+					<Default>RULE_NAME</Default>
+				</Literal>
+			</Declarations>
+            <Code Language="CSharp">
+                <![CDATA[inputQueue = backupInput;
+                toReturn.Derivations = new List<ClassNode>();
+                try
+                {
+                    //RuleChecks
+                }
+                catch (FormatException)
+                {
+                    inputQueue = backupInput;
+                    throw new FormatException("Input " + input + " and following terms are not of $RULE_NAME$ type");
+                }]]>
+            </Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

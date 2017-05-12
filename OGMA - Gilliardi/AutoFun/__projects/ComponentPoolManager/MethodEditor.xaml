@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="ComponentPoolManager.MethodEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="146" d:DesignWidth="439">
+    <Grid Name="gridMainContainer">
+        <StackPanel Margin="10 10" VerticalAlignment="Top" HorizontalAlignment="Left" Orientation="Horizontal">
+            <TextBlock Text="MyMethodType" VerticalAlignment="Top" HorizontalAlignment="Left" 
+                   MouseDown="TextBlock_MouseLeftButtonDown" Name="textBlockType" Foreground="Blue"/>
+            <TextBlock Text="MyMethodName" VerticalAlignment="Top" Margin="10 0 0 0" HorizontalAlignment="Left" 
+                   MouseDown="TextBlock_MouseLeftButtonDown" Name="textBlockMethod"/>
+        </StackPanel>        
+        <ListBox Margin="10 30 10 10" Name="listBoxParameters"/>
+        <Button VerticalAlignment="Top" HorizontalAlignment="Right" Margin="10 10 50 10" 
+                ToolTip="Removes method from interface." Name="buttonRemoveMethod" Click="buttonRemoveMethod_Click">
+            <Image Source="/ComponentPoolManager;component/Images/close_delete_2.gif" Width="12" Height="12" />
+        </Button>
+        <Button VerticalAlignment="Top" HorizontalAlignment="Right" Margin="10"
+                ToolTip="Removes selected parameter from method." Click="buttonRemove_Click" Name="buttonRemove">
+            <Image Source="/ComponentPoolManager;component/Images/minus.gif" Width="12" Height="12" />
+        </Button>
+        <Button VerticalAlignment="Top" HorizontalAlignment="Right" Margin="10 10 30 10" 
+                ToolTip="Adds a new parameter to method." Click="buttonAdd_Click" Name="buttonAdd">
+            <Image Source="/ComponentPoolManager;component/Images/add.gif" Width="12" Height="12" />
+        </Button>
+    </Grid>
+</UserControl>

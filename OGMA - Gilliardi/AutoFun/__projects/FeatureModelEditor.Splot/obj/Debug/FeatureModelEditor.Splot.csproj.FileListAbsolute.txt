@@ -1,0 +1,5 @@
+D:\Development\CePES\head\__output\Coc.Apps.PlugSpl\FeatureModelEditor.Splot.dll
+D:\Development\CePES\head\__output\Coc.Apps.PlugSpl\FeatureModelEditor.Splot.pdb
+D:\Development\CePES\head\__projects\FeatureModelEditor.Splot\obj\Debug\FeatureModelEditor.Splot.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\FeatureModelEditor.Splot\obj\Debug\FeatureModelEditor.Splot.dll
+D:\Development\CePES\head\__projects\FeatureModelEditor.Splot\obj\Debug\FeatureModelEditor.Splot.pdb

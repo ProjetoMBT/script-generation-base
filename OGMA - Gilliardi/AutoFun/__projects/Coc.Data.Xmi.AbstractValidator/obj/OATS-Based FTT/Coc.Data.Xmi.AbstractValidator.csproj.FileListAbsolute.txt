@@ -1,0 +1,18 @@
+D:\Development\CePES\head\__output\plets\Coc.Data.Xmi.AbstractValidator.XML
+D:\Development\CePES\head\__output\plets\Coc.Data.Xmi.AbstractValidator.dll
+D:\Development\CePES\head\__output\plets\Coc.Data.Xmi.AbstractValidator.pdb
+D:\Development\CePES\head\__projects\Coc.Data.Xmi.AbstractValidator\obj\OATS-Based FTT\Coc.Data.Xmi.AbstractValidator.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\Coc.Data.Xmi.AbstractValidator\obj\OATS-Based FTT\Coc.Data.Xmi.AbstractValidator.dll
+D:\Development\CePES\head\__projects\Coc.Data.Xmi.AbstractValidator\obj\OATS-Based FTT\Coc.Data.Xmi.AbstractValidator.pdb
+F:\Development\CePES\head\__output\plets\Coc.Data.Xmi.AbstractValidator.XML
+F:\Development\CePES\head\__output\plets\Coc.Data.Xmi.AbstractValidator.dll
+F:\Development\CePES\head\__output\plets\Coc.Data.Xmi.AbstractValidator.pdb
+F:\Development\CePES\head\__projects\Coc.Data.Xmi.AbstractValidator\obj\OATS-Based FTT\Coc.Data.Xmi.AbstractValidator.csprojResolveAssemblyReference.cache
+F:\Development\CePES\head\__projects\Coc.Data.Xmi.AbstractValidator\obj\OATS-Based FTT\Coc.Data.Xmi.AbstractValidator.dll
+F:\Development\CePES\head\__projects\Coc.Data.Xmi.AbstractValidator\obj\OATS-Based FTT\Coc.Data.Xmi.AbstractValidator.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.Xmi.AbstractValidator.XML
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.Xmi.AbstractValidator.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.Xmi.AbstractValidator.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xmi.AbstractValidator\obj\OATS-Based FTT\Coc.Data.Xmi.AbstractValidator.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xmi.AbstractValidator\obj\OATS-Based FTT\Coc.Data.Xmi.AbstractValidator.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xmi.AbstractValidator\obj\OATS-Based FTT\Coc.Data.Xmi.AbstractValidator.pdb

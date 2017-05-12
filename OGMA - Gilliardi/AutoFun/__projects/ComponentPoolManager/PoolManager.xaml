@@ -1,0 +1,88 @@
+﻿<UserControl xmlns:my="clr-namespace:ComponentPoolManager"  x:Class="ComponentPoolManager.PoolManager"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Foreground="#FF212020"
+             d:DesignHeight="300" d:DesignWidth="600" Loaded="UserControl_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="24" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="24" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250" MinWidth="200" />
+            <ColumnDefinition Width="*" MinWidth="200"/>
+        </Grid.ColumnDefinitions>
+        <Menu Grid.Row="0" Background="Brown" Grid.ColumnSpan="2"></Menu>
+        <StackPanel  Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal" Background="White">
+            <ToolBar>
+                <Button x:Name="buttonOpenConfig" Click="buttonOpenConfig_Click" ToolTip="Loads pool configuration from file.">
+                    <Image Source="/ComponentPoolManager;component/Images/folder.gif" />
+                </Button>
+                <Button x:Name="buttonSaveConfig" Click="buttonSaveConfig_Click" ToolTip="Saves pool configuration to file.">
+                    <Image Source="/ComponentPoolManager;component/Images/save.gif" IsEnabled="False"/>
+                </Button>
+                <Button x:Name="buttonLoadDanu" ToolTip="Import code information from an existing Bragi file." Click="buttonLoadDanu_Click">
+                    <Image Source="/ComponentPoolManager;component/Images/arrow_up.gif" />
+                </Button>
+            </ToolBar>
+            <ToolBar>
+                <Button x:Name="buttonUpdateHandler" ToolTip="Use selected code generator to setup initial code template." Click="buttonUpdateHandler_Click">
+                    <Image Source="/ComponentPoolManager;component/Images/closed.gif" />
+                </Button>
+                <!-- <Button x:Name="buttonCheck" ToolTip="Check pool for issues and rapair it.">
+                    <Image Source="/ComponentPoolManager;component/Images/attention.gif" />
+                </Button> -->
+            </ToolBar>
+            <ToolBar>
+                <Grid Margin="2 0 5 0">
+                    <TextBlock Text="Code" FontSize="11"/>
+                    <TextBlock Text="Generator" Margin="0 10 0 0" FontSize="11"/>
+                </Grid>
+                <ComboBox Name="comboBoxCodeHandlers" Width="300"/>
+            </ToolBar>
+            <ToolBar>
+                <ToggleButton Name="buttonInformation">
+                    <Image Source="/ComponentPoolManager;component/Images/information.gif" />
+                </ToggleButton>
+                <Popup x:Name="popup" PlacementTarget="{Binding ElementName = buttonInformation}"
+                       VerticalOffset="0" HorizontalOffset="5" Placement="Right" PopupAnimation="Scroll"
+                       AllowsTransparency="True" StaysOpen="False"
+                       IsOpen="{Binding ElementName=buttonInformation, Path=IsChecked, Mode=TwoWay}" >
+                    <Border Background="Beige" BorderBrush="Brown" BorderThickness="1" Padding="35">
+                        <StackPanel Orientation="Vertical">
+                            <TextBlock Margin="3" Foreground="Brown" Text="1. Open a project or import a plugcd file;"/>
+                            <TextBlock Margin="3" Foreground="Brown" Text="2. Add methods and parameters to each interface"/>
+                            <TextBlock Margin="3" Foreground="Brown" Text="3. Save it as *.plugcm file."/>
+                        </StackPanel>
+                    </Border>
+                </Popup>
+            </ToolBar>
+        </StackPanel>
+        <!-- Component Treeview -->
+        <ScrollViewer Grid.Row="2" Grid.Column="0" Margin="0 0 1 0">
+            <StackPanel HorizontalAlignment="Stretch" Name="stackPanelComponents" 
+                  VerticalAlignment="Stretch" Background="White">
+                <TextBlock Text="Import components from a" TextAlignment="Center" Margin="0 15 0 0" Foreground="DimGray" />
+                <TextBlock Text="SMarty UML diagram file" TextAlignment="Center" Foreground="DimGray" />
+                <TextBlock Text="or load an existing" TextAlignment="Center" Foreground="DimGray" />
+                <TextBlock Text="component pool" TextAlignment="Center" Foreground="DimGray" />
+                <TextBlock Text="configuration file." TextAlignment="Center" Foreground="DimGray" />
+            </StackPanel>
+        </ScrollViewer>
+        <GridSplitter Grid.Column="0" Grid.Row="2" VerticalAlignment="Stretch" HorizontalAlignment="Right"
+                      Width="1" Background="Brown" />
+        <GridSplitter Grid.Column="1" Grid.Row="2" VerticalAlignment="Stretch" HorizontalAlignment="Left"
+                      Width="1" Background="Brown" />
+        <!-- Component Controls -->
+        <Grid Grid.Row="2" Grid.Column="1" x:Name="interfaceEditorContainer" Background="White" Margin="1 0 0 0" />
+        <StatusBar Name="statusBar" Grid.Row="3" Background="Brown" Foreground="White" Grid.ColumnSpan="2">
+            <StatusBar.Items>
+                <TextBlock Text="Ready" Foreground="White" Name="textBlockStatus" Margin="3 0 0 0"/>
+            </StatusBar.Items>
+        </StatusBar>
+    </Grid>
+</UserControl>

@@ -1,0 +1,18 @@
+D:\Development\CePES\head\__output\plets\Coc.Data.AbstractSequenceGenerator.XML
+D:\Development\CePES\head\__output\plets\Coc.Data.AbstractSequenceGenerator.dll
+D:\Development\CePES\head\__output\plets\Coc.Data.AbstractSequenceGenerator.pdb
+D:\Development\CePES\head\__projects\Coc.Data.AbstractSequenceGenerator\obj\OATS-Based FTT\Coc.Data.AbstractSequenceGenerator.csprojResolveAssemblyReference.cache
+D:\Development\CePES\head\__projects\Coc.Data.AbstractSequenceGenerator\obj\OATS-Based FTT\Coc.Data.AbstractSequenceGenerator.dll
+D:\Development\CePES\head\__projects\Coc.Data.AbstractSequenceGenerator\obj\OATS-Based FTT\Coc.Data.AbstractSequenceGenerator.pdb
+F:\Development\CePES\head\__output\plets\Coc.Data.AbstractSequenceGenerator.XML
+F:\Development\CePES\head\__output\plets\Coc.Data.AbstractSequenceGenerator.dll
+F:\Development\CePES\head\__output\plets\Coc.Data.AbstractSequenceGenerator.pdb
+F:\Development\CePES\head\__projects\Coc.Data.AbstractSequenceGenerator\obj\OATS-Based FTT\Coc.Data.AbstractSequenceGenerator.csprojResolveAssemblyReference.cache
+F:\Development\CePES\head\__projects\Coc.Data.AbstractSequenceGenerator\obj\OATS-Based FTT\Coc.Data.AbstractSequenceGenerator.dll
+F:\Development\CePES\head\__projects\Coc.Data.AbstractSequenceGenerator\obj\OATS-Based FTT\Coc.Data.AbstractSequenceGenerator.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.AbstractSequenceGenerator.XML
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.AbstractSequenceGenerator.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.AbstractSequenceGenerator.pdb
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.AbstractSequenceGenerator\obj\OATS-Based FTT\Coc.Data.AbstractSequenceGenerator.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.AbstractSequenceGenerator\obj\OATS-Based FTT\Coc.Data.AbstractSequenceGenerator.dll
+C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.AbstractSequenceGenerator\obj\OATS-Based FTT\Coc.Data.AbstractSequenceGenerator.pdb

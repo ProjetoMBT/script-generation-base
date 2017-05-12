@@ -1,5 +1,0 @@
-C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Testing.Performance.dll
-C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Testing.Performance.pdb
-C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Testing.Performance\obj\Default\Coc.Testing.Performance.csprojResolveAssemblyReference.cache
-C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Testing.Performance\obj\Default\Coc.Testing.Performance.dll
-C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Testing.Performance\obj\Default\Coc.Testing.Performance.pdb
