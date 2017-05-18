@@ -122,10 +122,9 @@ namespace Coc.Data.Xmi
             sw.WriteLine("import oracle.oats.scripting.modules.utilities.api.xml.*;");
             sw.WriteLine("import oracle.oats.scripting.modules.utilities.api.file.*;");
             sw.WriteLine("import oracle.oats.scripting.modules.webdom.api.*;");
-            sw.WriteLine("import oracle.oats.scripting.modules.formsFT.api.*;");
-            sw.WriteLine("import oracle.oats.scripting.modules.applet.api.*;");
-            
-            
+            //sw.WriteLine("import oracle.oats.scripting.modules.formsFT.api.*;");
+            //sw.WriteLine("import oracle.oats.scripting.modules.applet.api.*;");
+
             sw.WriteLine();
         }
 
@@ -147,12 +146,18 @@ namespace Coc.Data.Xmi
         private void SCRS()
         {
             String s = new String('\t', tabs + 1);
-            sw.WriteLine(s + "@ScriptService oracle.oats.scripting.modules.utilities.api.UtilitiesService utilities;");
+            //   sw.WriteLine(s + "@ScriptService oracle.oats.scripting.modules.utilities.api.UtilitiesService utilities;");
+            //   sw.WriteLine(s + "@ScriptService oracle.oats.scripting.modules.browser.api.BrowserService browser;");
+            //   sw.WriteLine(s + "@ScriptService oracle.oats.scripting.modules.functionalTest.api.FunctionalTestService ft;");
+            //   sw.WriteLine(s + "@ScriptService oracle.oats.scripting.modules.webdom.api.WebDomService web;");
+            //sw.WriteLine(s + "@ScriptService oracle.oats.scripting.modules.applet.api.AppletService applet;");
+            //   sw.WriteLine(s + "@ScriptService oracle.oats.scripting.modules.formsFT.api.FormsService forms;");
+            //   sw.WriteLine();
+
+            sw.WriteLine(s+"@ScriptService oracle.oats.scripting.modules.utilities.api.UtilitiesService utilities;");
             sw.WriteLine(s + "@ScriptService oracle.oats.scripting.modules.browser.api.BrowserService browser;");
-            sw.WriteLine(s + "@ScriptService oracle.oats.scripting.modules.functionalTest.api.FunctionalTestService ft;");
+            sw.WriteLine(s + "@ScriptService oracle.oats.scripting.modules.functionalTest.api.FunctionalTestService ft;"); 
             sw.WriteLine(s + "@ScriptService oracle.oats.scripting.modules.webdom.api.WebDomService web;");
-	        sw.WriteLine(s + "@ScriptService oracle.oats.scripting.modules.applet.api.AppletService applet;");
-            sw.WriteLine(s + "@ScriptService oracle.oats.scripting.modules.formsFT.api.FormsService forms;");
             sw.WriteLine();
         }
 
@@ -201,7 +206,8 @@ namespace Coc.Data.Xmi
             GroupNode root = new GroupNode();
             root.GroupName = groups.First().Key;
             root.Transitions = groups.First().ToList();
-
+            List<GroupNode> lista = new List<GroupNode>();
+            lista.Add(root);
             groups = groups.Where(x => !x.Key.Equals(root.GroupName));
 
             foreach (IGrouping<string, UmlTransition> group in groups)
@@ -213,8 +219,8 @@ namespace Coc.Data.Xmi
                 );
 
                 gn.Transitions = group.ToList();
-
-                root.SubGroups.Add(gn);
+                lista.Add(gn);
+              // root.SubGroups.Add(gn);
             }
 
 
@@ -227,11 +233,11 @@ namespace Coc.Data.Xmi
                 if (root.SubGroups[j] != null)
                 {
                     //ajusta os passos que estao desalinhados ate este ponto
-                    if ((j + 1 < root.SubGroups.Count) && root.SubGroups[j].Transitions.Last().Target.Name.Contains(root.SubGroups[j + 1].GroupName))
-                    {
-                        root.SubGroups[j + 1].Transitions.Insert(0, root.SubGroups[j].Transitions.Last());
-                        root.SubGroups[j].Transitions.RemoveAt(root.SubGroups[j].Transitions.Count - 1);
-                    }
+                   // if ((j + 1 < root.SubGroups.Count) && root.SubGroups[j].Transitions.Last().Target.Name.Contains(root.SubGroups[j + 1].GroupName))
+                   // {
+                  //      root.SubGroups[j + 1].Transitions.Insert(0, root.SubGroups[j].Transitions.Last());
+                  //      root.SubGroups[j].Transitions.RemoveAt(root.SubGroups[j].Transitions.Count - 1);
+                  //  }
 
                     //seleciona o pai, este pai, pois caso o proximo seja filho, este ja é o pai dos proximos
                     if (root.SubGroups[j].Transitions.Count > 0 &&
@@ -262,7 +268,11 @@ namespace Coc.Data.Xmi
             //remove os realocados
             root.SubGroups.RemoveAll(g => g == null);
             
-            sw.WriteLine(scriptParser.parse(root));
+            foreach(GroupNode g in lista)
+            {
+                sw.WriteLine(scriptParser.parse(g));
+            }
+            //sw.WriteLine(scriptParser.parse(root));
 
         }
 

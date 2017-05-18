@@ -337,9 +337,9 @@ namespace Coc.Data.Xmi.Script
             try
             {
                 //separa as acoes
-                //Regex reg = new Regex("({[\\w|\\W|.]+?}{1,2})");
-                //string[] actions = reg.Split(TDActionValue);
-                string[] actions = {TDActionValue};
+                Regex reg = new Regex("({[\\w|\\W|.]+?}{1,2})");
+                string[] actions = reg.Split(TDActionValue);
+                //string[] actions = {TDActionValue};
 
 
                 //**********************************************
@@ -502,7 +502,8 @@ namespace Coc.Data.Xmi.Script
                 {
                     //forms.textField(42,"{{obj.Error.forms_textField_AGREEMENT_CUSTOMER_NAME_0}}").invokeSoftKey("ENTER_QUERY");
                     tabHelper.incrementTabs();
-                    script = string.Format("{0}{1}.{2}({3}, \"{{{{obj.{4}.{5}}}}}\"){6};",
+                    script = string.Format("{0}{1}.{2}({3}, {4}{5}){6};",
+                    //script = string.Format("{0}{1}.{2}({3}, \"{{{{obj.{4}.{5}}}}}\"){6};",
                         tabHelper.TabText, protocol, obj, sequence.Sequence, properties, objectName, action);
                     sequence.incrementSequence();
                 }

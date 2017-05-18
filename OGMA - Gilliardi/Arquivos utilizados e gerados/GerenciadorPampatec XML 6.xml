@@ -246,11 +246,41 @@
         </UML:Association>
         <UML:AssociationEnd xmi.idref="w9-0b09c49b5510baad01c3661ce1429493"/>
         <UML:AssociationEnd xmi.idref="wf-0b09c49b5510baad01c3661ce1429493"/>
+        <UML:UseCase xmi.id="h9-a4398ead812ea71fa7d37ce8dfae1331" name="Fazer+Cadastro" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+          <UML:ModelElement.namespace>
+            <UML:Namespace xmi.idref="1-0b09c49b5510baad01c3661ce1429493"/>
+          </UML:ModelElement.namespace>
+          <UML:ModelElement.visibility xmi.value="public"/>
+        </UML:UseCase>
+        <UML:UseCase xmi.id="4fs-a4398ead812ea71fa7d37ce8dfae1331" name="Criar+Plano+de+Neg%C3%B3cio" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+          <UML:ModelElement.namespace>
+            <UML:Namespace xmi.idref="1-0b09c49b5510baad01c3661ce1429493"/>
+          </UML:ModelElement.namespace>
+          <UML:ModelElement.visibility xmi.value="public"/>
+        </UML:UseCase>
+        <UML:UseCase xmi.id="4v6-a4398ead812ea71fa7d37ce8dfae1331" name="Excluir+Plano+de+Neg%C3%B3cio" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+          <UML:ModelElement.namespace>
+            <UML:Namespace xmi.idref="1-0b09c49b5510baad01c3661ce1429493"/>
+          </UML:ModelElement.namespace>
+          <UML:ModelElement.visibility xmi.value="public"/>
+        </UML:UseCase>
+        <UML:UseCase xmi.id="5b8-a4398ead812ea71fa7d37ce8dfae1331" name="Editar+Plano+de+Neg%C3%B3cio" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+          <UML:ModelElement.namespace>
+            <UML:Namespace xmi.idref="1-0b09c49b5510baad01c3661ce1429493"/>
+          </UML:ModelElement.namespace>
+          <UML:ModelElement.visibility xmi.value="public"/>
+        </UML:UseCase>
+        <UML:UseCase xmi.id="5ry-a4398ead812ea71fa7d37ce8dfae1331" name="Revisar+Plano+de+Neg%C3%B3cio" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+          <UML:ModelElement.namespace>
+            <UML:Namespace xmi.idref="1-0b09c49b5510baad01c3661ce1429493"/>
+          </UML:ModelElement.namespace>
+          <UML:ModelElement.visibility xmi.value="public"/>
+        </UML:UseCase>
         <UML:ActivityGraph xmi.id="1te-0b09c49b5510baad01c3661ce1429493" name="Activity0" version="0" unSolvedFlag="false">
           <UML:StateMachine.top>
             <UML:CompositeState xmi.id="1tf-0b09c49b5510baad01c3661ce1429493" name="" version="0" unSolvedFlag="false" isConcurrent="true" isOrthogonal="false" isRegion="true">
               <UML:CompositeState.subvertex>
-                <UML:Pseudostate xmi.id="2eg-0b09c49b5510baad01c3661ce1429493" name="InitialNode0" version="0" unSolvedFlag="false" kind="initial">
+                <UML:Pseudostate xmi.id="2eg-0b09c49b5510baad01c3661ce1429493" name="Acessar+Sistema" version="0" unSolvedFlag="false" kind="initial">
                   <UML:StateVertex.container>
                     <UML:CompositeState xmi.idref="1tf-0b09c49b5510baad01c3661ce1429493"/>
                   </UML:StateVertex.container>
@@ -258,7 +288,7 @@
                     <UML:Transition xmi.idref="2ut-0b09c49b5510baad01c3661ce1429493"/>
                   </UML:StateVertex.outgoing>
                 </UML:Pseudostate>
-                <UML:ActionState xmi.id="2k6-0b09c49b5510baad01c3661ce1429493" name="Acessar+Sistema" version="0" unSolvedFlag="false" isDynamic="false">
+                <UML:ActionState xmi.id="2k6-0b09c49b5510baad01c3661ce1429493" name="Informar+Dados" version="0" unSolvedFlag="false" isDynamic="false">
                   <UML:StateVertex.container>
                     <UML:CompositeState xmi.idref="1tf-0b09c49b5510baad01c3661ce1429493"/>
                   </UML:StateVertex.container>
@@ -269,10 +299,10 @@
                     <UML:Transition xmi.idref="2ut-0b09c49b5510baad01c3661ce1429493"/>
                   </UML:StateVertex.incoming>
                   <UML:State.entry>
-                    <UML:Action xmi.id="2k7-0b09c49b5510baad01c3661ce1429493" name="Acessar+Sistema" version="0" unSolvedFlag="false" isAsynchronous="false" actionType="5"></UML:Action>
+                    <UML:Action xmi.id="2k7-0b09c49b5510baad01c3661ce1429493" name="Informar+Dados" version="0" unSolvedFlag="false" isAsynchronous="false" actionType="5"></UML:Action>
                   </UML:State.entry>
                 </UML:ActionState>
-                <UML:ActionState xmi.id="3fa-0b09c49b5510baad01c3661ce1429493" name="Informar+dados" version="0" unSolvedFlag="false" isDynamic="false">
+                <UML:ActionState xmi.id="3fa-0b09c49b5510baad01c3661ce1429493" name="Autenticar+Dados" version="0" unSolvedFlag="false" isDynamic="false">
                   <UML:ModelElement.taggedValue>
                     <UML:TaggedValue xmi.id="73w-0b09c49b5510baad01c3661ce1429493" version="0" tag="TDobject" value="%7Btextbox%3BformularioDeLogin%3AemailInput%7D">
                       <UML:TaggedValue.modelElement>
@@ -295,33 +325,7 @@
                     <UML:Transition xmi.idref="3px-0b09c49b5510baad01c3661ce1429493"/>
                   </UML:StateVertex.incoming>
                   <UML:State.entry>
-                    <UML:Action xmi.id="3fb-0b09c49b5510baad01c3661ce1429493" name="Informar+dados" version="0" unSolvedFlag="false" isAsynchronous="false" actionType="5"></UML:Action>
-                  </UML:State.entry>
-                </UML:ActionState>
-                <UML:ActionState xmi.id="4e2-0b09c49b5510baad01c3661ce1429493" name="Autenticar+dados" version="0" unSolvedFlag="false" isDynamic="false">
-                  <UML:ModelElement.taggedValue>
-                    <UML:TaggedValue xmi.id="9dq-0b09c49b5510baad01c3661ce1429493" version="0" tag="TDobject" value="%7Bbutton%3BformularioDeLogin%3AbotaoLogin%7D">
-                      <UML:TaggedValue.modelElement>
-                        <UML:ModelElement xmi.idref="4e2-0b09c49b5510baad01c3661ce1429493"/>
-                      </UML:TaggedValue.modelElement>
-                    </UML:TaggedValue>
-                    <UML:TaggedValue xmi.id="aaf-0b09c49b5510baad01c3661ce1429493" version="0" tag="TDaction" value="%7Bclick%7D">
-                      <UML:TaggedValue.modelElement>
-                        <UML:ModelElement xmi.idref="4e2-0b09c49b5510baad01c3661ce1429493"/>
-                      </UML:TaggedValue.modelElement>
-                    </UML:TaggedValue>
-                  </UML:ModelElement.taggedValue>
-                  <UML:StateVertex.container>
-                    <UML:CompositeState xmi.idref="1tf-0b09c49b5510baad01c3661ce1429493"/>
-                  </UML:StateVertex.container>
-                  <UML:StateVertex.outgoing>
-                    <UML:Transition xmi.idref="5go-0b09c49b5510baad01c3661ce1429493"/>
-                  </UML:StateVertex.outgoing>
-                  <UML:StateVertex.incoming>
-                    <UML:Transition xmi.idref="4op-0b09c49b5510baad01c3661ce1429493"/>
-                  </UML:StateVertex.incoming>
-                  <UML:State.entry>
-                    <UML:Action xmi.id="4e3-0b09c49b5510baad01c3661ce1429493" name="Autenticar+dados" version="0" unSolvedFlag="false" isAsynchronous="false" actionType="5"></UML:Action>
+                    <UML:Action xmi.id="3fb-0b09c49b5510baad01c3661ce1429493" name="Autenticar+Dados" version="0" unSolvedFlag="false" isAsynchronous="false" actionType="5"></UML:Action>
                   </UML:State.entry>
                 </UML:ActionState>
                 <UML:FinalState xmi.id="5cu-0b09c49b5510baad01c3661ce1429493" name="ActivityFinal0" version="0" unSolvedFlag="false">
@@ -329,7 +333,7 @@
                     <UML:CompositeState xmi.idref="1tf-0b09c49b5510baad01c3661ce1429493"/>
                   </UML:StateVertex.container>
                   <UML:StateVertex.incoming>
-                    <UML:Transition xmi.idref="5go-0b09c49b5510baad01c3661ce1429493"/>
+                    <UML:Transition xmi.idref="4op-0b09c49b5510baad01c3661ce1429493"/>
                   </UML:StateVertex.incoming>
                 </UML:FinalState>
               </UML:CompositeState.subvertex>
@@ -341,7 +345,17 @@
           <UML:StateMachine.transitions>
             <UML:Transition xmi.id="2ut-0b09c49b5510baad01c3661ce1429493" name="" version="0" unSolvedFlag="false">
               <UML:ModelElement.taggedValue>
-                <UML:TaggedValue xmi.id="7p-55ac6c7a0d8e34866f40af67bba22764" version="0" tag="TDACTION" value="%7Bnavigate%3Bhttp%3A%2F%2F192.168.1.10%3A8080%2FGerenciadorPampatec%2F%7D">
+                <UML:TaggedValue xmi.id="7p-55ac6c7a0d8e34866f40af67bba22764" version="0" tag="TDACTION" value="%7Bnavigate%3B%22http%3A%2F%2F192.168.1.10%3A8080%2FGerenciadorPampatec%2F%22%7D%7BwaitForPage%3Bnull%7D">
+                  <UML:TaggedValue.modelElement>
+                    <UML:ModelElement xmi.idref="2ut-0b09c49b5510baad01c3661ce1429493"/>
+                  </UML:TaggedValue.modelElement>
+                </UML:TaggedValue>
+                <UML:TaggedValue xmi.id="ia-4518a89271da37acb34f8ebb54c2382a" version="0" tag="TDPROTOCOL" value="web">
+                  <UML:TaggedValue.modelElement>
+                    <UML:ModelElement xmi.idref="2ut-0b09c49b5510baad01c3661ce1429493"/>
+                  </UML:TaggedValue.modelElement>
+                </UML:TaggedValue>
+                <UML:TaggedValue xmi.id="oc-a4398ead812ea71fa7d37ce8dfae1331" version="0" tag="TDOBJECT" value="%7Bwindow%3B%22%2Fweb%3Awindow%5B%40index%3D%270%27%5D%22%7D">
                   <UML:TaggedValue.modelElement>
                     <UML:ModelElement xmi.idref="2ut-0b09c49b5510baad01c3661ce1429493"/>
                   </UML:TaggedValue.modelElement>
@@ -359,7 +373,17 @@
             </UML:Transition>
             <UML:Transition xmi.id="3px-0b09c49b5510baad01c3661ce1429493" name="" version="0" unSolvedFlag="false">
               <UML:ModelElement.taggedValue>
-                <UML:TaggedValue xmi.id="1p4-791393d0d08c09e1c361080096e4461e" version="0" tag="TDACTION" value="%7BwaitForPage%3Bhttp%3A%2F%2F192.168.1.10%3A8080%2FGerenciadorPampatec%2F%7D">
+                <UML:TaggedValue xmi.id="1p4-791393d0d08c09e1c361080096e4461e" version="0" tag="TDACTION" value="%7Bclick%7D%7BsetText%3B%22testetestezin%40gmail.com%22%7D%7BpressTab%7D%7BsetPassword%3B%22teste123%22%7D">
+                  <UML:TaggedValue.modelElement>
+                    <UML:ModelElement xmi.idref="3px-0b09c49b5510baad01c3661ce1429493"/>
+                  </UML:TaggedValue.modelElement>
+                </UML:TaggedValue>
+                <UML:TaggedValue xmi.id="sv-4518a89271da37acb34f8ebb54c2382a" version="0" tag="TDPROTOCOL" value="web">
+                  <UML:TaggedValue.modelElement>
+                    <UML:ModelElement xmi.idref="3px-0b09c49b5510baad01c3661ce1429493"/>
+                  </UML:TaggedValue.modelElement>
+                </UML:TaggedValue>
+                <UML:TaggedValue xmi.id="1bh-a4398ead812ea71fa7d37ce8dfae1331" version="0" tag="TDOBJECT" value="%7BtextBox%3B%22%2Fweb%3Awindow%5B%40index%3D%270%27%5D%2Fweb%3Adocument%5B%40index%3D%270%27%5D%2Fweb%3Aform%5B%40id%3D%27formularioDeLogin%27%5D%2Fweb%3Ainput_text%5B%40id%3D%27formularioDeLogin%3AemailInput%27%5D%22%7D">
                   <UML:TaggedValue.modelElement>
                     <UML:ModelElement xmi.idref="3px-0b09c49b5510baad01c3661ce1429493"/>
                   </UML:TaggedValue.modelElement>
@@ -377,12 +401,17 @@
             </UML:Transition>
             <UML:Transition xmi.id="4op-0b09c49b5510baad01c3661ce1429493" name="" version="0" unSolvedFlag="false">
               <UML:ModelElement.taggedValue>
-                <UML:TaggedValue xmi.id="ym-791393d0d08c09e1c361080096e4461e" version="0" tag="TDOBJECT" value="%7Btextbox%3BformularioDeLogin%3AemailInput%7D">
+                <UML:TaggedValue xmi.id="ym-791393d0d08c09e1c361080096e4461e" version="0" tag="TDOBJECT" value="%7Bbutton%3B%22%2Fweb%3Awindow%5B%40index%3D%270%27%5D%2Fweb%3Adocument%5B%40index%3D%270%27%5D%2Fweb%3Aform%5B%40id%3D%27formularioDeLogin%27%5D%2Fweb%3Abutton%5B%40id%3D%27formularioDeLogin%3AbotaoLogin%27%5D%22%7D">
                   <UML:TaggedValue.modelElement>
                     <UML:ModelElement xmi.idref="4op-0b09c49b5510baad01c3661ce1429493"/>
                   </UML:TaggedValue.modelElement>
                 </UML:TaggedValue>
-                <UML:TaggedValue xmi.id="13v-791393d0d08c09e1c361080096e4461e" version="0" tag="TDACTION" value="%7Bclick%7D%7Bset-Text%3Btestetestezin%40gmail.com%7D%7BpressTab%7D%7Bset-Text%3Bteste123%7D">
+                <UML:TaggedValue xmi.id="13v-791393d0d08c09e1c361080096e4461e" version="0" tag="TDACTION" value="%7Bclick%7D">
+                  <UML:TaggedValue.modelElement>
+                    <UML:ModelElement xmi.idref="4op-0b09c49b5510baad01c3661ce1429493"/>
+                  </UML:TaggedValue.modelElement>
+                </UML:TaggedValue>
+                <UML:TaggedValue xmi.id="7p-4518a89271da37acb34f8ebb54c2382a" version="0" tag="TDPROTOCOL" value="web">
                   <UML:TaggedValue.modelElement>
                     <UML:ModelElement xmi.idref="4op-0b09c49b5510baad01c3661ce1429493"/>
                   </UML:TaggedValue.modelElement>
@@ -390,29 +419,6 @@
               </UML:ModelElement.taggedValue>
               <UML:Transition.source>
                 <UML:StateVertex xmi.idref="3fa-0b09c49b5510baad01c3661ce1429493"/>
-              </UML:Transition.source>
-              <UML:Transition.target>
-                <UML:StateVertex xmi.idref="4e2-0b09c49b5510baad01c3661ce1429493"/>
-              </UML:Transition.target>
-              <UML:Transition.stateMachine>
-                <UML:StateMachine xmi.idref="1te-0b09c49b5510baad01c3661ce1429493"/>
-              </UML:Transition.stateMachine>
-            </UML:Transition>
-            <UML:Transition xmi.id="5go-0b09c49b5510baad01c3661ce1429493" name="" version="0" unSolvedFlag="false">
-              <UML:ModelElement.taggedValue>
-                <UML:TaggedValue xmi.id="1zp-791393d0d08c09e1c361080096e4461e" version="0" tag="TDOBJECT" value="%7BwaitForPage%3Bhttp%3A%2F%2F192.168.1.10%3A8080%2FGerenciadorPampatec%2F%7D">
-                  <UML:TaggedValue.modelElement>
-                    <UML:ModelElement xmi.idref="5go-0b09c49b5510baad01c3661ce1429493"/>
-                  </UML:TaggedValue.modelElement>
-                </UML:TaggedValue>
-                <UML:TaggedValue xmi.id="2aa-791393d0d08c09e1c361080096e4461e" version="0" tag="TDACTION" value="%7Bclick%7D">
-                  <UML:TaggedValue.modelElement>
-                    <UML:ModelElement xmi.idref="5go-0b09c49b5510baad01c3661ce1429493"/>
-                  </UML:TaggedValue.modelElement>
-                </UML:TaggedValue>
-              </UML:ModelElement.taggedValue>
-              <UML:Transition.source>
-                <UML:StateVertex xmi.idref="4e2-0b09c49b5510baad01c3661ce1429493"/>
               </UML:Transition.source>
               <UML:Transition.target>
                 <UML:StateVertex xmi.idref="5cu-0b09c49b5510baad01c3661ce1429493"/>
@@ -433,131 +439,12 @@
     </UML:Model>
     <XMI.extension></XMI.extension>
     <XMI.extension>
-      <JUDE:Diagram xmi.id="4-0b09c49b5510baad01c3661ce1429493" name="UseCase GerenciadorPampatec" typeInfo="UseCase Diagram" version="0" xmlns:JUDE="http://objectclub.esm.co.jp/Jude/namespace/">
-        <UML:ModelElement.namespace>
-          <UML:Namespace xmi.idref="1-0b09c49b5510baad01c3661ce1429493"/>
-        </UML:ModelElement.namespace>
-        <JUDE:Diagram.presentations>
-          <JUDE:FramePresentation xmi.id="6-0b09c49b5510baad01c3661ce1429493" version="0" depth="2147483646" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="320.0" height="283.0" doAutoResize="false" visibility="true" label="+">
-            <JUDE:UPresentation.diagram>
-              <JUDE:Diagram xmi.idref="4-0b09c49b5510baad01c3661ce1429493"/>
-            </JUDE:UPresentation.diagram>
-            <JUDE:JomtPresentation.location>
-              <XMI.field>-9.0</XMI.field>
-              <XMI.field>10.0</XMI.field>
-            </JUDE:JomtPresentation.location>
-          </JUDE:FramePresentation>
-          <JUDE:ClassifierPresentation xmi.id="20-0b09c49b5510baad01c3661ce1429493" version="0" depth="2147483636" stereotypeVisibility="true" constraintVisibility="true" notationType="1" width="40.0" height="70.09375" doAutoResize="true" visibility="true" label="Empreendedor" isActive="false" allAttributeVisibility="true" allOperationVisibility="true" visibilityKindVisibility="true" attributeTypeVisibility="true" parameterVisibility="true" parameterTypeVisibility="true" returnTypeVisibility="true" isClassNameItalic="false" attributeInitValueVisibility="true" pathVisibility="0" attributeStereotypeVisibility="true" operationStereotypeVisibility="true" attributeConstraintVisibility="true" operationConstraintVisibility="true" publicAttributeVisibility="true" protectedAttributeVisibility="true" packageAttributeVisibility="true" privateAttributeVisibility="true" publicOperationVisibility="true" protectedOperationVisibility="true" packageOperationVisibility="true" privateOperationVisibility="true" classType="0" interfaceType="0" nameVisibility="true" templateParameterVisibility="true" templateParameterMultiline="false" boundClassTemplateParameterNameVisibility="true" boundClassTemplateParameterVisibility="true">
-            <JUDE:UPresentation.semanticModel>
-              <UML:Actor xmi.idref="21-0b09c49b5510baad01c3661ce1429493"/>
-            </JUDE:UPresentation.semanticModel>
-            <JUDE:UPresentation.diagram>
-              <JUDE:Diagram xmi.idref="4-0b09c49b5510baad01c3661ce1429493"/>
-            </JUDE:UPresentation.diagram>
-            <JUDE:UPresentation.clients>
-              <JUDE:AssociationPresentation xmi.idref="vx-0b09c49b5510baad01c3661ce1429493"/>
-            </JUDE:UPresentation.clients>
-            <JUDE:UPresentation.customStyleMap>
-              <JUDE:UPresentation.styleProperty key="attribute.filter_by_visibility" value=""/>
-              <JUDE:UPresentation.styleProperty key="fill.color.alpha" value="FF"/>
-              <JUDE:UPresentation.styleProperty key="fill.color" value="#FFFFCC"/>
-              <JUDE:UPresentation.styleProperty key="operation.filter_by_visibility" value=""/>
-            </JUDE:UPresentation.customStyleMap>
-            <JUDE:JomtPresentation.location>
-              <XMI.field>28.0</XMI.field>
-              <XMI.field>160.0</XMI.field>
-            </JUDE:JomtPresentation.location>
-          </JUDE:ClassifierPresentation>
-          <JUDE:UseCasePresentation xmi.id="fs-0b09c49b5510baad01c3661ce1429493" version="0" depth="2147483635" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="120.0" height="42.69157191413781" doAutoResize="true" visibility="true" label="Autenticar-se+no+sistema" isActive="false" allAttributeVisibility="true" allOperationVisibility="true" visibilityKindVisibility="true" attributeTypeVisibility="true" parameterVisibility="true" parameterTypeVisibility="true" returnTypeVisibility="true" isClassNameItalic="false" attributeInitValueVisibility="true" pathVisibility="0" attributeStereotypeVisibility="true" operationStereotypeVisibility="true" attributeConstraintVisibility="true" operationConstraintVisibility="true" publicAttributeVisibility="true" protectedAttributeVisibility="true" packageAttributeVisibility="true" privateAttributeVisibility="true" publicOperationVisibility="true" protectedOperationVisibility="true" packageOperationVisibility="true" privateOperationVisibility="true" classType="0" interfaceType="0" nameVisibility="true" templateParameterVisibility="true" templateParameterMultiline="false" boundClassTemplateParameterNameVisibility="false" boundClassTemplateParameterVisibility="true" withinOvalName="true" stereotypeAboveOval="false">
-            <JUDE:UPresentation.semanticModel>
-              <UML:UseCase xmi.idref="ft-0b09c49b5510baad01c3661ce1429493"/>
-            </JUDE:UPresentation.semanticModel>
-            <JUDE:UPresentation.diagram>
-              <JUDE:Diagram xmi.idref="4-0b09c49b5510baad01c3661ce1429493"/>
-            </JUDE:UPresentation.diagram>
-            <JUDE:UPresentation.clients>
-              <JUDE:AssociationPresentation xmi.idref="vx-0b09c49b5510baad01c3661ce1429493"/>
-            </JUDE:UPresentation.clients>
-            <JUDE:UPresentation.customStyleMap>
-              <JUDE:UPresentation.styleProperty key="attribute.filter_by_visibility" value=""/>
-              <JUDE:UPresentation.styleProperty key="fill.color.alpha" value="FF"/>
-              <JUDE:UPresentation.styleProperty key="fill.color" value="#FFFFCC"/>
-              <JUDE:UPresentation.styleProperty key="operation.filter_by_visibility" value=""/>
-            </JUDE:UPresentation.customStyleMap>
-            <JUDE:JomtPresentation.location>
-              <XMI.field>131.26999999999998</XMI.field>
-              <XMI.field>174.0</XMI.field>
-            </JUDE:JomtPresentation.location>
-          </JUDE:UseCasePresentation>
-          <JUDE:AssociationPresentation xmi.id="vx-0b09c49b5510baad01c3661ce1429493" version="0" depth="2147483634" stereotypeVisibility="true" constraintVisibility="true" notationType="0" rightAngle="false" visibility="true" qualifierBoxATypeVisibility="true" qualifierBoxBTypeVisibility="true" nameDirectionVisible="true" nameDirectionReverse="0">
-            <JUDE:UPresentation.semanticModel>
-              <UML:Association xmi.idref="w7-0b09c49b5510baad01c3661ce1429493"/>
-            </JUDE:UPresentation.semanticModel>
-            <JUDE:UPresentation.diagram>
-              <JUDE:Diagram xmi.idref="4-0b09c49b5510baad01c3661ce1429493"/>
-            </JUDE:UPresentation.diagram>
-            <JUDE:UPresentation.servers>
-              <JUDE:ClassifierPresentation xmi.idref="20-0b09c49b5510baad01c3661ce1429493"/>
-              <JUDE:UseCasePresentation xmi.idref="fs-0b09c49b5510baad01c3661ce1429493"/>
-            </JUDE:UPresentation.servers>
-            <JUDE:UPresentation.customStyleMap>
-              <JUDE:UPresentation.styleProperty key="line.shape" value="line"/>
-            </JUDE:UPresentation.customStyleMap>
-            <JUDE:JomtPresentation.location>
-              <XMI.field>0.0</XMI.field>
-              <XMI.field>0.0</XMI.field>
-            </JUDE:JomtPresentation.location>
-            <JUDE:PathPresentation.namePresentation>
-              <JUDE:LabelPresentation xmi.id="vy-0b09c49b5510baad01c3661ce1429493" version="0" depth="0" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="11.0" height="15.09375" doAutoResize="true" visibility="true">
-                <JUDE:JomtPresentation.location>
-                  <XMI.field>94.13499999999999</XMI.field>
-                  <XMI.field>196.60772853541044</XMI.field>
-                </JUDE:JomtPresentation.location>
-                <JUDE:JomtPresentation.compositeParent>
-                  <JUDE:UPresentation xmi.idref="vx-0b09c49b5510baad01c3661ce1429493"/>
-                </JUDE:JomtPresentation.compositeParent>
-              </JUDE:LabelPresentation>
-            </JUDE:PathPresentation.namePresentation>
-            <JUDE:BinaryRelationPresentation.sourceEnd>
-              <XMI.field>0.5</XMI.field>
-              <XMI.field>0.5</XMI.field>
-            </JUDE:BinaryRelationPresentation.sourceEnd>
-            <JUDE:BinaryRelationPresentation.targetEnd>
-              <XMI.field>0.5</XMI.field>
-              <XMI.field>0.5</XMI.field>
-            </JUDE:BinaryRelationPresentation.targetEnd>
-            <JUDE:PathPresentation.points></JUDE:PathPresentation.points>
-            <JUDE:AssociationPresentation.qualifierBoxAPresentation>
-              <JUDE:QualifierBoxPresentation xmi.id="1lb-0b09c49b5510baad01c3661ce1429493" version="0" depth="0" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="0.0" height="0.0" doAutoResize="true" visibility="true">
-                <JUDE:JomtPresentation.location>
-                  <XMI.field>68.0</XMI.field>
-                  <XMI.field>180.08860194312402</XMI.field>
-                </JUDE:JomtPresentation.location>
-                <JUDE:JomtPresentation.compositeParent>
-                  <JUDE:UPresentation xmi.idref="vx-0b09c49b5510baad01c3661ce1429493"/>
-                </JUDE:JomtPresentation.compositeParent>
-              </JUDE:QualifierBoxPresentation>
-            </JUDE:AssociationPresentation.qualifierBoxAPresentation>
-            <JUDE:AssociationPresentation.qualifierBoxBPresentation>
-              <JUDE:QualifierBoxPresentation xmi.id="1lc-0b09c49b5510baad01c3661ce1429493" version="0" depth="0" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="0.0" height="0.0" doAutoResize="true" visibility="true">
-                <JUDE:JomtPresentation.location>
-                  <XMI.field>91.26999999999998</XMI.field>
-                  <XMI.field>180.22060512769684</XMI.field>
-                </JUDE:JomtPresentation.location>
-                <JUDE:JomtPresentation.compositeParent>
-                  <JUDE:UPresentation xmi.idref="vx-0b09c49b5510baad01c3661ce1429493"/>
-                </JUDE:JomtPresentation.compositeParent>
-              </JUDE:QualifierBoxPresentation>
-            </JUDE:AssociationPresentation.qualifierBoxBPresentation>
-          </JUDE:AssociationPresentation>
-        </JUDE:Diagram.presentations>
-      </JUDE:Diagram>
-      <JUDE:ActivityDiagram xmi.id="1td-0b09c49b5510baad01c3661ce1429493" name="Activity Login" typeInfo="Activity Diagram" version="0" verticalMaxLevel="-1" horizontalMaxLevel="-1">
+      <JUDE:ActivityDiagram xmi.id="1td-0b09c49b5510baad01c3661ce1429493" name="Diagrama de Atividade Login" typeInfo="Activity Diagram" version="0" verticalMaxLevel="-1" horizontalMaxLevel="-1" xmlns:JUDE="http://objectclub.esm.co.jp/Jude/namespace/">
         <JUDE:StateChartDiagram.semanticModel>
           <UML:ActivityGraph xmi.idref="1te-0b09c49b5510baad01c3661ce1429493"/>
         </JUDE:StateChartDiagram.semanticModel>
         <JUDE:Diagram.presentations>
-          <JUDE:FramePresentation xmi.id="1tg-0b09c49b5510baad01c3661ce1429493" version="0" depth="2147483646" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="320.0" height="382.0" doAutoResize="false" visibility="true" label="Activity+Login">
+          <JUDE:FramePresentation xmi.id="1tg-0b09c49b5510baad01c3661ce1429493" version="0" depth="2147483646" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="320.0" height="305.680625" doAutoResize="false" visibility="true" label="Diagrama+de+Atividade+Login">
             <JUDE:UPresentation.diagram>
               <JUDE:Diagram xmi.idref="1td-0b09c49b5510baad01c3661ce1429493"/>
             </JUDE:UPresentation.diagram>
@@ -566,7 +453,7 @@
               <XMI.field>-5.09375</XMI.field>
             </JUDE:JomtPresentation.location>
           </JUDE:FramePresentation>
-          <JUDE:InitialStatePresentation xmi.id="2ef-0b09c49b5510baad01c3661ce1429493" version="0" depth="2147483636" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="20.0" height="20.0" doAutoResize="false" visibility="true" label="InitialNode0">
+          <JUDE:InitialStatePresentation xmi.id="2ef-0b09c49b5510baad01c3661ce1429493" version="0" depth="2147483636" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="20.0" height="20.0" doAutoResize="false" visibility="true" label="Acessar+Sistema">
             <JUDE:UPresentation.semanticModel>
               <UML:Pseudostate xmi.idref="2eg-0b09c49b5510baad01c3661ce1429493"/>
             </JUDE:UPresentation.semanticModel>
@@ -581,7 +468,7 @@
               <XMI.field>30.0</XMI.field>
             </JUDE:JomtPresentation.location>
           </JUDE:InitialStatePresentation>
-          <JUDE:ActionStatePresentation xmi.id="2k5-0b09c49b5510baad01c3661ce1429493" version="0" depth="2147483635" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="80.0" height="38.1875" doAutoResize="false" visibility="true" label="Acessar+Sistema" allActionVisibility="true" signalReverse="false">
+          <JUDE:ActionStatePresentation xmi.id="2k5-0b09c49b5510baad01c3661ce1429493" version="0" depth="2147483635" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="80.0" height="38.1875" doAutoResize="false" visibility="true" label="Informar+Dados" allActionVisibility="true" signalReverse="false">
             <JUDE:UPresentation.semanticModel>
               <UML:ActionState xmi.idref="2k6-0b09c49b5510baad01c3661ce1429493"/>
             </JUDE:UPresentation.semanticModel>
@@ -602,7 +489,7 @@
               <XMI.field>90.0</XMI.field>
             </JUDE:JomtPresentation.location>
           </JUDE:ActionStatePresentation>
-          <JUDE:ActionStatePresentation xmi.id="3f9-0b09c49b5510baad01c3661ce1429493" version="0" depth="2147483633" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="80.0" height="38.1875" doAutoResize="false" visibility="true" label="Informar+dados" allActionVisibility="true" signalReverse="false">
+          <JUDE:ActionStatePresentation xmi.id="3f9-0b09c49b5510baad01c3661ce1429493" version="0" depth="2147483633" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="80.0" height="38.1875" doAutoResize="false" visibility="true" label="Autenticar+Dados" allActionVisibility="true" signalReverse="false">
             <JUDE:UPresentation.semanticModel>
               <UML:ActionState xmi.idref="3fa-0b09c49b5510baad01c3661ce1429493"/>
             </JUDE:UPresentation.semanticModel>
@@ -623,27 +510,6 @@
               <XMI.field>168.0</XMI.field>
             </JUDE:JomtPresentation.location>
           </JUDE:ActionStatePresentation>
-          <JUDE:ActionStatePresentation xmi.id="4e1-0b09c49b5510baad01c3661ce1429493" version="0" depth="2147483631" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="80.0" height="38.1875" doAutoResize="false" visibility="true" label="Autenticar+dados" allActionVisibility="true" signalReverse="false">
-            <JUDE:UPresentation.semanticModel>
-              <UML:ActionState xmi.idref="4e2-0b09c49b5510baad01c3661ce1429493"/>
-            </JUDE:UPresentation.semanticModel>
-            <JUDE:UPresentation.diagram>
-              <JUDE:Diagram xmi.idref="1td-0b09c49b5510baad01c3661ce1429493"/>
-            </JUDE:UPresentation.diagram>
-            <JUDE:UPresentation.clients>
-              <JUDE:TransitionPresentation xmi.idref="4oo-0b09c49b5510baad01c3661ce1429493"/>
-              <JUDE:TransitionPresentation xmi.idref="5gn-0b09c49b5510baad01c3661ce1429493"/>
-            </JUDE:UPresentation.clients>
-            <JUDE:UPresentation.customStyleMap>
-              <JUDE:UPresentation.styleProperty key="fill.color.alpha" value="FF"/>
-              <JUDE:UPresentation.styleProperty key="fill.color" value="#FFFFCC"/>
-              <JUDE:UPresentation.styleProperty key="jude.hidetaggedvalue" value="false"/>
-            </JUDE:UPresentation.customStyleMap>
-            <JUDE:JomtPresentation.location>
-              <XMI.field>130.0</XMI.field>
-              <XMI.field>246.0</XMI.field>
-            </JUDE:JomtPresentation.location>
-          </JUDE:ActionStatePresentation>
           <JUDE:FinalStatePresentation xmi.id="5ct-0b09c49b5510baad01c3661ce1429493" version="0" depth="2147483629" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="20.0" height="20.0" doAutoResize="true" visibility="true" label="ActivityFinal0" allActionVisibility="true">
             <JUDE:UPresentation.semanticModel>
               <UML:FinalState xmi.idref="5cu-0b09c49b5510baad01c3661ce1429493"/>
@@ -652,11 +518,11 @@
               <JUDE:Diagram xmi.idref="1td-0b09c49b5510baad01c3661ce1429493"/>
             </JUDE:UPresentation.diagram>
             <JUDE:UPresentation.clients>
-              <JUDE:TransitionPresentation xmi.idref="5gn-0b09c49b5510baad01c3661ce1429493"/>
+              <JUDE:TransitionPresentation xmi.idref="4oo-0b09c49b5510baad01c3661ce1429493"/>
             </JUDE:UPresentation.clients>
             <JUDE:JomtPresentation.location>
               <XMI.field>160.0</XMI.field>
-              <XMI.field>325.0</XMI.field>
+              <XMI.field>239.0</XMI.field>
             </JUDE:JomtPresentation.location>
           </JUDE:FinalStatePresentation>
           <JUDE:TransitionPresentation xmi.id="2us-0b09c49b5510baad01c3661ce1429493" version="0" depth="2147483634" stereotypeVisibility="true" constraintVisibility="true" notationType="0" rightAngle="false" visibility="true">
@@ -746,7 +612,7 @@
             </JUDE:UPresentation.diagram>
             <JUDE:UPresentation.servers>
               <JUDE:ActionStatePresentation xmi.idref="3f9-0b09c49b5510baad01c3661ce1429493"/>
-              <JUDE:ActionStatePresentation xmi.idref="4e1-0b09c49b5510baad01c3661ce1429493"/>
+              <JUDE:FinalStatePresentation xmi.idref="5ct-0b09c49b5510baad01c3661ce1429493"/>
             </JUDE:UPresentation.servers>
             <JUDE:UPresentation.customStyleMap>
               <JUDE:UPresentation.styleProperty key="line.shape" value="line"/>
@@ -759,7 +625,7 @@
               <JUDE:LabelPresentation xmi.id="c3u-0b09c49b5510baad01c3661ce1429493" version="0" depth="0" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="11.0" height="15.09375" doAutoResize="true" visibility="true">
                 <JUDE:JomtPresentation.location>
                   <XMI.field>164.5</XMI.field>
-                  <XMI.field>227.546875</XMI.field>
+                  <XMI.field>224.046875</XMI.field>
                 </JUDE:JomtPresentation.location>
                 <JUDE:JomtPresentation.compositeParent>
                   <JUDE:UPresentation xmi.idref="4oo-0b09c49b5510baad01c3661ce1429493"/>
@@ -776,32 +642,180 @@
             </JUDE:BinaryRelationPresentation.targetEnd>
             <JUDE:PathPresentation.points></JUDE:PathPresentation.points>
           </JUDE:TransitionPresentation>
-          <JUDE:TransitionPresentation xmi.id="5gn-0b09c49b5510baad01c3661ce1429493" version="0" depth="2147483628" stereotypeVisibility="true" constraintVisibility="true" notationType="0" rightAngle="false" visibility="true">
+        </JUDE:Diagram.presentations>
+      </JUDE:ActivityDiagram>
+      <JUDE:Diagram xmi.id="4-0b09c49b5510baad01c3661ce1429493" name="Diagrama de Caso de Uso" typeInfo="UseCase Diagram" version="0">
+        <UML:ModelElement.namespace>
+          <UML:Namespace xmi.idref="1-0b09c49b5510baad01c3661ce1429493"/>
+        </UML:ModelElement.namespace>
+        <JUDE:Diagram.presentations>
+          <JUDE:FramePresentation xmi.id="6-0b09c49b5510baad01c3661ce1429493" version="0" depth="2147483646" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="637.0" height="434.6915719141378" doAutoResize="false" visibility="true" label="+">
+            <JUDE:UPresentation.diagram>
+              <JUDE:Diagram xmi.idref="4-0b09c49b5510baad01c3661ce1429493"/>
+            </JUDE:UPresentation.diagram>
+            <JUDE:JomtPresentation.location>
+              <XMI.field>-9.0</XMI.field>
+              <XMI.field>10.0</XMI.field>
+            </JUDE:JomtPresentation.location>
+          </JUDE:FramePresentation>
+          <JUDE:ClassifierPresentation xmi.id="20-0b09c49b5510baad01c3661ce1429493" version="0" depth="2147483636" stereotypeVisibility="true" constraintVisibility="true" notationType="1" width="40.0" height="70.09375" doAutoResize="true" visibility="true" label="Empreendedor" isActive="false" allAttributeVisibility="true" allOperationVisibility="true" visibilityKindVisibility="true" attributeTypeVisibility="true" parameterVisibility="true" parameterTypeVisibility="true" returnTypeVisibility="true" isClassNameItalic="false" attributeInitValueVisibility="true" pathVisibility="0" attributeStereotypeVisibility="true" operationStereotypeVisibility="true" attributeConstraintVisibility="true" operationConstraintVisibility="true" publicAttributeVisibility="true" protectedAttributeVisibility="true" packageAttributeVisibility="true" privateAttributeVisibility="true" publicOperationVisibility="true" protectedOperationVisibility="true" packageOperationVisibility="true" privateOperationVisibility="true" classType="0" interfaceType="0" nameVisibility="true" templateParameterVisibility="true" templateParameterMultiline="false" boundClassTemplateParameterNameVisibility="true" boundClassTemplateParameterVisibility="true">
             <JUDE:UPresentation.semanticModel>
-              <UML:Transition xmi.idref="5go-0b09c49b5510baad01c3661ce1429493"/>
+              <UML:Actor xmi.idref="21-0b09c49b5510baad01c3661ce1429493"/>
             </JUDE:UPresentation.semanticModel>
             <JUDE:UPresentation.diagram>
-              <JUDE:Diagram xmi.idref="1td-0b09c49b5510baad01c3661ce1429493"/>
+              <JUDE:Diagram xmi.idref="4-0b09c49b5510baad01c3661ce1429493"/>
+            </JUDE:UPresentation.diagram>
+            <JUDE:UPresentation.clients>
+              <JUDE:AssociationPresentation xmi.idref="vx-0b09c49b5510baad01c3661ce1429493"/>
+            </JUDE:UPresentation.clients>
+            <JUDE:UPresentation.customStyleMap>
+              <JUDE:UPresentation.styleProperty key="attribute.filter_by_visibility" value=""/>
+              <JUDE:UPresentation.styleProperty key="fill.color.alpha" value="FF"/>
+              <JUDE:UPresentation.styleProperty key="fill.color" value="#FFFFCC"/>
+              <JUDE:UPresentation.styleProperty key="operation.filter_by_visibility" value=""/>
+            </JUDE:UPresentation.customStyleMap>
+            <JUDE:JomtPresentation.location>
+              <XMI.field>36.0</XMI.field>
+              <XMI.field>118.0</XMI.field>
+            </JUDE:JomtPresentation.location>
+          </JUDE:ClassifierPresentation>
+          <JUDE:UseCasePresentation xmi.id="fs-0b09c49b5510baad01c3661ce1429493" version="0" depth="2147483635" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="120.0" height="42.69157191413781" doAutoResize="true" visibility="true" label="Autenticar-se+no+sistema" isActive="false" allAttributeVisibility="true" allOperationVisibility="true" visibilityKindVisibility="true" attributeTypeVisibility="true" parameterVisibility="true" parameterTypeVisibility="true" returnTypeVisibility="true" isClassNameItalic="false" attributeInitValueVisibility="true" pathVisibility="0" attributeStereotypeVisibility="true" operationStereotypeVisibility="true" attributeConstraintVisibility="true" operationConstraintVisibility="true" publicAttributeVisibility="true" protectedAttributeVisibility="true" packageAttributeVisibility="true" privateAttributeVisibility="true" publicOperationVisibility="true" protectedOperationVisibility="true" packageOperationVisibility="true" privateOperationVisibility="true" classType="0" interfaceType="0" nameVisibility="true" templateParameterVisibility="true" templateParameterMultiline="false" boundClassTemplateParameterNameVisibility="false" boundClassTemplateParameterVisibility="true" withinOvalName="true" stereotypeAboveOval="false">
+            <JUDE:UPresentation.semanticModel>
+              <UML:UseCase xmi.idref="ft-0b09c49b5510baad01c3661ce1429493"/>
+            </JUDE:UPresentation.semanticModel>
+            <JUDE:UPresentation.diagram>
+              <JUDE:Diagram xmi.idref="4-0b09c49b5510baad01c3661ce1429493"/>
+            </JUDE:UPresentation.diagram>
+            <JUDE:UPresentation.clients>
+              <JUDE:AssociationPresentation xmi.idref="vx-0b09c49b5510baad01c3661ce1429493"/>
+            </JUDE:UPresentation.clients>
+            <JUDE:UPresentation.customStyleMap>
+              <JUDE:UPresentation.styleProperty key="attribute.filter_by_visibility" value=""/>
+              <JUDE:UPresentation.styleProperty key="fill.color.alpha" value="FF"/>
+              <JUDE:UPresentation.styleProperty key="fill.color" value="#FFFFCC"/>
+              <JUDE:UPresentation.styleProperty key="operation.filter_by_visibility" value=""/>
+            </JUDE:UPresentation.customStyleMap>
+            <JUDE:JomtPresentation.location>
+              <XMI.field>139.26999999999998</XMI.field>
+              <XMI.field>132.0</XMI.field>
+            </JUDE:JomtPresentation.location>
+          </JUDE:UseCasePresentation>
+          <JUDE:UseCasePresentation xmi.id="h8-a4398ead812ea71fa7d37ce8dfae1331" version="0" depth="2147483633" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="120.0" height="42.69157191413781" doAutoResize="true" visibility="true" label="Fazer+Cadastro" isActive="false" allAttributeVisibility="true" allOperationVisibility="true" visibilityKindVisibility="true" attributeTypeVisibility="true" parameterVisibility="true" parameterTypeVisibility="true" returnTypeVisibility="true" isClassNameItalic="false" attributeInitValueVisibility="true" pathVisibility="0" attributeStereotypeVisibility="true" operationStereotypeVisibility="true" attributeConstraintVisibility="true" operationConstraintVisibility="true" publicAttributeVisibility="true" protectedAttributeVisibility="true" packageAttributeVisibility="true" privateAttributeVisibility="true" publicOperationVisibility="true" protectedOperationVisibility="true" packageOperationVisibility="true" privateOperationVisibility="true" classType="0" interfaceType="0" nameVisibility="true" templateParameterVisibility="true" templateParameterMultiline="false" boundClassTemplateParameterNameVisibility="false" boundClassTemplateParameterVisibility="true" withinOvalName="true" stereotypeAboveOval="false">
+            <JUDE:UPresentation.semanticModel>
+              <UML:UseCase xmi.idref="h9-a4398ead812ea71fa7d37ce8dfae1331"/>
+            </JUDE:UPresentation.semanticModel>
+            <JUDE:UPresentation.diagram>
+              <JUDE:Diagram xmi.idref="4-0b09c49b5510baad01c3661ce1429493"/>
+            </JUDE:UPresentation.diagram>
+            <JUDE:UPresentation.customStyleMap>
+              <JUDE:UPresentation.styleProperty key="attribute.filter_by_visibility" value=""/>
+              <JUDE:UPresentation.styleProperty key="fill.color.alpha" value="FF"/>
+              <JUDE:UPresentation.styleProperty key="fill.color" value="#FFFFCC"/>
+              <JUDE:UPresentation.styleProperty key="operation.filter_by_visibility" value=""/>
+            </JUDE:UPresentation.customStyleMap>
+            <JUDE:JomtPresentation.location>
+              <XMI.field>139.0</XMI.field>
+              <XMI.field>63.0</XMI.field>
+            </JUDE:JomtPresentation.location>
+          </JUDE:UseCasePresentation>
+          <JUDE:UseCasePresentation xmi.id="4fr-a4398ead812ea71fa7d37ce8dfae1331" version="0" depth="2147483632" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="120.0" height="42.69157191413781" doAutoResize="true" visibility="true" label="Criar+Plano+de+Neg%C3%B3cio" isActive="false" allAttributeVisibility="true" allOperationVisibility="true" visibilityKindVisibility="true" attributeTypeVisibility="true" parameterVisibility="true" parameterTypeVisibility="true" returnTypeVisibility="true" isClassNameItalic="false" attributeInitValueVisibility="true" pathVisibility="0" attributeStereotypeVisibility="true" operationStereotypeVisibility="true" attributeConstraintVisibility="true" operationConstraintVisibility="true" publicAttributeVisibility="true" protectedAttributeVisibility="true" packageAttributeVisibility="true" privateAttributeVisibility="true" publicOperationVisibility="true" protectedOperationVisibility="true" packageOperationVisibility="true" privateOperationVisibility="true" classType="0" interfaceType="0" nameVisibility="true" templateParameterVisibility="true" templateParameterMultiline="false" boundClassTemplateParameterNameVisibility="false" boundClassTemplateParameterVisibility="true" withinOvalName="true" stereotypeAboveOval="false">
+            <JUDE:UPresentation.semanticModel>
+              <UML:UseCase xmi.idref="4fs-a4398ead812ea71fa7d37ce8dfae1331"/>
+            </JUDE:UPresentation.semanticModel>
+            <JUDE:UPresentation.diagram>
+              <JUDE:Diagram xmi.idref="4-0b09c49b5510baad01c3661ce1429493"/>
+            </JUDE:UPresentation.diagram>
+            <JUDE:UPresentation.customStyleMap>
+              <JUDE:UPresentation.styleProperty key="attribute.filter_by_visibility" value=""/>
+              <JUDE:UPresentation.styleProperty key="fill.color.alpha" value="FF"/>
+              <JUDE:UPresentation.styleProperty key="fill.color" value="#FFFFCC"/>
+              <JUDE:UPresentation.styleProperty key="operation.filter_by_visibility" value=""/>
+            </JUDE:UPresentation.customStyleMap>
+            <JUDE:JomtPresentation.location>
+              <XMI.field>139.0</XMI.field>
+              <XMI.field>192.0</XMI.field>
+            </JUDE:JomtPresentation.location>
+          </JUDE:UseCasePresentation>
+          <JUDE:UseCasePresentation xmi.id="4v5-a4398ead812ea71fa7d37ce8dfae1331" version="0" depth="2147483631" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="120.0" height="42.69157191413781" doAutoResize="true" visibility="true" label="Excluir+Plano+de+Neg%C3%B3cio" isActive="false" allAttributeVisibility="true" allOperationVisibility="true" visibilityKindVisibility="true" attributeTypeVisibility="true" parameterVisibility="true" parameterTypeVisibility="true" returnTypeVisibility="true" isClassNameItalic="false" attributeInitValueVisibility="true" pathVisibility="0" attributeStereotypeVisibility="true" operationStereotypeVisibility="true" attributeConstraintVisibility="true" operationConstraintVisibility="true" publicAttributeVisibility="true" protectedAttributeVisibility="true" packageAttributeVisibility="true" privateAttributeVisibility="true" publicOperationVisibility="true" protectedOperationVisibility="true" packageOperationVisibility="true" privateOperationVisibility="true" classType="0" interfaceType="0" nameVisibility="true" templateParameterVisibility="true" templateParameterMultiline="false" boundClassTemplateParameterNameVisibility="false" boundClassTemplateParameterVisibility="true" withinOvalName="true" stereotypeAboveOval="false">
+            <JUDE:UPresentation.semanticModel>
+              <UML:UseCase xmi.idref="4v6-a4398ead812ea71fa7d37ce8dfae1331"/>
+            </JUDE:UPresentation.semanticModel>
+            <JUDE:UPresentation.diagram>
+              <JUDE:Diagram xmi.idref="4-0b09c49b5510baad01c3661ce1429493"/>
+            </JUDE:UPresentation.diagram>
+            <JUDE:UPresentation.customStyleMap>
+              <JUDE:UPresentation.styleProperty key="attribute.filter_by_visibility" value=""/>
+              <JUDE:UPresentation.styleProperty key="fill.color.alpha" value="FF"/>
+              <JUDE:UPresentation.styleProperty key="fill.color" value="#FFFFCC"/>
+              <JUDE:UPresentation.styleProperty key="operation.filter_by_visibility" value=""/>
+            </JUDE:UPresentation.customStyleMap>
+            <JUDE:JomtPresentation.location>
+              <XMI.field>139.0</XMI.field>
+              <XMI.field>252.0</XMI.field>
+            </JUDE:JomtPresentation.location>
+          </JUDE:UseCasePresentation>
+          <JUDE:UseCasePresentation xmi.id="5b7-a4398ead812ea71fa7d37ce8dfae1331" version="0" depth="2147483630" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="120.0" height="42.69157191413781" doAutoResize="true" visibility="true" label="Editar+Plano+de+Neg%C3%B3cio" isActive="false" allAttributeVisibility="true" allOperationVisibility="true" visibilityKindVisibility="true" attributeTypeVisibility="true" parameterVisibility="true" parameterTypeVisibility="true" returnTypeVisibility="true" isClassNameItalic="false" attributeInitValueVisibility="true" pathVisibility="0" attributeStereotypeVisibility="true" operationStereotypeVisibility="true" attributeConstraintVisibility="true" operationConstraintVisibility="true" publicAttributeVisibility="true" protectedAttributeVisibility="true" packageAttributeVisibility="true" privateAttributeVisibility="true" publicOperationVisibility="true" protectedOperationVisibility="true" packageOperationVisibility="true" privateOperationVisibility="true" classType="0" interfaceType="0" nameVisibility="true" templateParameterVisibility="true" templateParameterMultiline="false" boundClassTemplateParameterNameVisibility="false" boundClassTemplateParameterVisibility="true" withinOvalName="true" stereotypeAboveOval="false">
+            <JUDE:UPresentation.semanticModel>
+              <UML:UseCase xmi.idref="5b8-a4398ead812ea71fa7d37ce8dfae1331"/>
+            </JUDE:UPresentation.semanticModel>
+            <JUDE:UPresentation.diagram>
+              <JUDE:Diagram xmi.idref="4-0b09c49b5510baad01c3661ce1429493"/>
+            </JUDE:UPresentation.diagram>
+            <JUDE:UPresentation.customStyleMap>
+              <JUDE:UPresentation.styleProperty key="attribute.filter_by_visibility" value=""/>
+              <JUDE:UPresentation.styleProperty key="fill.color.alpha" value="FF"/>
+              <JUDE:UPresentation.styleProperty key="fill.color" value="#FFFFCC"/>
+              <JUDE:UPresentation.styleProperty key="operation.filter_by_visibility" value=""/>
+            </JUDE:UPresentation.customStyleMap>
+            <JUDE:JomtPresentation.location>
+              <XMI.field>139.0</XMI.field>
+              <XMI.field>312.0</XMI.field>
+            </JUDE:JomtPresentation.location>
+          </JUDE:UseCasePresentation>
+          <JUDE:UseCasePresentation xmi.id="5rx-a4398ead812ea71fa7d37ce8dfae1331" version="0" depth="2147483629" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="120.0" height="42.69157191413781" doAutoResize="true" visibility="true" label="Revisar+Plano+de+Neg%C3%B3cio" isActive="false" allAttributeVisibility="true" allOperationVisibility="true" visibilityKindVisibility="true" attributeTypeVisibility="true" parameterVisibility="true" parameterTypeVisibility="true" returnTypeVisibility="true" isClassNameItalic="false" attributeInitValueVisibility="true" pathVisibility="0" attributeStereotypeVisibility="true" operationStereotypeVisibility="true" attributeConstraintVisibility="true" operationConstraintVisibility="true" publicAttributeVisibility="true" protectedAttributeVisibility="true" packageAttributeVisibility="true" privateAttributeVisibility="true" publicOperationVisibility="true" protectedOperationVisibility="true" packageOperationVisibility="true" privateOperationVisibility="true" classType="0" interfaceType="0" nameVisibility="true" templateParameterVisibility="true" templateParameterMultiline="false" boundClassTemplateParameterNameVisibility="false" boundClassTemplateParameterVisibility="true" withinOvalName="true" stereotypeAboveOval="false">
+            <JUDE:UPresentation.semanticModel>
+              <UML:UseCase xmi.idref="5ry-a4398ead812ea71fa7d37ce8dfae1331"/>
+            </JUDE:UPresentation.semanticModel>
+            <JUDE:UPresentation.diagram>
+              <JUDE:Diagram xmi.idref="4-0b09c49b5510baad01c3661ce1429493"/>
+            </JUDE:UPresentation.diagram>
+            <JUDE:UPresentation.customStyleMap>
+              <JUDE:UPresentation.styleProperty key="attribute.filter_by_visibility" value=""/>
+              <JUDE:UPresentation.styleProperty key="fill.color.alpha" value="FF"/>
+              <JUDE:UPresentation.styleProperty key="fill.color" value="#FFFFCC"/>
+              <JUDE:UPresentation.styleProperty key="operation.filter_by_visibility" value=""/>
+            </JUDE:UPresentation.customStyleMap>
+            <JUDE:JomtPresentation.location>
+              <XMI.field>139.0</XMI.field>
+              <XMI.field>372.0</XMI.field>
+            </JUDE:JomtPresentation.location>
+          </JUDE:UseCasePresentation>
+          <JUDE:AssociationPresentation xmi.id="vx-0b09c49b5510baad01c3661ce1429493" version="0" depth="2147483634" stereotypeVisibility="true" constraintVisibility="true" notationType="0" rightAngle="false" visibility="true" qualifierBoxATypeVisibility="true" qualifierBoxBTypeVisibility="true" nameDirectionVisible="true" nameDirectionReverse="0">
+            <JUDE:UPresentation.semanticModel>
+              <UML:Association xmi.idref="w7-0b09c49b5510baad01c3661ce1429493"/>
+            </JUDE:UPresentation.semanticModel>
+            <JUDE:UPresentation.diagram>
+              <JUDE:Diagram xmi.idref="4-0b09c49b5510baad01c3661ce1429493"/>
             </JUDE:UPresentation.diagram>
             <JUDE:UPresentation.servers>
-              <JUDE:ActionStatePresentation xmi.idref="4e1-0b09c49b5510baad01c3661ce1429493"/>
-              <JUDE:FinalStatePresentation xmi.idref="5ct-0b09c49b5510baad01c3661ce1429493"/>
+              <JUDE:ClassifierPresentation xmi.idref="20-0b09c49b5510baad01c3661ce1429493"/>
+              <JUDE:UseCasePresentation xmi.idref="fs-0b09c49b5510baad01c3661ce1429493"/>
             </JUDE:UPresentation.servers>
             <JUDE:UPresentation.customStyleMap>
               <JUDE:UPresentation.styleProperty key="line.shape" value="line"/>
             </JUDE:UPresentation.customStyleMap>
             <JUDE:JomtPresentation.location>
-              <XMI.field>35.0</XMI.field>
-              <XMI.field>-27.0</XMI.field>
+              <XMI.field>8.0</XMI.field>
+              <XMI.field>-42.0</XMI.field>
             </JUDE:JomtPresentation.location>
             <JUDE:PathPresentation.namePresentation>
-              <JUDE:LabelPresentation xmi.id="c3w-0b09c49b5510baad01c3661ce1429493" version="0" depth="0" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="11.0" height="15.09375" doAutoResize="true" visibility="true">
+              <JUDE:LabelPresentation xmi.id="vy-0b09c49b5510baad01c3661ce1429493" version="0" depth="0" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="11.0" height="15.09375" doAutoResize="true" visibility="true">
                 <JUDE:JomtPresentation.location>
-                  <XMI.field>164.5</XMI.field>
-                  <XMI.field>306.046875</XMI.field>
+                  <XMI.field>102.13499999999999</XMI.field>
+                  <XMI.field>154.60772853541044</XMI.field>
                 </JUDE:JomtPresentation.location>
                 <JUDE:JomtPresentation.compositeParent>
-                  <JUDE:UPresentation xmi.idref="5gn-0b09c49b5510baad01c3661ce1429493"/>
+                  <JUDE:UPresentation xmi.idref="vx-0b09c49b5510baad01c3661ce1429493"/>
                 </JUDE:JomtPresentation.compositeParent>
               </JUDE:LabelPresentation>
             </JUDE:PathPresentation.namePresentation>
@@ -814,9 +828,31 @@
               <XMI.field>0.5</XMI.field>
             </JUDE:BinaryRelationPresentation.targetEnd>
             <JUDE:PathPresentation.points></JUDE:PathPresentation.points>
-          </JUDE:TransitionPresentation>
+            <JUDE:AssociationPresentation.qualifierBoxAPresentation>
+              <JUDE:QualifierBoxPresentation xmi.id="1lb-0b09c49b5510baad01c3661ce1429493" version="0" depth="0" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="0.0" height="0.0" doAutoResize="true" visibility="true">
+                <JUDE:JomtPresentation.location>
+                  <XMI.field>76.0</XMI.field>
+                  <XMI.field>138.08860194312402</XMI.field>
+                </JUDE:JomtPresentation.location>
+                <JUDE:JomtPresentation.compositeParent>
+                  <JUDE:UPresentation xmi.idref="vx-0b09c49b5510baad01c3661ce1429493"/>
+                </JUDE:JomtPresentation.compositeParent>
+              </JUDE:QualifierBoxPresentation>
+            </JUDE:AssociationPresentation.qualifierBoxAPresentation>
+            <JUDE:AssociationPresentation.qualifierBoxBPresentation>
+              <JUDE:QualifierBoxPresentation xmi.id="1lc-0b09c49b5510baad01c3661ce1429493" version="0" depth="0" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="0.0" height="0.0" doAutoResize="true" visibility="true">
+                <JUDE:JomtPresentation.location>
+                  <XMI.field>99.26999999999998</XMI.field>
+                  <XMI.field>138.22060512769684</XMI.field>
+                </JUDE:JomtPresentation.location>
+                <JUDE:JomtPresentation.compositeParent>
+                  <JUDE:UPresentation xmi.idref="vx-0b09c49b5510baad01c3661ce1429493"/>
+                </JUDE:JomtPresentation.compositeParent>
+              </JUDE:QualifierBoxPresentation>
+            </JUDE:AssociationPresentation.qualifierBoxBPresentation>
+          </JUDE:AssociationPresentation>
         </JUDE:Diagram.presentations>
-      </JUDE:ActivityDiagram>
+      </JUDE:Diagram>
     </XMI.extension>
   </XMI.content>
 </XMI>
