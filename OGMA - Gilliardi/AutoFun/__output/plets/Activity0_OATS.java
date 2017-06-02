@@ -16,6 +16,7 @@ public class script extends IteratingVUserScript {
 	@ScriptService oracle.oats.scripting.modules.browser.api.BrowserService browser;
 	@ScriptService oracle.oats.scripting.modules.functionalTest.api.FunctionalTestService ft;
 	@ScriptService oracle.oats.scripting.modules.webdom.api.WebDomService web;
+
 	public void initialize() throws Exception {
 		browser.closeAllBrowsers();
 		browser.launch();
@@ -24,11 +25,11 @@ public class script extends IteratingVUserScript {
 	public void run() throws Exception {
 		beginStep("Acessar Sistema", 1);
 		{
-			web.window(1, "/web:window[@index='0']").navigate("http://192.168.1.10:8080/GerenciadorPampatec/");
+			web.window(1, "/web:window[@index='0']"}{window).navigate("http://192.168.1.10:8080/GerenciadorPampatec/");
 			{
 				think(1);
 			}
-			web.window(2, "/web:window[@index='0']").waitForPage(null);
+			web.window(2, "/web:window[@index='0']"}{window).waitForPage(null);
 			{
 				think(1);
 			}
@@ -38,19 +39,19 @@ public class script extends IteratingVUserScript {
 
 		beginStep("Informar Dados", 4);
 		{
-			web.textBox(4, "/web:window[@index='0']/web:document[@index='0']/web:form[@id='formularioDeLogin']/web:input_text[@id='formularioDeLogin:emailInput']").click();
+			web.textBox(4, "/web:window[@index='0']/web:document[@index='0']/web:form[@id='formularioDeLogin']/web:input_text[@id='formularioDeLogin:emailInput']"}{textBox).click();
 			{
 				think(1);
 			}
-			web.textBox(5, "/web:window[@index='0']/web:document[@index='0']/web:form[@id='formularioDeLogin']/web:input_text[@id='formularioDeLogin:emailInput']").setText("testetestezin@gmail.com");
+			web.textBox(5, "/web:window[@index='0']/web:document[@index='0']/web:form[@id='formularioDeLogin']/web:input_text[@id='formularioDeLogin:emailInput']"}{textBox).setText("testetestezin@gmail.com");
 			{
 				think(1);
 			}
-			web.textBox(6, "/web:window[@index='0']/web:document[@index='0']/web:form[@id='formularioDeLogin']/web:input_text[@id='formularioDeLogin:emailInput']").pressTab();
+			web.textBox(6, "/web:window[@index='0']/web:document[@index='0']/web:form[@id='formularioDeLogin']/web:input_text[@id='formularioDeLogin:emailInput']"}{textBox).pressTab();
 			{
 				think(1);
 			}
-			web.textBox(7, "/web:window[@index='0']/web:document[@index='0']/web:form[@id='formularioDeLogin']/web:input_text[@id='formularioDeLogin:emailInput']").setPassword("teste123");
+			web.textBox(7, "/web:window[@index='0']/web:document[@index='0']/web:form[@id='formularioDeLogin']/web:input_text[@id='formularioDeLogin:emailInput']"}{textBox).setPassword("teste123");
 			{
 				think(1);
 			}

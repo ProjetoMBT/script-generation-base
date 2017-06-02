@@ -49,3 +49,20 @@ C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\TestingTool.exe
 C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\TestingTool.pdb
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Apps.PLeTs\obj\x86\OATS-Based FTT\TestingTool.exe
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Apps.PLeTs\obj\x86\OATS-Based FTT\TestingTool.pdb
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\TestingTool.XML
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\TestingTool.exe
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\TestingTool.pdb
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Apps.PLeTs\obj\x86\OATS-Based FTT\Coc.Apps.PLeTs.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Apps.PLeTs\obj\x86\OATS-Based FTT\MainWindowOATS.baml
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Apps.PLeTs\obj\x86\OATS-Based FTT\MainWindow.baml
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Apps.PLeTs\obj\x86\OATS-Based FTT\ConfigurationForm.baml
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Apps.PLeTs\obj\x86\OATS-Based FTT\MainWindowOATS.g.cs
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Apps.PLeTs\obj\x86\OATS-Based FTT\MainWindow.g.cs
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Apps.PLeTs\obj\x86\OATS-Based FTT\ConfigurationForm.g.cs
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Apps.PLeTs\obj\x86\OATS-Based FTT\App.g.cs
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Apps.PLeTs\obj\x86\OATS-Based FTT\TestingTool_MarkupCompile.cache
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Apps.PLeTs\obj\x86\OATS-Based FTT\TestingTool.g.resources
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Apps.PLeTs\obj\x86\OATS-Based FTT\Coc.Apps.PleTs.Properties.Resources.resources
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Apps.PLeTs\obj\x86\OATS-Based FTT\Coc.Apps.PLeTs.csproj.GenerateResource.Cache
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Apps.PLeTs\obj\x86\OATS-Based FTT\TestingTool.exe
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Apps.PLeTs\obj\x86\OATS-Based FTT\TestingTool.pdb

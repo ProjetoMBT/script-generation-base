@@ -16,3 +16,9 @@ C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Modeling.TestPlanStru
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.TestPlanStructure\obj\OATS-Based FTT\Coc.Modeling.TestPlanStructure.dll
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.TestPlanStructure\obj\OATS-Based FTT\Coc.Modeling.TestPlanStructure.pdb
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.TestPlanStructure\obj\OATS-Based FTT\Coc.Modeling.TestPlanStructure.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\Coc.Modeling.TestPlanStructure.XML
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\Coc.Modeling.TestPlanStructure.dll
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\Coc.Modeling.TestPlanStructure.pdb
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Modeling.TestPlanStructure\obj\OATS-Based FTT\Coc.Modeling.TestPlanStructure.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Modeling.TestPlanStructure\obj\OATS-Based FTT\Coc.Modeling.TestPlanStructure.dll
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Modeling.TestPlanStructure\obj\OATS-Based FTT\Coc.Modeling.TestPlanStructure.pdb

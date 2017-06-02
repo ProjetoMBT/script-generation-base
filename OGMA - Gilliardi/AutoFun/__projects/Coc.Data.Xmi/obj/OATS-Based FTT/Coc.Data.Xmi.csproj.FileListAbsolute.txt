@@ -22,3 +22,11 @@ C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xmi\obj\OATS-Based F
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xmi\obj\OATS-Based FTT\Coc.Data.Xmi.csproj.GenerateResource.Cache
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xmi\obj\OATS-Based FTT\Coc.Data.Xmi.dll
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xmi\obj\OATS-Based FTT\Coc.Data.Xmi.pdb
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\Coc.Data.Xmi.XML
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\Coc.Data.Xmi.dll
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\Coc.Data.Xmi.pdb
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Data.Xmi\obj\OATS-Based FTT\Coc.Data.Xmi.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Data.Xmi\obj\OATS-Based FTT\Coc.Data.Xmi.DatabankConfigForm.resources
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Data.Xmi\obj\OATS-Based FTT\Coc.Data.Xmi.csproj.GenerateResource.Cache
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Data.Xmi\obj\OATS-Based FTT\Coc.Data.Xmi.dll
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Data.Xmi\obj\OATS-Based FTT\Coc.Data.Xmi.pdb

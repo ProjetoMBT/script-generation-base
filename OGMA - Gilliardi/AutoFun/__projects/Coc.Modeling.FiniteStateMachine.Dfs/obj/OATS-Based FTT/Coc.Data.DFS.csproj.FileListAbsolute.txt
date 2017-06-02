@@ -16,3 +16,9 @@ C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Modeling.FiniteStateM
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.FiniteStateMachine.Dfs\obj\OATS-Based FTT\Coc.Data.DFS.csprojResolveAssemblyReference.cache
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.FiniteStateMachine.Dfs\obj\OATS-Based FTT\Coc.Modeling.FiniteStateMachine.Dfs.dll
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.FiniteStateMachine.Dfs\obj\OATS-Based FTT\Coc.Modeling.FiniteStateMachine.Dfs.pdb
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\Coc.Modeling.FiniteStateMachine.Dfs.XML
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\Coc.Modeling.FiniteStateMachine.Dfs.dll
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\Coc.Modeling.FiniteStateMachine.Dfs.pdb
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Modeling.FiniteStateMachine.Dfs\obj\OATS-Based FTT\Coc.Data.DFS.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Modeling.FiniteStateMachine.Dfs\obj\OATS-Based FTT\Coc.Modeling.FiniteStateMachine.Dfs.dll
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Modeling.FiniteStateMachine.Dfs\obj\OATS-Based FTT\Coc.Modeling.FiniteStateMachine.Dfs.pdb

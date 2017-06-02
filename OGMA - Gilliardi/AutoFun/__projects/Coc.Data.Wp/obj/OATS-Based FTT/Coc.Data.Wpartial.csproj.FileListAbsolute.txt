@@ -16,3 +16,9 @@ C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.Wp.pdb
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Wp\obj\OATS-Based FTT\Coc.Data.Wpartial.csprojResolveAssemblyReference.cache
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Wp\obj\OATS-Based FTT\Coc.Data.Wp.dll
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Wp\obj\OATS-Based FTT\Coc.Data.Wp.pdb
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\Coc.Data.Wp.XML
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\Coc.Data.Wp.dll
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\Coc.Data.Wp.pdb
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Data.Wp\obj\OATS-Based FTT\Coc.Data.Wpartial.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Data.Wp\obj\OATS-Based FTT\Coc.Data.Wp.dll
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Data.Wp\obj\OATS-Based FTT\Coc.Data.Wp.pdb

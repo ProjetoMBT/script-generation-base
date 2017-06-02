@@ -16,3 +16,9 @@ C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Apps.PLeTs.ControlUni
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Apps.PLeTs.ControlUnit\obj\OATS-Based FTT\Coc.Apps.PLeTs.ControlUnit.csprojResolveAssemblyReference.cache
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Apps.PLeTs.ControlUnit\obj\OATS-Based FTT\Coc.Apps.PLeTs.ControlUnit.dll
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Apps.PLeTs.ControlUnit\obj\OATS-Based FTT\Coc.Apps.PLeTs.ControlUnit.pdb
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\Coc.Apps.PLeTs.ControlUnit.XML
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\Coc.Apps.PLeTs.ControlUnit.dll
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\Coc.Apps.PLeTs.ControlUnit.pdb
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Apps.PLeTs.ControlUnit\obj\OATS-Based FTT\Coc.Apps.PLeTs.ControlUnit.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Apps.PLeTs.ControlUnit\obj\OATS-Based FTT\Coc.Apps.PLeTs.ControlUnit.dll
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Apps.PLeTs.ControlUnit\obj\OATS-Based FTT\Coc.Apps.PLeTs.ControlUnit.pdb

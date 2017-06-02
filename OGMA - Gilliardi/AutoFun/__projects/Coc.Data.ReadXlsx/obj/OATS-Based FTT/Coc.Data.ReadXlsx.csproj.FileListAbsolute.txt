@@ -21,3 +21,11 @@ C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.ReadXlsx\obj\OATS-Ba
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.ReadXlsx\obj\OATS-Based FTT\Coc.Data.ReadXlsx.csproj.ResolveComReference.cache
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.ReadXlsx\obj\OATS-Based FTT\LeitorExcel.dll
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.ReadXlsx\obj\OATS-Based FTT\LeitorExcel.pdb
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\LeitorExcel.XML
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\LeitorExcel.dll
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\LeitorExcel.pdb
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Data.ReadXlsx\obj\OATS-Based FTT\Coc.Data.ReadXlsx.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Data.ReadXlsx\obj\OATS-Based FTT\Interop.AccessibilityCplAdminLib.dll
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Data.ReadXlsx\obj\OATS-Based FTT\Coc.Data.ReadXlsx.csproj.ResolveComReference.cache
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Data.ReadXlsx\obj\OATS-Based FTT\LeitorExcel.dll
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Data.ReadXlsx\obj\OATS-Based FTT\LeitorExcel.pdb

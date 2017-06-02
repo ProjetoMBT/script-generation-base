@@ -16,3 +16,9 @@ C:\Users\gilis\Desktop\MBT\111111111111\__projects\__output\plets\OgmaJOATSParse
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\OgmaJOATSParser\obj\Release\OgmaJOATSParser.csprojResolveAssemblyReference.cache
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\OgmaJOATSParser\obj\Release\OgmaJOATSParser.dll
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\OgmaJOATSParser\obj\Release\OgmaJOATSParser.pdb
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\__output\plets\OgmaJOATSParser.XML
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\__output\plets\OgmaJOATSParser.dll
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\__output\plets\OgmaJOATSParser.pdb
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\OgmaJOATSParser\obj\Release\OgmaJOATSParser.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\OgmaJOATSParser\obj\Release\OgmaJOATSParser.dll
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\OgmaJOATSParser\obj\Release\OgmaJOATSParser.pdb

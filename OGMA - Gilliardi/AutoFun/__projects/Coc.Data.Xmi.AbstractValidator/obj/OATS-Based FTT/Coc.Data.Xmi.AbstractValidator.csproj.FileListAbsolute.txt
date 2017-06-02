@@ -16,3 +16,9 @@ C:\Users\gilis\Desktop\MBT\111111111111\__output\plets\Coc.Data.Xmi.AbstractVali
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xmi.AbstractValidator\obj\OATS-Based FTT\Coc.Data.Xmi.AbstractValidator.csprojResolveAssemblyReference.cache
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xmi.AbstractValidator\obj\OATS-Based FTT\Coc.Data.Xmi.AbstractValidator.dll
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Data.Xmi.AbstractValidator\obj\OATS-Based FTT\Coc.Data.Xmi.AbstractValidator.pdb
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\Coc.Data.Xmi.AbstractValidator.XML
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\Coc.Data.Xmi.AbstractValidator.dll
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\Coc.Data.Xmi.AbstractValidator.pdb
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Data.Xmi.AbstractValidator\obj\OATS-Based FTT\Coc.Data.Xmi.AbstractValidator.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Data.Xmi.AbstractValidator\obj\OATS-Based FTT\Coc.Data.Xmi.AbstractValidator.dll
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Data.Xmi.AbstractValidator\obj\OATS-Based FTT\Coc.Data.Xmi.AbstractValidator.pdb

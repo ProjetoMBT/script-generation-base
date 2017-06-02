@@ -73,14 +73,15 @@ namespace Coc.Data.Xmi
             string[] parts = xmiDoc.BaseURI.Split(new char[]{'/'});
             string fName = parts[parts.Length-1];
             fName = fName.Substring(0, fName.IndexOf('.'));
-
+            filterToActDiagOnly(ref model);
             try
             {
                 foreach (UmlActivityDiagram actDiag in model.Diagrams)
                 {
                     tabs = 0;
                     UmlToGraphOATS umlToGraphOATS = new UmlToGraphOATS();
-                    sw = new StreamWriter(Configuration.getInstance().getConfiguration(Configuration.Fields.workspacepath) + fName + "_OATS.java");
+                    //sw = new StreamWriter(Configuration.getInstance().getConfiguration(Configuration.Fields.workspacepath) + fname + "_OATS.java");
+                    sw = new StreamWriter(Configuration.getInstance().getConfiguration(Configuration.Fields.workspacepath) + actDiag.Name + "_OATS.java");
                     dg = umlToGraphOATS.ActivityDiagramToGraph(actDiag, model);
                     OrderEdges(dg);
                     OrderActDiagramTransitions(actDiag);
@@ -88,7 +89,7 @@ namespace Coc.Data.Xmi
                     curActDiag = actDiag;
                     S();
                     sw.Close();
-                    break;
+                   // break;
                 }
             }
             catch (Exception e)
@@ -100,6 +101,20 @@ namespace Coc.Data.Xmi
                 }
                 throw;
             }
+        }
+
+        private void filterToActDiagOnly(ref UmlModel u)
+        {
+            UmlModel aux = new UmlModel();
+
+            foreach(UmlDiagram ud in u.Diagrams)
+            {
+                if(ud is UmlActivityDiagram)
+                {
+                    aux.AddDiagram(ud);
+                }
+            }
+            u = aux;
         }
 
         private void S()

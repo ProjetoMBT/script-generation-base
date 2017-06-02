@@ -13,3 +13,11 @@ C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.Graph\obj\x86\OA
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.Graph\obj\x86\OATS-Based FTT\Coc.Modeling.Graph.csproj.GenerateResource.Cache
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.Graph\obj\x86\OATS-Based FTT\Coc.Modeling.Graph.dll
 C:\Users\gilis\Desktop\MBT\111111111111\__projects\Coc.Modeling.Graph\obj\x86\OATS-Based FTT\Coc.Modeling.Graph.pdb
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\Coc.Modeling.Graph.XML
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\Coc.Modeling.Graph.dll
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__output\plets\Coc.Modeling.Graph.pdb
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Modeling.Graph\obj\x86\OATS-Based FTT\Coc.Modeling.Graph.csprojResolveAssemblyReference.cache
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Modeling.Graph\obj\x86\OATS-Based FTT\Coc.Modeling.Graph.Properties.Resources.resources
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Modeling.Graph\obj\x86\OATS-Based FTT\Coc.Modeling.Graph.csproj.GenerateResource.Cache
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Modeling.Graph\obj\x86\OATS-Based FTT\Coc.Modeling.Graph.dll
+C:\Users\gilis\Desktop\mbt\GitHub\OGMA - Gilliardi\AutoFun\__projects\Coc.Modeling.Graph\obj\x86\OATS-Based FTT\Coc.Modeling.Graph.pdb
